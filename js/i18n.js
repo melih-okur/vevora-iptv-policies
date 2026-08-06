@@ -5,11 +5,24 @@
   var LANGS = ["en", "tr", "de", "fr", "es", "it", "pt", "ru", "ar"];
   var RTL_LANGS = ['ar'];
   var STORAGE_KEY = 'vevora-lang';
+  var THEME_KEY = 'vevora-theme';
   var BASE_PATH = '/vevora-iptv-policies';
 
   var LANG_LABELS = {
     en: 'English', tr: 'Türkçe', de: 'Deutsch', fr: 'Français',
     es: 'Español', it: 'Italiano', pt: 'Português', ru: 'Русский', ar: 'العربية'
+  };
+
+  var THEME_LABELS = {
+    en: { dark: 'Dark', light: 'Light' },
+    tr: { dark: 'Koyu', light: 'Açık' },
+    de: { dark: 'Dunkel', light: 'Hell' },
+    fr: { dark: 'Sombre', light: 'Clair' },
+    es: { dark: 'Oscuro', light: 'Claro' },
+    it: { dark: 'Scuro', light: 'Chiaro' },
+    pt: { dark: 'Escuro', light: 'Claro' },
+    ru: { dark: 'Тёмная', light: 'Светлая' },
+    ar: { dark: 'داكن', light: 'فاتح' }
   };
 
   var T = {
@@ -2437,6 +2450,48 @@
     }
   }
 
+  function resolveTheme() {
+    try {
+      var stored = localStorage.getItem(THEME_KEY);
+      if (stored === 'light' || stored === 'dark') return stored;
+    } catch (e) {}
+    return 'dark';
+  }
+
+  function applyTheme(theme) {
+    var value = theme === 'light' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', value);
+    try { localStorage.setItem(THEME_KEY, value); } catch (e) {}
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', value === 'light' ? '#f5f5f7' : '#000000');
+    syncThemeToggle(value);
+  }
+
+  function syncThemeToggle(theme) {
+    document.querySelectorAll('[data-theme-set]').forEach(function (btn) {
+      var on = btn.getAttribute('data-theme-set') === theme;
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+
+  function buildThemeToggle(lang) {
+    var container = document.getElementById('theme-toggle');
+    if (!container) return;
+    var labels = THEME_LABELS[lang] || THEME_LABELS.en;
+    var theme = resolveTheme();
+    container.innerHTML = '';
+    ['dark', 'light'].forEach(function (mode) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.setAttribute('data-theme-set', mode);
+      btn.textContent = labels[mode];
+      btn.setAttribute('aria-label', labels[mode]);
+      btn.setAttribute('aria-pressed', mode === theme ? 'true' : 'false');
+      btn.addEventListener('click', function () { applyTheme(mode); });
+      container.appendChild(btn);
+    });
+  }
+
   function buildLangSwitcher(lang, page) {
     var container = document.getElementById('lang-switcher');
     if (!container) return;
@@ -2447,6 +2502,7 @@
       btn.className = 'lang-chip' + (code === lang ? ' active' : '');
       btn.textContent = LANG_LABELS[code];
       btn.setAttribute('aria-label', LANG_LABELS[code]);
+      btn.setAttribute('aria-pressed', code === lang ? 'true' : 'false');
       btn.addEventListener('click', function () { setLang(code); });
       container.appendChild(btn);
     });
@@ -2539,11 +2595,13 @@
 
   function init(page) {
     var lang = resolveLang();
+    applyTheme(resolveTheme());
     applyCommon(lang);
+    buildThemeToggle(lang);
     buildLangSwitcher(lang, page);
     var pageTitle = t(lang, page + '.title');
     if (page === 'index') pageTitle = t(lang, 'index.heading');
-    else if (page === 'support') pageTitle = t(lang, 'support.heading');
+    else if (page === 'support') pageTitle = t(lang, 'support.title');
     document.title = pageTitle + ' — Vevora IPTV';
 
     if (page === 'privacy') {
