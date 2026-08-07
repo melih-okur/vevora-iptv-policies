@@ -48,7 +48,7 @@
       "heading": "Vevora IPTV",
       "subtitle": "Privacy, terms, and support for the iOS & iPadOS app by Okur Studio.",
       "privacyTitle": "Privacy Policy",
-      "privacyDesc": "How the app handles information on your device.",
+      "privacyDesc": "How the app handles information on your device and via Apple iCloud / CloudKit.",
       "termsTitle": "Terms of Use",
       "termsDesc": "Rules for using the Vevora IPTV player app.",
       "supportTitle": "Support",
@@ -100,9 +100,18 @@
         "data": {
           "title": "Information on Your Device",
           "body": [
-            "Most information stays on your device. We do not operate our own servers to store your playlists or viewing history.",
+            "Okur Studio does not operate its own servers to store your playlists or viewing history. Library data lives on your device and may sync via Apple iCloud / CloudKit when you are signed in to iCloud.",
             "On-device data may include playlist links and credentials you enter, profiles, favorites, watch history, download metadata, and app settings.",
             "When you play media, your device connects directly to the playlist source you configured. We do not receive or store that media."
+          ]
+        },
+        "icloud": {
+          "title": "iCloud and CloudKit Sync",
+          "body": [
+            "If you are signed in to iCloud on your device, Vevora IPTV may sync your library—such as profiles, playlist metadata, favorites, and watch history—across your Apple devices using Apple CloudKit / iCloud.",
+            "That sync uses your Apple ID and Apple’s iCloud infrastructure. Okur Studio does not operate its own sync servers and cannot read the contents of your iCloud account.",
+            "Playlist passwords and profile PINs are stored in the iOS Keychain and may sync with iCloud Keychain when that feature is enabled for your Apple ID.",
+            "You can limit or remove synced data by signing out of iCloud, managing iCloud storage for this app where available, deleting data in the app, or uninstalling Vevora IPTV."
           ]
         },
         "tracking": {
@@ -124,14 +133,14 @@
           "title": "Sharing",
           "body": [
             "We do not share your playlists, credentials, or viewing history with third parties for their marketing.",
-            "Your device may communicate with the playlist provider you choose and with standard Apple platform services needed to run the app on iOS and iPadOS.",
+            "Your device may communicate with the playlist provider you choose and with standard Apple platform services needed to run the app on iOS and iPadOS—including iCloud / CloudKit when library sync is active.",
             "If required by law, we may disclose information to the extent necessary to comply."
           ]
         },
         "retention": {
           "title": "Retention",
           "body": [
-            "Playlist data and related settings remain on your device until you delete them in the app or remove the app.",
+            "Playlist data and related settings remain on your device (and, when enabled, in your iCloud account via CloudKit) until you delete them in the app, remove them from iCloud, or uninstall the app.",
             "If you contact us by email, we keep the correspondence only as long as needed to respond and resolve your request."
           ]
         },
@@ -311,7 +320,7 @@
       "heading": "Vevora IPTV",
       "subtitle": "Okur Studio’nun iOS ve iPadOS uygulaması için gizlilik, koşullar ve destek.",
       "privacyTitle": "Gizlilik Politikası",
-      "privacyDesc": "Uygulamanın cihazınızdaki bilgileri nasıl işlediği.",
+      "privacyDesc": "Uygulamanın cihazınızdaki ve Apple iCloud / CloudKit üzerinden bilgileri nasıl işlediği.",
       "termsTitle": "Kullanım Koşulları",
       "termsDesc": "Vevora IPTV oynatıcı uygulamasını kullanma kuralları.",
       "supportTitle": "Destek",
@@ -363,9 +372,18 @@
         "data": {
           "title": "Cihazınızdaki Bilgiler",
           "body": [
-            "Bilgilerin çoğu cihazınızda kalır. Oynatma listelerinizi veya izleme geçmişinizi saklamak için kendi sunucularımızı işletmeyiz.",
+            "Okur Studio, oynatma listelerinizi veya izleme geçmişinizi saklamak için kendi sunucularını işletmez. Kitaplık verileri cihazınızda tutulur ve iCloud oturumu açıksa Apple iCloud / CloudKit ile senkronize edilebilir.",
             "Cihaz üzerindeki veriler; girdiğiniz liste bağlantıları ve kimlik bilgileri, profiller, favoriler, izleme geçmişi, indirme meta verileri ve uygulama ayarlarını içerebilir.",
             "Medya oynatırken cihazınız doğrudan sizin yapılandırdığınız liste kaynağına bağlanır. Bu medyayı almaz veya saklamayız."
+          ]
+        },
+        "icloud": {
+          "title": "iCloud ve CloudKit Senkronizasyonu",
+          "body": [
+            "Cihazınızda iCloud oturumu açıksa Vevora IPTV; profiller, liste meta verileri, favoriler ve izleme geçmişi gibi kitaplık verilerinizi Apple CloudKit / iCloud ile Apple cihazlarınız arasında senkronize edebilir.",
+            "Bu senkronizasyon Apple Kimliğiniz ve Apple’ın iCloud altyapısını kullanır. Okur Studio kendi senkronizasyon sunucularını işletmez ve iCloud hesabınızın içeriğini okuyamaz.",
+            "Liste şifreleri ve profil PIN’leri iOS Anahtar Zinciri’nde saklanır; Apple Kimliğinizde etkinse iCloud Anahtar Zinciri ile senkronize edilebilir.",
+            "Senkronize veriyi sınırlamak veya kaldırmak için iCloud’dan çıkabilir, uygulamada verileri silebilir veya Vevora IPTV’yi kaldırabilirsiniz."
           ]
         },
         "tracking": {
@@ -387,14 +405,14 @@
           "title": "Paylaşım",
           "body": [
             "Oynatma listelerinizi, kimlik bilgilerinizi veya izleme geçmişinizi üçüncü tarafların pazarlaması için paylaşmayız.",
-            "Cihazınız, seçtiğiniz liste sağlayıcısıyla ve uygulamayı iOS ile iPadOS’ta çalıştırmak için gereken standart Apple platform hizmetleriyle iletişim kurabilir.",
+            "Cihazınız, seçtiğiniz liste sağlayıcısıyla ve uygulamayı iOS ile iPadOS’ta çalıştırmak için gereken standart Apple platform hizmetleriyle—kitaplık senkronizasyonu açıksa iCloud / CloudKit dahil—iletişim kurabilir.",
             "Yasal zorunluluk halinde, gerekli ölçüde bilgi açıklayabiliriz."
           ]
         },
         "retention": {
           "title": "Saklama",
           "body": [
-            "Liste verileri ve ilgili ayarlar, uygulamada sildiğinizde veya uygulamayı kaldırdığınızda cihazınızda kalır.",
+            "Liste verileri ve ilgili ayarlar, uygulamada sildiğinizde, iCloud’dan kaldırdığınızda veya uygulamayı kaldırdığınızda cihazınızda (ve etkinse CloudKit üzerinden iCloud hesabınızda) kalır.",
             "E-posta ile bize ulaşırsanız, yazışmayı yalnızca yanıtlamak ve talebinizi çözmek için gereken süre boyunca tutarız."
           ]
         },
@@ -574,7 +592,7 @@
       "heading": "Vevora IPTV",
       "subtitle": "Datenschutz, Bedingungen und Support für die iOS- und iPadOS-App von Okur Studio.",
       "privacyTitle": "Datenschutzrichtlinie",
-      "privacyDesc": "Wie die App Informationen auf Ihrem Gerät verarbeitet.",
+      "privacyDesc": "Wie die App Informationen auf deinem Gerät und über Apple iCloud / CloudKit verarbeitet.",
       "termsTitle": "Nutzungsbedingungen",
       "termsDesc": "Regeln für die Nutzung der Vevora-IPTV-Player-App.",
       "supportTitle": "Support",
@@ -626,9 +644,18 @@
         "data": {
           "title": "Informationen auf Ihrem Gerät",
           "body": [
-            "Die meisten Informationen bleiben auf Ihrem Gerät. Wir betreiben keine eigenen Server, um Ihre Playlists oder den Wiedergabeverlauf zu speichern.",
+            "Okur Studio betreibt keine eigenen Server zur Speicherung deiner Playlists oder deines Wiedergabeverlaufs. Bibliotheksdaten liegen auf deinem Gerät und können bei iCloud-Anmeldung über Apple iCloud / CloudKit synchronisiert werden.",
             "Gerätedaten können Playlist-Links und Zugangsdaten, Profile, Favoriten, Wiedergabeverlauf, Download-Metadaten und App-Einstellungen umfassen.",
             "Beim Abspielen verbindet sich Ihr Gerät direkt mit der von Ihnen konfigurierten Playlist-Quelle. Wir empfangen oder speichern diese Medien nicht."
+          ]
+        },
+        "icloud": {
+          "title": "iCloud- und CloudKit-Synchronisierung",
+          "body": [
+            "Wenn du auf dem Gerät bei iCloud angemeldet bist, kann Vevora IPTV deine Bibliothek—z. B. Profile, Playlist-Metadaten, Favoriten und Wiedergabeverlauf—über Apple CloudKit / iCloud zwischen deinen Apple-Geräten synchronisieren.",
+            "Diese Synchronisierung nutzt deine Apple-ID und Apples iCloud-Infrastruktur. Okur Studio betreibt keine eigenen Sync-Server und kann den Inhalt deines iCloud-Accounts nicht lesen.",
+            "Playlist-Passwörter und Profil-PINs werden in der iOS-Schlüsselkette gespeichert und können bei aktivierter iCloud-Schlüsselkette synchronisiert werden.",
+            "Du kannst synchronisierte Daten einschränken oder entfernen, indem du dich von iCloud abmeldest, Daten in der App löschst oder Vevora IPTV deinstallierst."
           ]
         },
         "tracking": {
@@ -650,14 +677,14 @@
           "title": "Weitergabe",
           "body": [
             "Wir geben Ihre Playlists, Zugangsdaten oder Ihren Wiedergabeverlauf nicht an Dritte zu deren Marketing weiter.",
-            "Ihr Gerät kann mit dem von Ihnen gewählten Playlist-Anbieter und mit Standard-Apple-Plattformdiensten kommunizieren, die für den Betrieb der App unter iOS und iPadOS nötig sind.",
+            "Dein Gerät kann mit dem von dir gewählten Playlist-Anbieter und mit Standard-Apple-Diensten kommunizieren—einschließlich iCloud / CloudKit, wenn die Bibliothekssynchronisierung aktiv ist.",
             "Soweit gesetzlich erforderlich, können wir Informationen im notwendigen Umfang offenlegen."
           ]
         },
         "retention": {
           "title": "Aufbewahrung",
           "body": [
-            "Playlist-Daten und zugehörige Einstellungen bleiben auf Ihrem Gerät, bis Sie sie in der App löschen oder die App entfernen.",
+            "Playlist-Daten und Einstellungen bleiben auf deinem Gerät (und bei Aktivierung in deinem iCloud-Account über CloudKit), bis du sie in der App löschst, aus iCloud entfernst oder die App deinstallierst.",
             "Wenn Sie uns per E-Mail kontaktieren, bewahren wir die Korrespondenz nur so lange auf, wie es für Antwort und Klärung nötig ist."
           ]
         },
@@ -837,7 +864,7 @@
       "heading": "Vevora IPTV",
       "subtitle": "Confidentialité, conditions et assistance pour l’app iOS et iPadOS d’Okur Studio.",
       "privacyTitle": "Politique de confidentialité",
-      "privacyDesc": "Comment l’app traite les informations sur votre appareil.",
+      "privacyDesc": "Comment l’app traite les informations sur votre appareil et via Apple iCloud / CloudKit.",
       "termsTitle": "Conditions d’utilisation",
       "termsDesc": "Règles d’utilisation de l’app lecteur Vevora IPTV.",
       "supportTitle": "Assistance",
@@ -889,9 +916,18 @@
         "data": {
           "title": "Informations sur votre appareil",
           "body": [
-            "La plupart des informations restent sur votre appareil. Nous n’exploitons pas de serveurs propres pour stocker vos listes ou votre historique de visionnage.",
+            "Okur Studio n’exploite pas ses propres serveurs pour stocker vos listes ou votre historique. Les données de bibliothèque restent sur votre appareil et peuvent se synchroniser via Apple iCloud / CloudKit si vous êtes connecté à iCloud.",
             "Les données sur l’appareil peuvent inclure les liens et identifiants de listes que vous saisissez, les profils, favoris, historique, métadonnées de téléchargement et réglages de l’app.",
             "Lors de la lecture, votre appareil se connecte directement à la source de liste que vous avez configurée. Nous ne recevons ni ne stockons ces médias."
+          ]
+        },
+        "icloud": {
+          "title": "Synchronisation iCloud et CloudKit",
+          "body": [
+            "Si vous êtes connecté à iCloud sur votre appareil, Vevora IPTV peut synchroniser votre bibliothèque—profils, métadonnées de listes, favoris et historique—entre vos appareils Apple via Apple CloudKit / iCloud.",
+            "Cette synchronisation utilise votre identifiant Apple et l’infrastructure iCloud d’Apple. Okur Studio n’exploite pas ses propres serveurs de sync et ne peut pas lire le contenu de votre compte iCloud.",
+            "Les mots de passe de listes et les codes PIN de profil sont stockés dans le Trousseau iOS et peuvent se synchroniser via le Trousseau iCloud s’il est activé.",
+            "Vous pouvez limiter ou supprimer les données synchronisées en vous déconnectant d’iCloud, en effaçant les données dans l’app ou en désinstallant Vevora IPTV."
           ]
         },
         "tracking": {
@@ -913,14 +949,14 @@
           "title": "Partage",
           "body": [
             "Nous ne partageons pas vos listes, identifiants ou historique de visionnage avec des tiers pour leur marketing.",
-            "Votre appareil peut communiquer avec le fournisseur de listes que vous choisissez et avec les services de plateforme Apple standard nécessaires au fonctionnement de l’app sous iOS et iPadOS.",
+            "Votre appareil peut communiquer avec le fournisseur de listes que vous choisissez et avec les services Apple standards nécessaires à l’app—y compris iCloud / CloudKit lorsque la synchronisation de bibliothèque est active.",
             "Si la loi l’exige, nous pouvons divulguer des informations dans la mesure nécessaire pour nous y conformer."
           ]
         },
         "retention": {
           "title": "Conservation",
           "body": [
-            "Les données de listes et réglages associés restent sur votre appareil jusqu’à ce que vous les supprimiez dans l’app ou que vous retiriez l’app.",
+            "Les données de listes et réglages restent sur votre appareil (et, si activé, dans votre compte iCloud via CloudKit) jusqu’à suppression dans l’app, retrait d’iCloud ou désinstallation.",
             "Si vous nous contactez par e-mail, nous conservons la correspondance uniquement le temps nécessaire pour répondre et traiter votre demande."
           ]
         },
@@ -1100,7 +1136,7 @@
       "heading": "Vevora IPTV",
       "subtitle": "Privacidad, términos y soporte para la app de iOS e iPadOS de Okur Studio.",
       "privacyTitle": "Política de privacidad",
-      "privacyDesc": "Cómo la app trata la información en su dispositivo.",
+      "privacyDesc": "Cómo la app trata la información en tu dispositivo y a través de Apple iCloud / CloudKit.",
       "termsTitle": "Términos de uso",
       "termsDesc": "Reglas para usar la app reproductora Vevora IPTV.",
       "supportTitle": "Soporte",
@@ -1152,9 +1188,18 @@
         "data": {
           "title": "Información en su dispositivo",
           "body": [
-            "La mayor parte de la información permanece en su dispositivo. No operamos servidores propios para almacenar sus listas ni su historial de visionado.",
+            "Okur Studio no opera servidores propios para guardar tus listas o historial. Los datos de la biblioteca están en tu dispositivo y pueden sincronizarse con Apple iCloud / CloudKit si tienes sesión en iCloud.",
             "Los datos en el dispositivo pueden incluir enlaces y credenciales de listas que introduce, perfiles, favoritos, historial, metadatos de descarga y ajustes de la app.",
             "Al reproducir, su dispositivo se conecta directamente a la fuente de lista que configuró. No recibimos ni almacenamos esos medios."
+          ]
+        },
+        "icloud": {
+          "title": "Sincronización con iCloud y CloudKit",
+          "body": [
+            "Si has iniciado sesión en iCloud en el dispositivo, Vevora IPTV puede sincronizar tu biblioteca—perfiles, metadatos de listas, favoritos e historial—entre tus dispositivos Apple con Apple CloudKit / iCloud.",
+            "Esa sincronización usa tu Apple ID y la infraestructura iCloud de Apple. Okur Studio no opera servidores propios de sync y no puede leer el contenido de tu cuenta iCloud.",
+            "Las contraseñas de listas y los PIN de perfil se guardan en el Llavero de iOS y pueden sincronizarse con el Llavero de iCloud si está activado.",
+            "Puedes limitar o eliminar datos sincronizados cerrando sesión en iCloud, borrando datos en la app o desinstalando Vevora IPTV."
           ]
         },
         "tracking": {
@@ -1176,14 +1221,14 @@
           "title": "Compartir",
           "body": [
             "No compartimos sus listas, credenciales ni historial de visionado con terceros para su marketing.",
-            "Su dispositivo puede comunicarse con el proveedor de listas que elija y con los servicios de plataforma Apple estándar necesarios para ejecutar la app en iOS e iPadOS.",
+            "Tu dispositivo puede comunicarse con el proveedor de listas que elijas y con servicios estándar de Apple—incluido iCloud / CloudKit cuando la sincronización de biblioteca está activa.",
             "Si la ley lo exige, podemos divulgar información en la medida necesaria para cumplir."
           ]
         },
         "retention": {
           "title": "Conservación",
           "body": [
-            "Los datos de listas y ajustes relacionados permanecen en su dispositivo hasta que los elimine en la app o quite la app.",
+            "Los datos de listas y ajustes permanecen en tu dispositivo (y, si está activado, en tu cuenta iCloud vía CloudKit) hasta que los borres en la app, los quites de iCloud o desinstales la app.",
             "Si nos contacta por correo, conservamos la correspondencia solo el tiempo necesario para responder y resolver su solicitud."
           ]
         },
@@ -1363,7 +1408,7 @@
       "heading": "Vevora IPTV",
       "subtitle": "Privacy, termini e supporto per l’app iOS e iPadOS di Okur Studio.",
       "privacyTitle": "Informativa sulla privacy",
-      "privacyDesc": "Come l’app gestisce le informazioni sul dispositivo.",
+      "privacyDesc": "Come l’app gestisce le informazioni sul dispositivo e tramite Apple iCloud / CloudKit.",
       "termsTitle": "Termini di utilizzo",
       "termsDesc": "Regole per l’uso dell’app lettore Vevora IPTV.",
       "supportTitle": "Supporto",
@@ -1415,9 +1460,18 @@
         "data": {
           "title": "Informazioni sul tuo dispositivo",
           "body": [
-            "La maggior parte delle informazioni resta sul tuo dispositivo. Non gestiamo server propri per memorizzare le tue playlist o la cronologia di visione.",
+            "Okur Studio non gestisce server propri per archiviare playlist o cronologia. I dati della libreria restano sul dispositivo e possono sincronizzarsi tramite Apple iCloud / CloudKit se sei connesso a iCloud.",
             "I dati sul dispositivo possono includere link e credenziali delle playlist che inserisci, profili, preferiti, cronologia, metadati di download e impostazioni dell’app.",
             "Durante la riproduzione, il dispositivo si collega direttamente alla sorgente playlist che hai configurato. Non riceviamo né memorizziamo quei media."
+          ]
+        },
+        "icloud": {
+          "title": "Sincronizzazione iCloud e CloudKit",
+          "body": [
+            "Se hai effettuato l’accesso a iCloud sul dispositivo, Vevora IPTV può sincronizzare la libreria—profili, metadati delle playlist, preferiti e cronologia—tra i tuoi dispositivi Apple tramite Apple CloudKit / iCloud.",
+            "Questa sincronizzazione usa il tuo Apple ID e l’infrastruttura iCloud di Apple. Okur Studio non gestisce server di sync propri e non può leggere il contenuto del tuo account iCloud.",
+            "Le password delle playlist e i PIN dei profili sono salvati nel Portachiavi iOS e possono sincronizzarsi con il Portachiavi iCloud se abilitato.",
+            "Puoi limitare o rimuovere i dati sincronizzati uscendo da iCloud, eliminando i dati nell’app o disinstallando Vevora IPTV."
           ]
         },
         "tracking": {
@@ -1439,14 +1493,14 @@
           "title": "Condivisione",
           "body": [
             "Non condividiamo le tue playlist, credenziali o cronologia di visione con terze parti per il loro marketing.",
-            "Il tuo dispositivo può comunicare con il fornitore di playlist che scegli e con i servizi di piattaforma Apple standard necessari per eseguire l’app su iOS e iPadOS.",
+            "Il dispositivo può comunicare con il provider di playlist scelto e con i servizi Apple standard necessari all’app—incluso iCloud / CloudKit quando la sync della libreria è attiva.",
             "Se richiesto dalla legge, possiamo divulgare informazioni nella misura necessaria per adempiere."
           ]
         },
         "retention": {
           "title": "Conservazione",
           "body": [
-            "I dati delle playlist e le impostazioni correlate restano sul dispositivo finché non li elimini nell’app o rimuovi l’app.",
+            "I dati delle playlist e le impostazioni restano sul dispositivo (e, se attivo, nel tuo account iCloud via CloudKit) finché non li elimini nell’app, da iCloud o disinstallando l’app.",
             "Se ci contatti via e-mail, conserviamo la corrispondenza solo per il tempo necessario a rispondere e risolvere la richiesta."
           ]
         },
@@ -1626,7 +1680,7 @@
       "heading": "Vevora IPTV",
       "subtitle": "Privacidade, termos e suporte para o app iOS e iPadOS da Okur Studio.",
       "privacyTitle": "Política de Privacidade",
-      "privacyDesc": "Como o app trata informações no seu dispositivo.",
+      "privacyDesc": "Como a app trata informação no dispositivo e via Apple iCloud / CloudKit.",
       "termsTitle": "Termos de Uso",
       "termsDesc": "Regras para usar o app reprodutor Vevora IPTV.",
       "supportTitle": "Suporte",
@@ -1678,9 +1732,18 @@
         "data": {
           "title": "Informações no seu dispositivo",
           "body": [
-            "A maior parte das informações permanece no seu dispositivo. Não operamos servidores próprios para armazenar as suas listas ou o histórico de visualização.",
+            "A Okur Studio não opera servidores próprios para armazenar as suas listas ou histórico. Os dados da biblioteca ficam no dispositivo e podem sincronizar via Apple iCloud / CloudKit se tiver sessão no iCloud.",
             "Os dados no dispositivo podem incluir ligações e credenciais de listas que introduz, perfis, favoritos, histórico, metadados de transferência e definições da app.",
             "Ao reproduzir, o seu dispositivo liga-se diretamente à fonte de lista que configurou. Não recebemos nem armazenamos esses media."
+          ]
+        },
+        "icloud": {
+          "title": "Sincronização iCloud e CloudKit",
+          "body": [
+            "Se estiver com sessão iniciada no iCloud no dispositivo, o Vevora IPTV pode sincronizar a sua biblioteca—perfis, metadados de listas, favoritos e histórico—entre os seus dispositivos Apple com Apple CloudKit / iCloud.",
+            "Essa sincronização usa o seu Apple ID e a infraestrutura iCloud da Apple. A Okur Studio não opera servidores próprios de sync e não consegue ler o conteúdo da sua conta iCloud.",
+            "Palavras-passe de listas e PINs de perfil são guardados no Porta-chaves do iOS e podem sincronizar com o Porta-chaves do iCloud quando ativado.",
+            "Pode limitar ou remover dados sincronizados terminando a sessão no iCloud, apagando dados na app ou desinstalando o Vevora IPTV."
           ]
         },
         "tracking": {
@@ -1702,14 +1765,14 @@
           "title": "Partilha",
           "body": [
             "Não partilhamos as suas listas, credenciais ou histórico de visualização com terceiros para o respetivo marketing.",
-            "O seu dispositivo pode comunicar com o fornecedor de listas que escolher e com serviços padrão da plataforma Apple necessários para executar a app no iOS e iPadOS.",
+            "O dispositivo pode comunicar com o fornecedor de listas que escolher e com serviços Apple padrão—incluindo iCloud / CloudKit quando a sincronização da biblioteca estiver ativa.",
             "Se a lei o exigir, podemos divulgar informações na medida necessária para cumprir."
           ]
         },
         "retention": {
           "title": "Retenção",
           "body": [
-            "Os dados de listas e definições relacionadas permanecem no dispositivo até os eliminar na app ou remover a app.",
+            "Os dados de listas e definições permanecem no dispositivo (e, se ativado, na sua conta iCloud via CloudKit) até os apagar na app, remover do iCloud ou desinstalar a app.",
             "Se nos contactar por e-mail, mantemos a correspondência apenas o tempo necessário para responder e resolver o pedido."
           ]
         },
@@ -1889,7 +1952,7 @@
       "heading": "Vevora IPTV",
       "subtitle": "Конфиденциальность, условия и поддержка для приложения Okur Studio для iOS и iPadOS.",
       "privacyTitle": "Политика конфиденциальности",
-      "privacyDesc": "Как приложение обрабатывает данные на вашем устройстве.",
+      "privacyDesc": "Как приложение обрабатывает данные на устройстве и через Apple iCloud / CloudKit.",
       "termsTitle": "Условия использования",
       "termsDesc": "Правила использования приложения-плеера Vevora IPTV.",
       "supportTitle": "Поддержка",
@@ -1941,9 +2004,18 @@
         "data": {
           "title": "Информация на вашем устройстве",
           "body": [
-            "Большая часть информации остаётся на вашем устройстве. Мы не используем собственные серверы для хранения ваших плейлистов или истории просмотра.",
+            "Okur Studio не ведёт собственные серверы для хранения плейлистов или истории. Данные библиотеки хранятся на устройстве и могут синхронизироваться через Apple iCloud / CloudKit при входе в iCloud.",
             "Данные на устройстве могут включать ссылки и учётные данные плейлистов, которые вы вводите, профили, избранное, историю просмотра, метаданные загрузок и настройки приложения.",
             "При воспроизведении ваше устройство подключается напрямую к источнику плейлиста, который вы настроили. Мы не получаем и не храним эти медиафайлы."
+          ]
+        },
+        "icloud": {
+          "title": "Синхронизация iCloud и CloudKit",
+          "body": [
+            "Если на устройстве выполнен вход в iCloud, Vevora IPTV может синхронизировать библиотеку—профили, метаданные плейлистов, избранное и историю—между вашими устройствами Apple через Apple CloudKit / iCloud.",
+            "Синхронизация использует ваш Apple ID и инфраструктуру iCloud Apple. Okur Studio не ведёт собственные серверы синхронизации и не может читать содержимое вашего аккаунта iCloud.",
+            "Пароли плейлистов и PIN профилей хранятся в Связке ключей iOS и могут синхронизироваться через Связку ключей iCloud, если она включена.",
+            "Ограничить или удалить синхронизированные данные можно, выйдя из iCloud, удалив данные в приложении или удалив Vevora IPTV."
           ]
         },
         "tracking": {
@@ -1965,14 +2037,14 @@
           "title": "Передача данных",
           "body": [
             "Мы не передаём ваши плейлисты, учётные данные или историю просмотра третьим лицам для их маркетинга.",
-            "Ваше устройство может взаимодействовать с выбранным вами поставщиком плейлистов и со стандартными службами платформы Apple, необходимыми для работы приложения на iOS и iPadOS.",
+            "Устройство может связываться с выбранным вами провайдером плейлистов и со стандартными сервисами Apple—включая iCloud / CloudKit, когда активна синхронизация библиотеки.",
             "Если этого требует закон, мы можем раскрыть информацию в необходимом объёме."
           ]
         },
         "retention": {
           "title": "Хранение",
           "body": [
-            "Данные плейлистов и связанные настройки остаются на устройстве, пока вы не удалите их в приложении или не удалите приложение.",
+            "Данные плейлистов и настройки остаются на устройстве (и при включении — в аккаунте iCloud через CloudKit), пока вы не удалите их в приложении, из iCloud или не удалите приложение.",
             "Если вы свяжетесь с нами по электронной почте, мы храним переписку только столько, сколько нужно для ответа и решения вашего запроса."
           ]
         },
@@ -2152,7 +2224,7 @@
       "heading": "Vevora IPTV",
       "subtitle": "الخصوصية والشروط والدعم لتطبيق Okur Studio على iOS وiPadOS.",
       "privacyTitle": "سياسة الخصوصية",
-      "privacyDesc": "كيف يتعامل التطبيق مع المعلومات على جهازك.",
+      "privacyDesc": "كيف يتعامل التطبيق مع المعلومات على جهازك وعبر Apple iCloud / CloudKit.",
       "termsTitle": "شروط الاستخدام",
       "termsDesc": "قواعد استخدام تطبيق مشغّل Vevora IPTV.",
       "supportTitle": "الدعم",
@@ -2204,9 +2276,18 @@
         "data": {
           "title": "المعلومات على جهازك",
           "body": [
-            "تبقى معظم المعلومات على جهازك. نحن لا نشغّل خوادم خاصة لتخزين قوائم التشغيل أو سجل المشاهدة.",
+            "لا تشغّل Okur Studio خوادم خاصة بها لتخزين قوائمك أو سجل المشاهدة. تبقى بيانات المكتبة على جهازك وقد تُزامَن عبر Apple iCloud / CloudKit عند تسجيل الدخول إلى iCloud.",
             "قد تتضمن بيانات الجهاز روابط القوائم وبيانات الاعتماد التي تدخلها، والملفات الشخصية، والمفضّلات، وسجل المشاهدة، وبيانات وصفية للتنزيل، وإعدادات التطبيق.",
             "عند تشغيل الوسائط يتصل جهازك مباشرة بمصدر القائمة الذي أعددته. نحن لا نستلم تلك الوسائط ولا نخزّنها."
+          ]
+        },
+        "icloud": {
+          "title": "مزامنة iCloud وCloudKit",
+          "body": [
+            "إذا كنت مسجّلاً الدخول إلى iCloud على جهازك، قد يزامن Vevora IPTV مكتبتك—مثل الملفات الشخصية وبيانات القوائم والمفضلة وسجل المشاهدة—بين أجهزة Apple عبر Apple CloudKit / iCloud.",
+            "تعتمد هذه المزامنة على Apple ID وبنية iCloud من Apple. لا تشغّل Okur Studio خوادم مزامنة خاصة بها ولا يمكنها قراءة محتوى حساب iCloud الخاص بك.",
+            "تُخزَّن كلمات مرور القوائم وأرقام PIN للملفات الشخصية في سلسلة مفاتيح iOS وقد تُزامَن مع سلسلة مفاتيح iCloud عند تفعيلها.",
+            "يمكنك تقييد البيانات المتزامنة أو إزالتها بتسجيل الخروج من iCloud أو حذف البيانات في التطبيق أو إزالة Vevora IPTV."
           ]
         },
         "tracking": {
@@ -2228,14 +2309,14 @@
           "title": "المشاركة",
           "body": [
             "نحن لا نشارك قوائمك أو بيانات اعتمادك أو سجل مشاهدتك مع أطراف ثالثة لأغراض تسويقها.",
-            "قد يتواصل جهازك مع مزوّد القوائم الذي تختاره ومع خدمات منصة Apple القياسية اللازمة لتشغيل التطبيق على iOS وiPadOS.",
+            "قد يتواصل جهازك مع مزوّد القائمة الذي تختاره ومع خدمات Apple القياسية اللازمة للتطبيق—بما في ذلك iCloud / CloudKit عند تفعيل مزامنة المكتبة.",
             "إذا اقتضى القانون ذلك، قد نفصح عن المعلومات بالقدر اللازم للامتثال."
           ]
         },
         "retention": {
           "title": "الاحتفاظ",
           "body": [
-            "تبقى بيانات القوائم والإعدادات ذات الصلة على جهازك حتى تحذفها في التطبيق أو تزيل التطبيق.",
+            "تبقى بيانات القوائم والإعدادات على جهازك (وعند التفعيل في حساب iCloud عبر CloudKit) حتى تحذفها في التطبيق أو من iCloud أو تزيل التطبيق.",
             "إذا راسلتنا عبر البريد، نحتفظ بالمراسلات فقط طالما يلزم للرد ومعالجة طلبك."
           ]
         },
@@ -2513,7 +2594,7 @@
     if (!container) return;
     var page = T[lang][pageKey] || T.en[pageKey];
     var order = pageKey === 'privacy'
-      ? ["about", "data", "tracking", "use", "sharing", "retention", "security", "choices", "children", "purchases", "thirdparty", "updates", "contact"]
+      ? ["about", "data", "icloud", "tracking", "use", "sharing", "retention", "security", "choices", "children", "purchases", "thirdparty", "updates", "contact"]
       : ["agreement", "player", "age", "license", "profiles", "content", "subscriptions", "rules", "ownership", "nowarranty", "responsibility", "stop", "contact"];
     container.innerHTML = '';
     order.forEach(function (key) {
