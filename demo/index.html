@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vevora IPTV — App Store Review Demo Playlist</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#0b0d12; --card:#141821; --text:#eef1f6; --muted:#9aa3b2; --accent:#5b8cff; --line:#243044; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f4f6fb; --card:#fff; --text:#12151c; --muted:#5b6472; --accent:#2f6fed; --line:#dbe1ec; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background: radial-gradient(1200px 600px at 10% -10%, #1a2744 0%, var(--bg) 55%); color: var(--text); line-height:1.5; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+    h1 { font-size: 1.75rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+    .sub { color: var(--muted); margin-bottom: 28px; }
+    .card { background: color-mix(in srgb, var(--card) 92%, transparent); border: 1px solid var(--line); border-radius: 16px; padding: 20px 18px; margin: 16px 0; backdrop-filter: blur(8px); }
+    code, .url { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.92rem; word-break: break-all; }
+    a { color: var(--accent); }
+    .btn { display:inline-block; margin-top:12px; padding:10px 14px; border-radius:10px; background:var(--accent); color:#fff; text-decoration:none; font-weight:600; }
+    ul { margin: 8px 0 0; padding-left: 1.2rem; color: var(--muted); }
+    li { margin: 4px 0; }
+    .k { color: var(--text); font-weight: 600; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Vevora IPTV — Review Demo Playlist</h1>
+    <p class="sub">Public, copyright-safe sample content for App Store review. Streams are third-party open demos (Mux, Unified Streaming, W3C, Blender / jsDelivr). Okur Studio does not host video.</p>
+
+    <section class="card">
+      <div class="k">Playlist URL (paste in the app)</div>
+      <p class="url" id="playlist">https://melih-okur.github.io/vevora-iptv-policies/demo/vevora-demo.m3u</p>
+      <a class="btn" href="./vevora-demo.m3u">Open / download M3U</a>
+    </section>
+
+    <section class="card">
+      <div class="k">What Apple can test</div>
+      <ul>
+        <li><span class="k">Live:</span> Mux HLS Demo · The Mango Open Movie Project (Tears of Steel HLS)</li>
+        <li><span class="k">Movies:</span> Big Buck Bunny · Sintel</li>
+        <li><span class="k">Series:</span> Big Buck Bunny (2 episodes) · Sintel (3 episodes)</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <div class="k">Suggested Review Notes snippet</div>
+      <p style="color:var(--muted)">Add playlist via M3U URL:<br>
+      <span class="url">https://melih-okur.github.io/vevora-iptv-policies/demo/vevora-demo.m3u</span><br><br>
+      No login required. Content is open / Creative Commons demo media for playback testing only.</p>
+    </section>
+  </main>
+</body>
+</html>

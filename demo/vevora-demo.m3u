@@ -1,0 +1,35 @@
+#EXTM3U
+# Vevora IPTV — App Store Review demo (English)
+# Movies: Big Buck Bunny + Sintel | Series: BBB (2 eps) + Sintel (3 eps, working W3C trailer)
+# Live: Mux + Mango Open Movie (Tears of Steel HLS). No Mux Alternate.
+
+# ========== LIVE ==========
+#EXTINF:-1 tvg-id="vevora.live.mux" tvg-chno="1" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/bbb-hero-landscape.jpg" group-title="Live · Demo" genre="Animation, Technology" rating="8.2" year="2024" plot="Public Mux HLS demo featuring Big Buck Bunny. Review Live TV zap, fullscreen, and volume.",Mux HLS Demo
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="vevora.live.mango" tvg-chno="2" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/tos-live-hero.jpg" group-title="Live · Demo" genre="Sci-Fi, Action" rating="7.1" year="2012" plot="The Mango Open Movie Project — Tears of Steel looping as public HLS (Unified Streaming). Robots and humans in a ruined Amsterdam. Blender Foundation (Creative Commons Attribution).",The Mango Open Movie Project
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+# ========== MOVIES ==========
+#EXTINF:596 tvg-id="vevora.movie.bbb" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/bbb-poster.jpg" group-title="Movies · Open Cinema" genre="Animation, Comedy" rating="7.5" year="2008" plot="Big Buck Bunny follows a giant, gentle rabbit whose quiet day in the meadow is ruined by three bullying rodents. With slapstick invention and a big heart, he prepares a comical payback. Peach Open Movie Project by the Blender Foundation (Creative Commons Attribution)." cast="Big Buck Bunny [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-bbb.jpg], Frank [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-frank.jpg], Rinky [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-rinky.jpg]",Big Buck Bunny
+https://cdn.jsdelivr.net/npm/big-buck-bunny-1080p@0.0.6/video.mp4
+
+#EXTINF:888 tvg-id="vevora.movie.sintel" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/sintel-poster.jpg" group-title="Movies · Open Cinema" genre="Animation, Adventure, Fantasy" rating="7.6" year="2010" plot="Sintel — a lonely young woman searches for a baby dragon taken from her. Across ice, stone, and ruin she follows a fragile hope. Durian Open Movie Project by the Blender Foundation (Creative Commons Attribution)." cast="Sintel [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-sintel.jpg]",Sintel
+https://media.w3.org/2010/05/sintel/trailer.mp4
+
+# ========== SERIES — Big Buck Bunny (2 episodes) ==========
+#EXTINF:596 tvg-id="vevora.series.bbb.e1" series-id="vevora.series.bbb" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/bbb-ep1.jpg" group-title="Series · Open Shows" genre="Animation, Comedy" rating="7.5" year="2008" plot="Season 1, Episode 1 — Meadow Morning. Full Big Buck Bunny short. Peach Open Movie / Blender Foundation (CC BY)." cast="Big Buck Bunny [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-bbb.jpg], Frank [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-frank.jpg], Rinky [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-rinky.jpg]",Big Buck Bunny S01E01
+https://cdn.jsdelivr.net/npm/big-buck-bunny-1080p@0.0.6/video.mp4
+
+#EXTINF:52 tvg-id="vevora.series.bbb.e2" series-id="vevora.series.bbb" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/bbb-ep2.jpg" group-title="Series · Open Shows" genre="Animation, Comedy" rating="7.5" year="2008" plot="Season 1, Episode 2 — The Bullies. Big Buck Bunny trailer (W3C open media sample)." cast="Frank [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-frank.jpg], Rinky [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-rinky.jpg], Big Buck Bunny [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-bbb.jpg]",Big Buck Bunny S01E02
+https://media.w3.org/2010/05/bunny/trailer.mp4
+
+# ========== SERIES — Sintel (3 episodes, same working W3C stream) ==========
+#EXTINF:52 tvg-id="vevora.series.sintel.e1" series-id="vevora.series.sintel" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/sintel-ep1.jpg" group-title="Series · Open Shows" genre="Animation, Adventure, Fantasy" rating="7.6" year="2010" plot="Season 1, Episode 1 — Into the Storm. Sintel trailer (W3C). Durian Open Movie / Blender Foundation (CC BY)." cast="Sintel [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-sintel.jpg]",Sintel S01E01
+https://media.w3.org/2010/05/sintel/trailer.mp4
+
+#EXTINF:52 tvg-id="vevora.series.sintel.e2" series-id="vevora.series.sintel" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/sintel-ep2.jpg" group-title="Series · Open Shows" genre="Animation, Adventure, Fantasy" rating="7.6" year="2010" plot="Season 1, Episode 2 — Scales. Sintel trailer (W3C). Same reliable open sample for episode playback." cast="Sintel [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-sintel.jpg]",Sintel S01E02
+https://media.w3.org/2010/05/sintel/trailer.mp4
+
+#EXTINF:52 tvg-id="vevora.series.sintel.e3" series-id="vevora.series.sintel" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/sintel-ep3.jpg" group-title="Series · Open Shows" genre="Animation, Adventure, Fantasy" rating="7.6" year="2010" plot="Season 1, Episode 3 — Cliff’s Edge. Sintel trailer (W3C). Resume and Continue Watching checks." cast="Sintel [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-sintel.jpg]",Sintel S01E03
+https://media.w3.org/2010/05/sintel/trailer.mp4

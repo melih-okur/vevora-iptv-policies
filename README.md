@@ -22,3 +22,8 @@ Use the Privacy Policy URL:
 ## Contact
 
 vevoraplayer@gmail.com · Bundle ID `com.vevora.iptv`
+
+## App Store review demo playlist
+
+- Landing: https://melih-okur.github.io/vevora-iptv-policies/demo/
+- M3U: https://melih-okur.github.io/vevora-iptv-policies/demo/vevora-demo.m3u
