@@ -11,7 +11,19 @@ Public Privacy Policy, Terms of Use, and Support for the **Vevora IPTV** iOS / i
 | Terms of Use | https://melih-okur.github.io/vevora-iptv-policies/terms/ |
 | Support | https://melih-okur.github.io/vevora-iptv-policies/support/ |
 
-Language: append `?lang=tr` (or `en`, `de`, `fr`, `es`, `it`, `pt`, `ru`, `ar`).
+Language: append `?lang=` with any supported code:
+
+`en`, `tr`, `de`, `fr`, `es`, `ru`, `ar`, `pt`, `it`, `zh`, `ja`, `ko`, `nl`, `hi`, `sw`, `pl`, `id`, `uk`, `vi`, `bn`, `ms`, `th`, `el`, `ro`, `cs`, `hu`, `sv`, `he`, `fa`
+
+Example: `https://melih-okur.github.io/vevora-iptv-policies/privacy/?lang=tr`
+
+## Maintenance
+
+Locale strings live in `i18n/locales/*.json`. After editing, rebuild:
+
+```bash
+node scripts/build_i18n.mjs
+```
 
 ## App Store Connect
 

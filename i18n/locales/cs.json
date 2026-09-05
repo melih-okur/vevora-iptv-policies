@@ -1,0 +1,273 @@
+{
+  "common": {
+    "appName": "Vevora IPTV",
+    "operator": "Okur Studio",
+    "platform": "iOS / iPadOS",
+    "bundleId": "com.vevora.iptv",
+    "email": "vevoraplayer@gmail.com",
+    "lastUpdatedLabel": "Poslední aktualizace",
+    "lastUpdatedDate": "5. září 2026",
+    "navHome": "Domů",
+    "navPrivacy": "Zásady ochrany osobních údajů",
+    "navTerms": "Podmínky použití",
+    "navSupport": "Podpora",
+    "footer": "© 2026 Okur Studio. Všechna práva vyhrazena.",
+    "footerNote": "Vevora IPTV je aplikace media přehrávače. Okur Studio neposkytuje, nehostuje ani nedistribuuje IPTV kanály nebo streamy.",
+    "selectLanguage": "Jazyk"
+  },
+  "index": {
+    "title": "Právní informace a podpora",
+    "heading": "Vevora IPTV",
+    "subtitle": "Ochrana soukromí, podmínky a podpora pro aplikaci iOS a iPadOS od Okur Studio.",
+    "privacyTitle": "Zásady ochrany osobních údajů",
+    "privacyDesc": "Jak aplikace nakládá s informacemi ve vašem zařízení a prostřednictvím Apple iCloud / CloudKit.",
+    "termsTitle": "Podmínky použití",
+    "termsDesc": "Pravidla pro používání aplikace přehrávače Vevora IPTV.",
+    "supportTitle": "Podpora",
+    "supportDesc": "Nastavení a technická pomoc e-mailem."
+  },
+  "support": {
+    "title": "Podpora",
+    "heading": "Kontaktujte podporu",
+    "intro": "Potřebujete pomoc s Vevora IPTV? Kontaktujte nás ohledně nastavení aplikace, playlistů, které přidáváte, nebo technických problémů. Neposkytujeme kanály ani streamy.",
+    "emailLabel": "Napište nám na",
+    "emailHint": "Uveďte model zařízení a verzi iOS pro rychlejší pomoc.",
+    "topicsTitle": "Časté dotazy",
+    "topics": [
+      {
+        "title": "Přidávání playlistů",
+        "body": "Vevora IPTV je shell přehrávač. Přidejte si vlastní M3U URL nebo Xtream přihlášení v aplikaci. Okur Studio neposkytuje playlisty ani kanály."
+      },
+      {
+        "title": "Problémy s přehráváním",
+        "body": "Kvalita streamu závisí na vaší síti a poskytovateli playlistu. Zkuste jiný kanál, zkontrolujte připojení nebo kontaktujte poskytovatele playlistu, pokud streamy selhávají."
+      },
+      {
+        "title": "Premium a předplatné",
+        "body": "Prémiové funkce se účtují přes App Store na vašem Apple ID. Spravujte nebo zrušte v Nastavení > Apple ID > Předplatná nejméně 24 hodin před obnovením."
+      },
+      {
+        "title": "Kontaktování podpory",
+        "body": "Napište na vevoraplayer@gmail.com s jasným popisem problému. Nesdílejte hesla k playlistům, pokud o to nepožádáme při řešení problému."
+      }
+    ],
+    "helpTitle": "Časté dotazy",
+    "helpItems": [
+      "Vevora IPTV je shell přehrávač — přidáváte si vlastní M3U nebo Xtream playlisty. Okur Studio neposkytuje, nehostuje ani nedistribuuje kanály nebo streamy.",
+      "Uveďte verzi iOS nebo iPadOS, model zařízení a stručný popis problému.",
+      "Nesdílejte hesla k playlistům e-mailem, pokud to není nutné pro řešení problému."
+    ],
+    "responseNote": "Snažíme se odpovědět během několika pracovních dnů."
+  },
+  "privacy": {
+    "title": "Zásady ochrany osobních údajů",
+    "sections": {
+      "about": {
+        "title": "O těchto zásadách",
+        "body": [
+          "Tyto Zásady ochrany osobních údajů vysvětlují, jak Okur Studio nakládá s informacemi, když používáte Vevora IPTV na iPhonu a iPadu (iOS / iPadOS).",
+          "Vevora IPTV je shell media přehrávač. Přidáváte si vlastní M3U nebo Xtream playlisty. Okur Studio neposkytuje, nehostuje ani nedistribuuje žádné kanály, filmy, seriály ani jiné streamy."
+        ]
+      },
+      "data": {
+        "title": "Informace ve vašem zařízení",
+        "body": [
+          "Okur Studio neprovozuje vlastní servery pro ukládání vašich playlistů nebo historie sledování. Data knihovny jsou ve vašem zařízení a mohou se synchronizovat přes Apple iCloud / CloudKit, když jste přihlášeni k iCloud.",
+          "Data v zařízení mohou zahrnovat odkazy a přihlašovací údaje k playlistům, profily, oblíbené, historii sledování, metadata stahování a nastavení aplikace.",
+          "Při přehrávání se vaše zařízení připojuje přímo ke zdroji playlistu, který jste nakonfigurovali. Tato média nepřijímáme ani neukládáme."
+        ]
+      },
+      "icloud": {
+        "title": "Synchronizace iCloud a CloudKit",
+        "body": [
+          "Pokud jste ve svém zařízení přihlášeni k iCloud, Vevora IPTV může synchronizovat vaši knihovnu—například profily, metadata playlistů, oblíbené a historii sledování—mezi vašimi Apple zařízeními pomocí Apple CloudKit / iCloud.",
+          "Tato synchronizace využívá vaše Apple ID a infrastrukturu iCloud společnosti Apple. Okur Studio neprovozuje vlastní synchronizační servery a nemůže číst obsah vašeho účtu iCloud.",
+          "Hesla k playlistům a PINy profilů jsou uloženy v iOS Keychain a mohou se synchronizovat s iCloud Keychain, pokud je tato funkce pro vaše Apple ID povolena.",
+          "Synchronizovaná data můžete omezit nebo odstranit odhlášením z iCloud, správou úložiště iCloud pro tuto aplikaci, kde je k dispozici, smazáním dat v aplikaci nebo odinstalací Vevora IPTV."
+        ]
+      },
+      "tracking": {
+        "title": "Sledování a reklama",
+        "body": [
+          "Neprovádíme meziaplikací sledování pro reklamní účely.",
+          "Neprodáváme osobní údaje.",
+          "Nepoužíváme reklamní SDK třetích stran pro sledování."
+        ]
+      },
+      "use": {
+        "title": "Jak se informace používají",
+        "body": [
+          "Data v zařízení se používají pouze k provozu přehrávače: načítání playlistů, zobrazení knihovny, zapamatování preferencí a přehrávání streamů, o které požádáte.",
+          "Data playlistů nebo sledování v zařízení nepoužíváme pro reklamu."
+        ]
+      },
+      "sharing": {
+        "title": "Sdílení",
+        "body": [
+          "Nesdílíme vaše playlisty, přihlašovací údaje ani historii sledování s třetími stranami pro jejich marketing.",
+          "Vaše zařízení může komunikovat s poskytovatelem playlistu, kterého zvolíte, a se standardními službami platformy Apple potřebnými k provozu aplikace na iOS a iPadOS—včetně iCloud / CloudKit, když je aktivní synchronizace knihovny.",
+          "Pokud to vyžaduje zákon, můžeme informace zveřejnit v rozsahu nezbytném pro splnění povinností."
+        ]
+      },
+      "retention": {
+        "title": "Uchovávání",
+        "body": [
+          "Data playlistů a související nastavení zůstávají ve vašem zařízení (a při povolení ve vašem účtu iCloud přes CloudKit), dokud je nesmažete v aplikaci, neodstraníte z iCloud nebo neodinstalujete aplikaci.",
+          "Pokud nás kontaktujete e-mailem, korespondenci uchováváme pouze po dobu nutnou k odpovědi a vyřešení vašeho požadavku."
+        ]
+      },
+      "security": {
+        "title": "Zabezpečení",
+        "body": [
+          "Aplikaci navrhujeme tak, aby citlivé údaje zůstaly co nejvíce ve vašem zařízení.",
+          "Žádná metoda ukládání nebo přenosu není zcela bezpečná. Chraňte přístupový kód zařízení a nesdílejte přihlašovací údaje k playlistům."
+        ]
+      },
+      "choices": {
+        "title": "Vaše možnosti",
+        "body": [
+          "V aplikaci můžete upravovat nebo mazat playlisty, profily a související data.",
+          "Můžete vymazat data aplikace nebo odinstalovat Vevora IPTV a odstranit tak informace ze zařízení.",
+          "V otázkách ochrany soukromí nás kontaktujte na vevoraplayer@gmail.com."
+        ]
+      },
+      "children": {
+        "title": "Děti",
+        "body": [
+          "Vevora IPTV je vhodná pro uživatele ve věku 13 let a starší. Není určena dětem mladším 13 let.",
+          "Nepoužívejte aplikaci ke shromažďování informací od dětí. Pokud se domníváte, že dítě poskytlo osobní údaje prostřednictvím aplikace, kontaktujte nás a pomůžeme vám."
+        ]
+      },
+      "purchases": {
+        "title": "Nákupy v aplikaci a předplatné",
+        "body": [
+          "Vevora IPTV může nabízet volitelné prémiové funkce prostřednictvím nákupů v aplikaci a automaticky obnovovaných předplatných v App Store.",
+          "Platbu zpracovává Apple. Nepřijímáme ani neukládáme údaje o platební kartě nebo bankovním účtu.",
+          "Apple s námi může sdílet potvrzení nákupu a stav předplatného, abychom mohli odemknout prémiové funkce v aplikaci.",
+          "Historii fakturace, předplatná a refundace můžete spravovat prostřednictvím účtu Apple ID. Pro zrušení automatického obnovení jej vypněte nejméně 24 hodin před koncem aktuálního fakturačního období v Nastavení > Apple ID > Předplatná."
+        ]
+      },
+      "thirdparty": {
+        "title": "Služby třetích stran",
+        "body": [
+          "Playlisty a streamy pocházejí ze zdrojů, které nakonfigurujete. Tito poskytovatelé mají vlastní postupy ochrany soukromí.",
+          "Pro zobrazení metadat a grafiky filmů a seriálů (například názvů, popisů a obrázků plakátů) může aplikace požadovat informace z The Movie Database (TMDB). Tyto požadavky procházejí proxy Cloudflare Worker provozovaným Okur Studio. Odesíláme pouze dotazy na metadata potřebná pro zobrazení—ne vaše playlisty, přihlašovací údaje ani historii sledování.",
+          "Obrázky plakátů mohou být načítány z CDN obrázků TMDB. TMDB má vlastní zásady ochrany osobních údajů na themoviedb.org. Okur Studio nenese odpovědnost za soukromí nebo obsah zdrojů playlistů třetích stran ani TMDB."
+        ]
+      },
+      "updates": {
+        "title": "Aktualizace zásad",
+        "body": [
+          "Tyto Zásady ochrany osobních údajů můžeme čas od času aktualizovat. Datum „Poslední aktualizace“ v horní části stránky se při tom změní.",
+          "Pokračující používání aplikace po aktualizaci znamená, že berete na vědomí upravené zásady."
+        ]
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": [
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "E-mail: vevoraplayer@gmail.com"
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Podmínky použití",
+    "sections": {
+      "agreement": {
+        "title": "Smlouva",
+        "body": [
+          "Tyto Podmínky použití upravují vaše používání Vevora IPTV na iOS a iPadOS, provozované společností Okur Studio.",
+          "Stažením nebo používáním aplikace souhlasíte s těmito podmínkami. Pokud nesouhlasíte, aplikaci nepoužívejte."
+        ]
+      },
+      "player": {
+        "title": "Pouze shell přehrávač",
+        "body": [
+          "Vevora IPTV je shell media přehrávač. Přehrává playlisty a streamy, které si sami přidáte, například zdroje M3U nebo Xtream.",
+          "Okur Studio neposkytuje, nehostuje ani nedistribuuje IPTV kanály, filmy, seriály ani jiný mediální obsah.",
+          "Za získání zákonného přístupu ke každému playlistu nebo streamu, který s aplikací používáte, nesete výhradně vy odpovědnost."
+        ]
+      },
+      "age": {
+        "title": "Věková podmínka",
+        "body": [
+          "Vevora IPTV je určena pro uživatele ve věku 13 let a starší. Není určena dětem mladším 13 let.",
+          "Musíte být dostatečně starší, abyste mohli používat App Store a souhlasit s těmito podmínkami ve vaší oblasti. Pokud aplikaci používáte jménem někoho jiného, potvrzujete, že máte oprávnění tyto podmínky za něj přijmout."
+        ]
+      },
+      "license": {
+        "title": "Licence",
+        "body": [
+          "V souladu s těmito Podmínkami vám Okur Studio uděluje osobní, omezenou, nevýhradní a nepřenosnou licenci k používání Vevora IPTV na Apple zařízeních, která vlastníte nebo ovládáte.",
+          "Podmínky App Store společnosti Apple se rovněž vztahují tam, kde jsou relevantní pro stažení a používání aplikace."
+        ]
+      },
+      "profiles": {
+        "title": "Profily a nastavení",
+        "body": [
+          "Můžete vytvářet profily a nastavení uložená ve vašem zařízení. Uchovávejte přihlašovací údaje v bezpečí a nesdílejte je.",
+          "Odpovídáte za činnost spojenou s playlisty a profily, které ve svém zařízení nakonfigurujete."
+        ]
+      },
+      "content": {
+        "title": "Váš obsah a playlisty",
+        "body": [
+          "Každá URL playlistu, přihlašovací údaje nebo média, která přidáte, pocházejí od vás nebo od vámi zvoleného poskytovatele — ne od Okur Studio.",
+          "Smíte používat pouze obsah, ke kterému máte oprávněný přístup. Aplikace vám neuděluje žádná práva k médiím třetích stran."
+        ]
+      },
+      "subscriptions": {
+        "title": "Prémiová předplatná",
+        "body": [
+          "Volitelné prémiové funkce mohou být k dispozici prostřednictvím automaticky obnovovaných předplatných zakoupených v Apple App Store.",
+          "Platba se účtuje na vaše Apple ID při potvrzení nákupu. Předplatná se automaticky obnovují, pokud automatické obnovení nevypnete nejméně 24 hodin před koncem aktuálního období.",
+          "Váš účet bude účtován za obnovení do 24 hodin před koncem aktuálního období. Předplatná můžete kdykoli spravovat nebo zrušit v Nastavení > Apple ID > Předplatná.",
+          "Nákupy v App Store podléhají podmínkám a zásadám společnosti Apple. Okur Studio nezpracovává platby přímo."
+        ]
+      },
+      "rules": {
+        "title": "Přijatelné použití",
+        "body": [
+          "Vevora IPTV používejte pouze způsoby, které jsou v souladu s platnými zákony a těmito podmínkami.",
+          "Nezneužívejte aplikaci k přístupu nebo šíření nezákonného obsahu, k narušování systémů jiných nebo k pokusům o reverzní inženýrství, kromě případů povolených zákonem."
+        ]
+      },
+      "ownership": {
+        "title": "Vlastnictví aplikace",
+        "body": [
+          "Okur Studio vlastní software, design a branding Vevora IPTV.",
+          "Tyto podmínky vám nepřevádějí vlastnictví aplikace."
+        ]
+      },
+      "nowarranty": {
+        "title": "Bez záruky",
+        "body": [
+          "Aplikace je poskytována „tak, jak je“ a „podle dostupnosti“. Přehrávání závisí na vašem zařízení, síti a zvolených zdrojích playlistů.",
+          "Okur Studio nezaručuje nepřerušované přehrávání, kompatibilitu s každým formátem playlistu ani dostupnost streamů třetích stran."
+        ]
+      },
+      "responsibility": {
+        "title": "Vaše odpovědnost",
+        "body": [
+          "Odpovídáte za to, jak aplikaci používáte, a za playlisty a streamy, které připojíte.",
+          "Okur Studio neodpovídá za obsah třetích stran, poskytovatele playlistů ani škody způsobené médii nebo odkazy, které se rozhodnete otevřít."
+        ]
+      },
+      "stop": {
+        "title": "Ukončení používání",
+        "body": [
+          "Používání Vevora IPTV můžete kdykoli ukončit smazáním aplikace a souvisejících dat ze zařízení.",
+          "Můžeme přestat aplikaci nabízet nebo tyto podmínky aktualizovat. Pokračující používání po změnách znamená přijetí aktualizovaných podmínek."
+        ]
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": [
+          "Dotazy k těmto Podmínkám použití: vevoraplayer@gmail.com",
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+        ]
+      }
+    }
+  }
+}

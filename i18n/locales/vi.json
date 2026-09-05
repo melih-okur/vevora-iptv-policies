@@ -1,0 +1,273 @@
+{
+  "common": {
+    "appName": "Vevora IPTV",
+    "operator": "Okur Studio",
+    "platform": "iOS / iPadOS",
+    "bundleId": "com.vevora.iptv",
+    "email": "vevoraplayer@gmail.com",
+    "lastUpdatedLabel": "Cập nhật lần cuối",
+    "lastUpdatedDate": "5 tháng 9, 2026",
+    "navHome": "Trang chủ",
+    "navPrivacy": "Chính sách quyền riêng tư",
+    "navTerms": "Điều khoản sử dụng",
+    "navSupport": "Hỗ trợ",
+    "footer": "© 2026 Okur Studio. Mọi quyền được bảo lưu.",
+    "footerNote": "Vevora IPTV là ứng dụng trình phát media. Okur Studio không cung cấp, lưu trữ hoặc phân phối kênh hoặc luồng IPTV.",
+    "selectLanguage": "Ngôn ngữ"
+  },
+  "index": {
+    "title": "Pháp lý & Hỗ trợ",
+    "heading": "Vevora IPTV",
+    "subtitle": "Quyền riêng tư, điều khoản và hỗ trợ cho ứng dụng iOS & iPadOS của Okur Studio.",
+    "privacyTitle": "Chính sách quyền riêng tư",
+    "privacyDesc": "Cách ứng dụng xử lý thông tin trên thiết bị của bạn và qua Apple iCloud / CloudKit.",
+    "termsTitle": "Điều khoản sử dụng",
+    "termsDesc": "Quy tắc sử dụng ứng dụng trình phát Vevora IPTV.",
+    "supportTitle": "Hỗ trợ",
+    "supportDesc": "Thiết lập và trợ giúp kỹ thuật qua email."
+  },
+  "support": {
+    "title": "Hỗ trợ",
+    "heading": "Liên hệ hỗ trợ",
+    "intro": "Cần trợ giúp với Vevora IPTV? Liên hệ với chúng tôi về thiết lập ứng dụng, danh sách phát bạn thêm hoặc sự cố kỹ thuật. Chúng tôi không cung cấp kênh hay luồng phát.",
+    "emailLabel": "Email cho chúng tôi",
+    "emailHint": "Vui lòng ghi rõ model thiết bị và phiên bản iOS để được hỗ trợ nhanh hơn.",
+    "topicsTitle": "Câu hỏi thường gặp",
+    "topics": [
+      {
+        "title": "Thêm danh sách phát",
+        "body": "Vevora IPTV là trình phát dạng vỏ. Thêm URL M3U hoặc thông tin đăng nhập Xtream của riêng bạn trong ứng dụng. Okur Studio không cung cấp danh sách phát hay kênh."
+      },
+      {
+        "title": "Sự cố phát lại",
+        "body": "Chất lượng luồng phụ thuộc vào mạng và nhà cung cấp danh sách phát của bạn. Hãy thử kênh khác, kiểm tra kết nối hoặc liên hệ nhà cung cấp danh sách phát nếu luồng không hoạt động."
+      },
+      {
+        "title": "Premium và gói đăng ký",
+        "body": "Các tính năng Premium được thanh toán qua App Store trên Apple ID của bạn. Quản lý hoặc hủy trong Cài đặt > Apple ID > Đăng ký ít nhất 24 giờ trước khi gia hạn."
+      },
+      {
+        "title": "Liên hệ hỗ trợ",
+        "body": "Gửi email đến vevoraplayer@gmail.com kèm mô tả rõ ràng về sự cố. Tránh chia sẻ mật khẩu danh sách phát trừ khi chúng tôi yêu cầu để khắc phục sự cố."
+      }
+    ],
+    "helpTitle": "Câu hỏi thường gặp",
+    "helpItems": [
+      "Vevora IPTV là trình phát dạng vỏ — bạn tự thêm danh sách phát M3U hoặc Xtream. Okur Studio không cung cấp, lưu trữ hoặc phân phối kênh hay luồng phát.",
+      "Ghi rõ phiên bản iOS hoặc iPadOS, model thiết bị và mô tả ngắn về sự cố.",
+      "Không chia sẻ mật khẩu danh sách phát qua email trừ khi cần thiết để khắc phục sự cố."
+    ],
+    "responseNote": "Chúng tôi cố gắng phản hồi trong vài ngày làm việc."
+  },
+  "privacy": {
+    "title": "Chính sách quyền riêng tư",
+    "sections": {
+      "about": {
+        "title": "Giới thiệu chính sách",
+        "body": [
+          "Chính sách quyền riêng tư này giải thích cách Okur Studio xử lý thông tin khi bạn sử dụng Vevora IPTV trên iPhone và iPad (iOS / iPadOS).",
+          "Vevora IPTV là trình phát media dạng vỏ. Bạn tự thêm danh sách phát M3U hoặc Xtream. Okur Studio không cung cấp, lưu trữ hoặc phân phối bất kỳ kênh, phim, series hay luồng phát nào."
+        ]
+      },
+      "data": {
+        "title": "Thông tin trên thiết bị của bạn",
+        "body": [
+          "Okur Studio không vận hành máy chủ riêng để lưu trữ danh sách phát hoặc lịch sử xem của bạn. Dữ liệu thư viện nằm trên thiết bị và có thể đồng bộ qua Apple iCloud / CloudKit khi bạn đăng nhập iCloud.",
+          "Dữ liệu trên thiết bị có thể bao gồm liên kết danh sách phát và thông tin đăng nhập bạn nhập, hồ sơ, mục yêu thích, lịch sử xem, siêu dữ liệu tải xuống và cài đặt ứng dụng.",
+          "Khi phát media, thiết bị của bạn kết nối trực tiếp với nguồn danh sách phát bạn đã cấu hình. Chúng tôi không nhận hoặc lưu trữ media đó."
+        ]
+      },
+      "icloud": {
+        "title": "Đồng bộ iCloud và CloudKit",
+        "body": [
+          "Nếu bạn đã đăng nhập iCloud trên thiết bị, Vevora IPTV có thể đồng bộ thư viện của bạn — như hồ sơ, siêu dữ liệu danh sách phát, mục yêu thích và lịch sử xem — giữa các thiết bị Apple bằng Apple CloudKit / iCloud.",
+          "Việc đồng bộ này sử dụng Apple ID và hạ tầng iCloud của Apple. Okur Studio không vận hành máy chủ đồng bộ riêng và không thể đọc nội dung tài khoản iCloud của bạn.",
+          "Mật khẩu danh sách phát và mã PIN hồ sơ được lưu trong iOS Keychain và có thể đồng bộ với iCloud Keychain khi tính năng này được bật cho Apple ID của bạn.",
+          "Bạn có thể giới hạn hoặc xóa dữ liệu đã đồng bộ bằng cách đăng xuất iCloud, quản lý dung lượng iCloud cho ứng dụng này (nếu có), xóa dữ liệu trong ứng dụng hoặc gỡ cài đặt Vevora IPTV."
+        ]
+      },
+      "tracking": {
+        "title": "Theo dõi và quảng cáo",
+        "body": [
+          "Chúng tôi không thực hiện theo dõi liên ứng dụng cho mục đích quảng cáo.",
+          "Chúng tôi không bán dữ liệu cá nhân.",
+          "Chúng tôi không sử dụng SDK quảng cáo của bên thứ ba để theo dõi."
+        ]
+      },
+      "use": {
+        "title": "Cách thông tin được sử dụng",
+        "body": [
+          "Dữ liệu trên thiết bị chỉ được dùng để vận hành trình phát: tải danh sách phát, hiển thị thư viện, ghi nhớ tùy chọn và phát các luồng bạn yêu cầu.",
+          "Chúng tôi không dùng dữ liệu danh sách phát hoặc lịch sử xem trên thiết bị cho quảng cáo."
+        ]
+      },
+      "sharing": {
+        "title": "Chia sẻ",
+        "body": [
+          "Chúng tôi không chia sẻ danh sách phát, thông tin đăng nhập hoặc lịch sử xem của bạn với bên thứ ba cho mục đích tiếp thị của họ.",
+          "Thiết bị của bạn có thể giao tiếp với nhà cung cấp danh sách phát bạn chọn và các dịch vụ nền tảng Apple tiêu chuẩn cần thiết để chạy ứng dụng trên iOS và iPadOS — bao gồm iCloud / CloudKit khi đồng bộ thư viện đang hoạt động.",
+          "Nếu pháp luật yêu cầu, chúng tôi có thể tiết lộ thông tin trong phạm vi cần thiết để tuân thủ."
+        ]
+      },
+      "retention": {
+        "title": "Lưu trữ",
+        "body": [
+          "Dữ liệu danh sách phát và cài đặt liên quan vẫn nằm trên thiết bị (và khi được bật, trong tài khoản iCloud qua CloudKit) cho đến khi bạn xóa trong ứng dụng, gỡ khỏi iCloud hoặc gỡ cài đặt ứng dụng.",
+          "Nếu bạn liên hệ qua email, chúng tôi chỉ giữ thư từ trong thời gian cần thiết để phản hồi và giải quyết yêu cầu của bạn."
+        ]
+      },
+      "security": {
+        "title": "Bảo mật",
+        "body": [
+          "Chúng tôi thiết kế ứng dụng để thông tin nhạy cảm được giữ trên thiết bị của bạn trong phạm vi có thể.",
+          "Không có phương thức lưu trữ hoặc truyền tải nào hoàn toàn an toàn. Hãy bảo vệ mật mã thiết bị và không chia sẻ thông tin đăng nhập danh sách phát."
+        ]
+      },
+      "choices": {
+        "title": "Lựa chọn của bạn",
+        "body": [
+          "Bạn có thể chỉnh sửa hoặc xóa danh sách phát, hồ sơ và dữ liệu liên quan trong ứng dụng.",
+          "Bạn có thể xóa dữ liệu ứng dụng hoặc gỡ cài đặt Vevora IPTV để xóa thông tin trên thiết bị.",
+          "Về câu hỏi quyền riêng tư, liên hệ vevoraplayer@gmail.com."
+        ]
+      },
+      "children": {
+        "title": "Trẻ em",
+        "body": [
+          "Vevora IPTV phù hợp cho người dùng từ 13 tuổi trở lên. Ứng dụng không hướng tới trẻ em dưới 13 tuổi.",
+          "Không sử dụng ứng dụng để thu thập thông tin từ trẻ em. Nếu bạn cho rằng trẻ em đã cung cấp thông tin cá nhân qua ứng dụng, hãy liên hệ chúng tôi và chúng tôi sẽ hỗ trợ xử lý."
+        ]
+      },
+      "purchases": {
+        "title": "Mua trong ứng dụng và gói đăng ký",
+        "body": [
+          "Vevora IPTV có thể cung cấp các tính năng Premium tùy chọn qua mua trong ứng dụng và gói đăng ký tự động gia hạn trên App Store.",
+          "Thanh toán do Apple xử lý. Chúng tôi không nhận hoặc lưu trữ thông tin thẻ thanh toán hoặc tài khoản ngân hàng của bạn.",
+          "Apple có thể chia sẻ xác nhận mua và trạng thái gói đăng ký với chúng tôi để mở khóa tính năng Premium trong ứng dụng.",
+          "Bạn có thể xem lịch sử thanh toán, quản lý gói đăng ký và yêu cầu hoàn tiền qua tài khoản Apple ID. Để hủy tự động gia hạn, hãy tắt ít nhất 24 giờ trước khi kết thúc chu kỳ thanh toán hiện tại trong Cài đặt > Apple ID > Đăng ký trên thiết bị."
+        ]
+      },
+      "thirdparty": {
+        "title": "Dịch vụ bên thứ ba",
+        "body": [
+          "Danh sách phát và luồng phát đến từ các nguồn bạn cấu hình. Các nhà cung cấp đó có chính sách quyền riêng tư riêng.",
+          "Để hiển thị siêu dữ liệu và hình ảnh phim và series (như tiêu đề, mô tả và poster), ứng dụng có thể yêu cầu thông tin từ The Movie Database (TMDB). Các yêu cầu này đi qua proxy Cloudflare Worker do Okur Studio vận hành. Chúng tôi chỉ gửi các truy vấn siêu dữ liệu cần thiết để hiển thị — không phải danh sách phát, thông tin đăng nhập hay lịch sử xem của bạn.",
+          "Hình ảnh poster có thể được tải từ CDN hình ảnh của TMDB. TMDB có chính sách quyền riêng tư riêng tại themoviedb.org. Okur Studio không chịu trách nhiệm về quyền riêng tư hoặc nội dung của nguồn danh sách phát bên thứ ba hay TMDB."
+        ]
+      },
+      "updates": {
+        "title": "Cập nhật chính sách",
+        "body": [
+          "Chúng tôi có thể cập nhật Chính sách quyền riêng tư này theo thời gian. Ngày «Cập nhật lần cuối» ở đầu trang sẽ thay đổi khi chúng tôi làm vậy.",
+          "Việc tiếp tục sử dụng ứng dụng sau khi cập nhật có nghĩa bạn chấp nhận chính sách đã sửa đổi."
+        ]
+      },
+      "contact": {
+        "title": "Liên hệ",
+        "body": [
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "Email: vevoraplayer@gmail.com"
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Điều khoản sử dụng",
+    "sections": {
+      "agreement": {
+        "title": "Thỏa thuận",
+        "body": [
+          "Các Điều khoản sử dụng này điều chỉnh việc bạn sử dụng Vevora IPTV trên iOS và iPadOS, do Okur Studio vận hành.",
+          "Bằng việc tải xuống hoặc sử dụng ứng dụng, bạn đồng ý với các điều khoản này. Nếu không đồng ý, vui lòng không sử dụng ứng dụng."
+        ]
+      },
+      "player": {
+        "title": "Chỉ là trình phát dạng vỏ",
+        "body": [
+          "Vevora IPTV là trình phát media dạng vỏ. Ứng dụng phát các danh sách phát và luồng bạn tự thêm, như nguồn M3U hoặc Xtream.",
+          "Okur Studio không cung cấp, lưu trữ hoặc phân phối kênh IPTV, phim, series hay bất kỳ nội dung media nào.",
+          "Bạn hoàn toàn chịu trách nhiệm về việc có quyền truy cập hợp pháp đến bất kỳ danh sách phát hoặc luồng nào bạn dùng với ứng dụng."
+        ]
+      },
+      "age": {
+        "title": "Yêu cầu độ tuổi",
+        "body": [
+          "Vevora IPTV dành cho người dùng từ 13 tuổi trở lên. Ứng dụng không hướng tới trẻ em dưới 13 tuổi.",
+          "Bạn phải đủ tuổi để sử dụng App Store và đồng ý các điều khoản này tại khu vực của mình. Nếu bạn sử dụng ứng dụng thay mặt người khác, bạn xác nhận có quyền chấp nhận các điều khoản này thay họ."
+        ]
+      },
+      "license": {
+        "title": "Giấy phép",
+        "body": [
+          "Theo các Điều khoản này, Okur Studio cấp cho bạn giấy phép cá nhân, có giới hạn, không độc quyền, không chuyển nhượng để sử dụng Vevora IPTV trên thiết bị Apple bạn sở hữu hoặc kiểm soát.",
+          "Điều khoản App Store của Apple cũng áp dụng khi liên quan đến việc tải xuống và sử dụng ứng dụng."
+        ]
+      },
+      "profiles": {
+        "title": "Hồ sơ và cài đặt",
+        "body": [
+          "Bạn có thể tạo hồ sơ và cài đặt lưu trên thiết bị. Hãy bảo mật thông tin đăng nhập và không chia sẻ.",
+          "Bạn chịu trách nhiệm về hoạt động liên quan đến danh sách phát và hồ sơ bạn cấu hình trên thiết bị."
+        ]
+      },
+      "content": {
+        "title": "Nội dung và danh sách phát của bạn",
+        "body": [
+          "Mọi URL danh sách phát, thông tin đăng nhập hoặc media bạn thêm đều đến từ bạn hoặc nhà cung cấp bạn chọn — không phải từ Okur Studio.",
+          "Bạn chỉ được sử dụng nội dung mà bạn có quyền truy cập. Ứng dụng không cấp cho bạn bất kỳ quyền nào đối với media của bên thứ ba."
+        ]
+      },
+      "subscriptions": {
+        "title": "Gói đăng ký Premium",
+        "body": [
+          "Các tính năng Premium tùy chọn có thể có sẵn qua gói đăng ký tự động gia hạn mua trên Apple App Store.",
+          "Thanh toán được tính vào tài khoản Apple ID khi bạn xác nhận mua. Gói đăng ký tự động gia hạn trừ khi bạn tắt tự động gia hạn ít nhất 24 giờ trước khi kết thúc chu kỳ hiện tại.",
+          "Tài khoản của bạn sẽ bị tính phí gia hạn trong vòng 24 giờ trước khi kết thúc chu kỳ hiện tại. Quản lý hoặc hủy gói đăng ký bất cứ lúc nào trong Cài đặt > Apple ID > Đăng ký trên thiết bị.",
+          "Mua hàng trên App Store tuân theo điều khoản và chính sách của Apple. Okur Studio không xử lý thanh toán trực tiếp."
+        ]
+      },
+      "rules": {
+        "title": "Sử dụng được phép",
+        "body": [
+          "Chỉ sử dụng Vevora IPTV theo cách tuân thủ pháp luật hiện hành và các điều khoản này.",
+          "Không lạm dụng ứng dụng để truy cập hoặc phân phối nội dung bất hợp pháp, can thiệp hệ thống của người khác hoặc cố dịch ngược ứng dụng trừ khi pháp luật cho phép."
+        ]
+      },
+      "ownership": {
+        "title": "Quyền sở hữu ứng dụng",
+        "body": [
+          "Okur Studio sở hữu phần mềm, thiết kế và thương hiệu của ứng dụng Vevora IPTV.",
+          "Các điều khoản này không chuyển quyền sở hữu ứng dụng cho bạn."
+        ]
+      },
+      "nowarranty": {
+        "title": "Không bảo hành",
+        "body": [
+          "Ứng dụng được cung cấp «nguyên trạng» và «theo khả năng sẵn có». Việc phát lại phụ thuộc vào thiết bị, mạng và nguồn danh sách phát bạn chọn.",
+          "Okur Studio không đảm bảo phát lại liên tục, tương thích với mọi định dạng danh sách phát hay khả dụng của bất kỳ luồng bên thứ ba nào."
+        ]
+      },
+      "responsibility": {
+        "title": "Trách nhiệm của bạn",
+        "body": [
+          "Bạn chịu trách nhiệm về cách sử dụng ứng dụng và các danh sách phát, luồng phát bạn kết nối.",
+          "Okur Studio không chịu trách nhiệm về nội dung bên thứ ba, nhà cung cấp danh sách phát hay thiệt hại do media hoặc liên kết bạn chọn mở."
+        ]
+      },
+      "stop": {
+        "title": "Ngừng sử dụng",
+        "body": [
+          "Bạn có thể ngừng sử dụng Vevora IPTV bất cứ lúc nào bằng cách xóa ứng dụng và dữ liệu liên quan khỏi thiết bị.",
+          "Chúng tôi có thể ngừng cung cấp ứng dụng hoặc cập nhật các điều khoản này. Việc tiếp tục sử dụng sau thay đổi có nghĩa bạn chấp nhận điều khoản đã cập nhật."
+        ]
+      },
+      "contact": {
+        "title": "Liên hệ",
+        "body": [
+          "Câu hỏi về các Điều khoản sử dụng này: vevoraplayer@gmail.com",
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+        ]
+      }
+    }
+  }
+}

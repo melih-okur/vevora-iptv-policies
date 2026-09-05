@@ -1,0 +1,273 @@
+{
+  "common": {
+    "appName": "Vevora IPTV",
+    "operator": "Okur Studio",
+    "platform": "iOS / iPadOS",
+    "bundleId": "com.vevora.iptv",
+    "email": "vevoraplayer@gmail.com",
+    "lastUpdatedLabel": "Utolsó frissítés",
+    "lastUpdatedDate": "2026. szeptember 5.",
+    "navHome": "Kezdőlap",
+    "navPrivacy": "Adatvédelmi irányelvek",
+    "navTerms": "Felhasználási feltételek",
+    "navSupport": "Támogatás",
+    "footer": "© 2026 Okur Studio. Minden jog fenntartva.",
+    "footerNote": "A Vevora IPTV egy médialejátszó alkalmazás. Az Okur Studio nem biztosít, nem tárol és nem terjeszt IPTV csatornákat vagy streameket.",
+    "selectLanguage": "Nyelv"
+  },
+  "index": {
+    "title": "Jogi információk és támogatás",
+    "heading": "Vevora IPTV",
+    "subtitle": "Adatvédelem, feltételek és támogatás az Okur Studio iOS és iPadOS alkalmazásához.",
+    "privacyTitle": "Adatvédelmi irányelvek",
+    "privacyDesc": "Hogyan kezeli az alkalmazás az eszközön lévő információkat és az Apple iCloud / CloudKit szolgáltatáson keresztül.",
+    "termsTitle": "Felhasználási feltételek",
+    "termsDesc": "A Vevora IPTV lejátszó alkalmazás használatának szabályai.",
+    "supportTitle": "Támogatás",
+    "supportDesc": "Beállítás és technikai segítség e-mailben."
+  },
+  "support": {
+    "title": "Támogatás",
+    "heading": "Kapcsolatfelvétel",
+    "intro": "Segítségre van szüksége a Vevora IPTV-vel? Lépjen kapcsolatba velünk az alkalmazás beállításával, az Ön által hozzáadott lejátszási listákkal vagy technikai problémákkal kapcsolatban. Nem biztosítunk csatornákat vagy streameket.",
+    "emailLabel": "Írjon nekünk:",
+    "emailHint": "A gyorsabb segítség érdekében adja meg az eszköz modelljét és az iOS verziót.",
+    "topicsTitle": "Gyakori kérdések",
+    "topics": [
+      {
+        "title": "Lejátszási listák hozzáadása",
+        "body": "A Vevora IPTV egy shell lejátszó. Adja hozzá saját M3U URL-jét vagy Xtream bejelentkezését az alkalmazásban. Az Okur Studio nem biztosít lejátszási listákat vagy csatornákat."
+      },
+      {
+        "title": "Lejátszási problémák",
+        "body": "A stream minősége a hálózattól és a lejátszási lista szolgáltatójától függ. Próbáljon más csatornát, ellenőrizze a kapcsolatot, vagy lépjen kapcsolatba a lejátszási lista szolgáltatójával, ha a streamek nem működnek."
+      },
+      {
+        "title": "Prémium és előfizetések",
+        "body": "A prémium funkciók az App Store-on keresztül kerülnek számlázásra az Apple ID-ján. Kezelje vagy mondja le a Beállítások > Apple ID > Előfizetések menüben legalább 24 órával a megújítás előtt."
+      },
+      {
+        "title": "Támogatás elérése",
+        "body": "Írjon a vevoraplayer@gmail.com címre a probléma egyértelmű leírásával. Kerülje a lejátszási lista jelszavak megosztását, hacsak nem kérjük hibaelhárítás céljából."
+      }
+    ],
+    "helpTitle": "Gyakori kérdések",
+    "helpItems": [
+      "A Vevora IPTV egy shell lejátszó — saját M3U vagy Xtream lejátszási listákat ad hozzá. Az Okur Studio nem biztosít, nem tárol és nem terjeszt csatornákat vagy streameket.",
+      "Adja meg az iOS vagy iPadOS verziót, az eszköz modelljét és a probléma rövid leírását.",
+      "Ne ossza meg e-mailben a lejátszási lista jelszavait, hacsak a hibaelhárításhoz nem szükséges."
+    ],
+    "responseNote": "Célunk, hogy néhány munkanapon belül válaszoljunk."
+  },
+  "privacy": {
+    "title": "Adatvédelmi irányelvek",
+    "sections": {
+      "about": {
+        "title": "Az irányelvekről",
+        "body": [
+          "Ez az Adatvédelmi irányelv ismerteti, hogyan kezeli az Okur Studio az információkat, amikor a Vevora IPTV-t iPhone-on és iPaden (iOS / iPadOS) használja.",
+          "A Vevora IPTV egy shell médialejátszó. Saját M3U vagy Xtream lejátszási listákat ad hozzá. Az Okur Studio nem biztosít, nem tárol és nem terjeszt csatornákat, filmeket, sorozatokat vagy más streameket."
+        ]
+      },
+      "data": {
+        "title": "Az eszközön lévő információk",
+        "body": [
+          "Az Okur Studio nem üzemeltet saját szervereket a lejátszási listák vagy a megtekintési előzmények tárolására. A könyvtáradatok az eszközén vannak, és iCloud-bejelentkezés esetén az Apple iCloud / CloudKit szolgáltatáson keresztül szinkronizálódhatnak.",
+          "Az eszközön lévő adatok tartalmazhatnak lejátszási lista linkeket és hitelesítő adatokat, profilokat, kedvenceket, megtekintési előzményeket, letöltési metaadatokat és alkalmazásbeállításokat.",
+          "Lejátszás közben az eszköz közvetlenül csatlakozik az Ön által beállított lejátszási lista forrásához. Ezt a médiát nem fogadjuk és nem tároljuk."
+        ]
+      },
+      "icloud": {
+        "title": "iCloud és CloudKit szinkronizálás",
+        "body": [
+          "Ha be van jelentkezve iCloud-ba az eszközén, a Vevora IPTV szinkronizálhatja a könyvtárát—például profilokat, lejátszási lista metaadatokat, kedvenceket és megtekintési előzményeket—Apple eszközei között az Apple CloudKit / iCloud szolgáltatáson keresztül.",
+          "Ez a szinkronizálás az Apple ID-ját és az Apple iCloud infrastruktúráját használja. Az Okur Studio nem üzemeltet saját szinkronizáló szervereket, és nem olvashatja az iCloud-fiókja tartalmát.",
+          "A lejátszási lista jelszavak és profil PIN-kódok az iOS Keychainben tárolódnak, és szinkronizálódhatnak az iCloud Keychainnel, ha ez a funkció engedélyezve van az Apple ID-jához.",
+          "A szinkronizált adatokat korlátozhatja vagy eltávolíthatja iCloud kijelentkezéssel, az alkalmazás iCloud-tárhelyének kezelésével, ha elérhető, az alkalmazásban történő adattörléssel vagy a Vevora IPTV eltávolításával."
+        ]
+      },
+      "tracking": {
+        "title": "Követés és hirdetés",
+        "body": [
+          "Nem végzünk alkalmazások közötti követést hirdetési célból.",
+          "Nem értékesítünk személyes adatokat.",
+          "Nem használunk harmadik féltől származó hirdetési SDK-kat követésre."
+        ]
+      },
+      "use": {
+        "title": "Az információk felhasználása",
+        "body": [
+          "Az eszközön lévő adatokat kizárólag a lejátszó működtetésére használjuk: lejátszási listák betöltése, könyvtár megjelenítése, beállítások megjegyzése és az Ön által kért streamek lejátszása.",
+          "Nem használjuk az eszközön lévő lejátszási lista vagy megtekintési adatokat hirdetésre."
+        ]
+      },
+      "sharing": {
+        "title": "Megosztás",
+        "body": [
+          "Nem osztjuk meg lejátszási listáit, hitelesítő adatait vagy megtekintési előzményeit harmadik felekkel marketing céljából.",
+          "Az eszköz kommunikálhat az Ön által választott lejátszási lista szolgáltatóval és az iOS és iPadOS alkalmazás működtetéséhez szükséges Apple platformszolgáltatásokkal—beleértve az iCloud / CloudKit szolgáltatást, ha a könyvtár szinkronizálás aktív.",
+          "Ha a törvény előírja, az információkat a megfeleléshez szükséges mértékben közzétehetjük."
+        ]
+      },
+      "retention": {
+        "title": "Megőrzés",
+        "body": [
+          "A lejátszási lista adatok és a kapcsolódó beállítások az eszközén (és engedélyezés esetén az iCloud-fiókjában CloudKit-en keresztül) maradnak, amíg nem törli azokat az alkalmazásban, nem távolítja el az iCloudból, vagy nem távolítja el az alkalmazást.",
+          "Ha e-mailben lép kapcsolatba velünk, a levelezést csak addig őrizzük meg, amíg a kérésére válaszolni és megoldani tudjuk."
+        ]
+      },
+      "security": {
+        "title": "Biztonság",
+        "body": [
+          "Az alkalmazást úgy terveztük, hogy az érzékeny adatok lehetőség szerint az eszközén maradjanak.",
+          "Egyetlen tárolási vagy továbbítási módszer sem teljesen biztonságos. Védje az eszköz jelszavát, és ne ossza meg a lejátszási lista hitelesítő adatait."
+        ]
+      },
+      "choices": {
+        "title": "Az Ön lehetőségei",
+        "body": [
+          "Az alkalmazásban szerkesztheti vagy törölheti a lejátszási listákat, profilokat és kapcsolódó adatokat.",
+          "Törölheti az alkalmazás adatait vagy eltávolíthatja a Vevora IPTV-t az eszközről származó információk eltávolításához.",
+          "Adatvédelmi kérdésekben lépjen kapcsolatba velünk: vevoraplayer@gmail.com."
+        ]
+      },
+      "children": {
+        "title": "Gyermekek",
+        "body": [
+          "A Vevora IPTV 13 éves és idősebb felhasználók számára alkalmas. Nem 13 év alatti gyermekek számára készült.",
+          "Ne használja az alkalmazást gyermekektől származó információk gyűjtésére. Ha úgy gondolja, hogy egy gyermek személyes adatokat adott meg az alkalmazáson keresztül, lépjen kapcsolatba velünk, és segítünk."
+        ]
+      },
+      "purchases": {
+        "title": "Alkalmazáson belüli vásárlások és előfizetések",
+        "body": [
+          "A Vevora IPTV opcionális prémium funkciókat kínálhat alkalmazáson belüli vásárlásokon és automatikusan megújuló előfizetéseken keresztül az App Store-ban.",
+          "A fizetést az Apple dolgozza fel. Nem kapjuk meg és nem tároljuk a fizetési kártya vagy bankszámla adatait.",
+          "Az Apple megoszthatja velünk a vásárlás megerősítését és az előfizetés állapotát, hogy prémium funkciókat nyithassunk az alkalmazásban.",
+          "A számlázási előzményeket, előfizetéseket és visszatérítéseket Apple ID-fiókján keresztül kezelheti. Az automatikus megújítás lemondásához kapcsolja ki legalább 24 órával a jelenlegi számlázási időszak vége előtt a Beállítások > Apple ID > Előfizetések menüben."
+        ]
+      },
+      "thirdparty": {
+        "title": "Harmadik féltől származó szolgáltatások",
+        "body": [
+          "A lejátszási listák és streamek az Ön által beállított forrásokból származnak. Ezeknek a szolgáltatóknak saját adatvédelmi gyakorlatuk van.",
+          "Filmek és sorozatok metaadatainak és grafikáinak (például címek, leírások és plakát képek) megjelenítéséhez az alkalmazás információt kérhet a The Movie Database (TMDB) szolgáltatástól. Ezek a kérések az Okur Studio által üzemeltetett Cloudflare Worker proxy-n keresztül haladnak. Csak a megjelenítéshez szükséges metaadat-lekérdezéseket küldjük—nem a lejátszási listáit, hitelesítő adatait vagy megtekintési előzményeit.",
+          "A plakát képek a TMDB kép-CDN-jéről tölthetők be. A TMDB saját adatvédelmi irányelvekkel rendelkezik a themoviedb.org címen. Az Okur Studio nem felelős harmadik féltől származó lejátszási lista források vagy a TMDB adatvédelméért vagy tartalmáért."
+        ]
+      },
+      "updates": {
+        "title": "Irányelvek frissítése",
+        "body": [
+          "Ezt az Adatvédelmi irányelvet időről időre frissíthetjük. Az oldal tetején található „Utolsó frissítés” dátum ekkor megváltozik.",
+          "Az alkalmazás frissítés utáni további használata azt jelenti, hogy tudomásul veszi a módosított irányelveket."
+        ]
+      },
+      "contact": {
+        "title": "Kapcsolat",
+        "body": [
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "E-mail: vevoraplayer@gmail.com"
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Felhasználási feltételek",
+    "sections": {
+      "agreement": {
+        "title": "Megállapodás",
+        "body": [
+          "Ezek a Felhasználási feltételek szabályozzák a Vevora IPTV iOS és iPadOS rendszeren történő használatát, amelyet az Okur Studio üzemeltet.",
+          "Az alkalmazás letöltésével vagy használatával elfogadja ezeket a feltételeket. Ha nem ért egyet, ne használja az alkalmazást."
+        ]
+      },
+      "player": {
+        "title": "Csak shell lejátszó",
+        "body": [
+          "A Vevora IPTV egy shell médialejátszó. Az Ön által hozzáadott lejátszási listákat és streameket játssza le, például M3U vagy Xtream forrásokat.",
+          "Az Okur Studio nem biztosít, nem tárol és nem terjeszt IPTV csatornákat, filmeket, sorozatokat vagy más média tartalmat.",
+          "Kizárólag Ön felelős azért, hogy törvényes hozzáférést szerezzen minden olyan lejátszási listához vagy streamhez, amelyet az alkalmazással használ."
+        ]
+      },
+      "age": {
+        "title": "Korhatár",
+        "body": [
+          "A Vevora IPTV 13 éves és idősebb felhasználók számára készült. Nem 13 év alatti gyermekek számára készült.",
+          "Elég idősnek kell lennie az App Store használatához és ezen feltételek elfogadásához az Ön régiójában. Ha más nevében használja az alkalmazást, megerősíti, hogy jogosult ezen feltételek elfogadására az illető nevében."
+        ]
+      },
+      "license": {
+        "title": "Licenc",
+        "body": [
+          "Ezen Feltételek alapján az Okur Studio személyes, korlátozott, nem kizárólagos, nem átruházható licencet ad a Vevora IPTV használatára az Ön tulajdonában vagy ellenőrzése alatt álló Apple eszközökön.",
+          "Az Apple App Store feltételei is érvényesek, ahol relevánsak az alkalmazás letöltéséhez és használatához."
+        ]
+      },
+      "profiles": {
+        "title": "Profilok és beállítások",
+        "body": [
+          "Létrehozhat az eszközén tárolt profilokat és beállításokat. Őrizze biztonságban a hitelesítő adatokat, és ne ossza meg azokat.",
+          "Ön felelős az eszközén beállított lejátszási listákkal és profilokkal kapcsolatos tevékenységekért."
+        ]
+      },
+      "content": {
+        "title": "Az Ön tartalma és lejátszási listái",
+        "body": [
+          "Minden hozzáadott lejátszási lista URL, hitelesítő adat vagy média Öntől vagy az Ön által választott szolgáltatótól származik — nem az Okur Studio-tól.",
+          "Csak olyan tartalmat használhat, amelyhez jogszerű hozzáférése van. Az alkalmazás nem biztosít jogot harmadik felek médiáihoz."
+        ]
+      },
+      "subscriptions": {
+        "title": "Prémium előfizetések",
+        "body": [
+          "Opcionális prémium funkciók érhetők el automatikusan megújuló előfizetéseken keresztül, amelyeket az Apple App Store-ban vásárolhat.",
+          "A vásárlás megerősítésekor az Apple ID-fiókját terheljük. Az előfizetések automatikusan megújulnak, hacsak nem kapcsolja ki az automatikus megújítást legalább 24 órával a jelenlegi időszak vége előtt.",
+          "Fiókját a jelenlegi időszak vége előtt 24 órán belül terheljük a megújításért. Előfizetéseit bármikor kezelheti vagy lemondhatja a Beállítások > Apple ID > Előfizetések menüben.",
+          "Az App Store vásárlásokra az Apple feltételei és irányelvei vonatkoznak. Az Okur Studio nem dolgozza fel közvetlenül a fizetéseket."
+        ]
+      },
+      "rules": {
+        "title": "Elfogadható használat",
+        "body": [
+          "A Vevora IPTV-t csak olyan módon használja, amely megfelel az alkalmazandó jogszabályoknak és ezen feltételeknek.",
+          "Ne használja vissza az alkalmazást jogellenes tartalom elérésére vagy terjesztésére, mások rendszereinek zavarására, vagy az alkalmazás visszafejtésére, kivéve, ahol a törvény engedélyezi."
+        ]
+      },
+      "ownership": {
+        "title": "Az alkalmazás tulajdonjoga",
+        "body": [
+          "Az Okur Studio birtokolja a Vevora IPTV szoftvert, dizájnt és márkát.",
+          "Ezek a feltételek nem ruházzák át az alkalmazás tulajdonjogát Önre."
+        ]
+      },
+      "nowarranty": {
+        "title": "Garancia nélkül",
+        "body": [
+          "Az alkalmazás „ahogy van” és „ahogy elérhető” alapon kerül biztosításra. A lejátszás az eszköztől, a hálózattól és az Ön által választott lejátszási lista forrásoktól függ.",
+          "Az Okur Studio nem garantál megszakítás nélküli lejátszást, minden lejátszási lista formátummal való kompatibilitást vagy harmadik féltől származó streamek elérhetőségét."
+        ]
+      },
+      "responsibility": {
+        "title": "Az Ön felelőssége",
+        "body": [
+          "Ön felelős az alkalmazás használatáért és az Ön által csatlakoztatott lejátszási listákért és streamekért.",
+          "Az Okur Studio nem felelős harmadik féltől származó tartalomért, lejátszási lista szolgáltatókért vagy az Ön által megnyitott médiából vagy linkekből eredő károkért."
+        ]
+      },
+      "stop": {
+        "title": "Használat megszüntetése",
+        "body": [
+          "A Vevora IPTV használatát bármikor megszüntetheti az alkalmazás és a kapcsolódó adatok eszközről való törlésével.",
+          "Leállíthatjuk az alkalmazás kínálatát vagy frissíthetjük ezeket a feltételeket. A változások utáni további használat a frissített feltételek elfogadását jelenti."
+        ]
+      },
+      "contact": {
+        "title": "Kapcsolat",
+        "body": [
+          "Kérdések ezekkel a Felhasználási feltételekkel kapcsolatban: vevoraplayer@gmail.com",
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+        ]
+      }
+    }
+  }
+}

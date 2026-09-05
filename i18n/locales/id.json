@@ -1,0 +1,273 @@
+{
+  "common": {
+    "appName": "Vevora IPTV",
+    "operator": "Okur Studio",
+    "platform": "iOS / iPadOS",
+    "bundleId": "com.vevora.iptv",
+    "email": "vevoraplayer@gmail.com",
+    "lastUpdatedLabel": "Terakhir diperbarui",
+    "lastUpdatedDate": "5 September 2026",
+    "navHome": "Beranda",
+    "navPrivacy": "Kebijakan Privasi",
+    "navTerms": "Ketentuan Penggunaan",
+    "navSupport": "Dukungan",
+    "footer": "© 2026 Okur Studio. Hak cipta dilindungi.",
+    "footerNote": "Vevora IPTV adalah aplikasi pemutar media. Okur Studio tidak menyediakan, menghosting, atau mendistribusikan saluran IPTV atau streaming.",
+    "selectLanguage": "Bahasa"
+  },
+  "index": {
+    "title": "Hukum & Dukungan",
+    "heading": "Vevora IPTV",
+    "subtitle": "Privasi, ketentuan, dan dukungan untuk aplikasi iOS & iPadOS dari Okur Studio.",
+    "privacyTitle": "Kebijakan Privasi",
+    "privacyDesc": "Cara aplikasi menangani informasi di perangkat Anda dan melalui Apple iCloud / CloudKit.",
+    "termsTitle": "Ketentuan Penggunaan",
+    "termsDesc": "Aturan penggunaan aplikasi pemutar Vevora IPTV.",
+    "supportTitle": "Dukungan",
+    "supportDesc": "Pengaturan dan bantuan teknis melalui email."
+  },
+  "support": {
+    "title": "Dukungan",
+    "heading": "Hubungi Dukungan",
+    "intro": "Butuh bantuan dengan Vevora IPTV? Hubungi kami tentang pengaturan aplikasi, playlist yang Anda tambahkan, atau masalah teknis. Kami tidak menyediakan saluran atau streaming.",
+    "emailLabel": "Email kami di",
+    "emailHint": "Sertakan model perangkat dan versi iOS Anda untuk bantuan lebih cepat.",
+    "topicsTitle": "Pertanyaan umum",
+    "topics": [
+      {
+        "title": "Menambahkan playlist",
+        "body": "Vevora IPTV adalah pemutar shell. Tambahkan URL M3U atau login Xtream Anda sendiri di aplikasi. Okur Studio tidak menyediakan playlist atau saluran."
+      },
+      {
+        "title": "Masalah pemutaran",
+        "body": "Kualitas streaming bergantung pada jaringan dan penyedia playlist Anda. Coba saluran lain, periksa koneksi, atau hubungi penyedia jika streaming gagal."
+      },
+      {
+        "title": "Premium dan langganan",
+        "body": "Fitur premium ditagih melalui App Store di Apple ID Anda. Kelola atau batalkan di Pengaturan > Apple ID > Langganan setidaknya 24 jam sebelum perpanjangan."
+      },
+      {
+        "title": "Menghubungi dukungan",
+        "body": "Email ke vevoraplayer@gmail.com dengan deskripsi masalah yang jelas. Hindari membagikan kata sandi playlist kecuali kami meminta untuk pemecahan masalah."
+      }
+    ],
+    "helpTitle": "Pertanyaan umum",
+    "helpItems": [
+      "Vevora IPTV adalah pemutar shell — Anda menambahkan playlist M3U atau Xtream sendiri. Okur Studio tidak menyediakan, menghosting, atau mendistribusikan saluran atau streaming.",
+      "Sertakan versi iOS atau iPadOS, model perangkat, dan deskripsi singkat masalah.",
+      "Jangan bagikan kata sandi playlist melalui email kecuali diperlukan untuk pemecahan masalah."
+    ],
+    "responseNote": "Kami berusaha merespons dalam beberapa hari kerja."
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "sections": {
+      "about": {
+        "title": "Tentang Kebijakan Ini",
+        "body": [
+          "Kebijakan Privasi ini menjelaskan bagaimana Okur Studio menangani informasi saat Anda menggunakan Vevora IPTV di iPhone dan iPad (iOS / iPadOS).",
+          "Vevora IPTV adalah pemutar media shell. Anda menambahkan playlist M3U atau Xtream sendiri. Okur Studio tidak menyediakan, menghosting, atau mendistribusikan saluran, film, serial, atau streaming lainnya."
+        ]
+      },
+      "data": {
+        "title": "Informasi di Perangkat Anda",
+        "body": [
+          "Okur Studio tidak mengoperasikan server sendiri untuk menyimpan playlist atau riwayat tontonan Anda. Data perpustakaan disimpan di perangkat Anda dan dapat disinkronkan melalui Apple iCloud / CloudKit saat Anda masuk ke iCloud.",
+          "Data di perangkat dapat mencakup tautan playlist dan kredensial yang Anda masukkan, profil, favorit, riwayat tontonan, metadata unduhan, dan pengaturan aplikasi.",
+          "Saat Anda memutar media, perangkat Anda terhubung langsung ke sumber playlist yang Anda konfigurasi. Kami tidak menerima atau menyimpan media tersebut."
+        ]
+      },
+      "icloud": {
+        "title": "Sinkronisasi iCloud dan CloudKit",
+        "body": [
+          "Jika Anda masuk ke iCloud di perangkat, Vevora IPTV dapat menyinkronkan perpustakaan Anda—seperti profil, metadata playlist, favorit, dan riwayat tontonan—antar perangkat Apple menggunakan Apple CloudKit / iCloud.",
+          "Sinkronisasi tersebut menggunakan Apple ID dan infrastruktur iCloud Apple. Okur Studio tidak mengoperasikan server sinkronisasi sendiri dan tidak dapat membaca isi akun iCloud Anda.",
+          "Kata sandi playlist dan PIN profil disimpan di iOS Keychain dan dapat disinkronkan dengan iCloud Keychain saat fitur tersebut diaktifkan untuk Apple ID Anda.",
+          "Anda dapat membatasi atau menghapus data yang disinkronkan dengan keluar dari iCloud, mengelola penyimpanan iCloud untuk aplikasi ini jika tersedia, menghapus data di aplikasi, atau menghapus Vevora IPTV."
+        ]
+      },
+      "tracking": {
+        "title": "Pelacakan dan Iklan",
+        "body": [
+          "Kami tidak melakukan pelacakan lintas aplikasi untuk iklan.",
+          "Kami tidak menjual data pribadi.",
+          "Kami tidak menggunakan SDK iklan pihak ketiga untuk pelacakan."
+        ]
+      },
+      "use": {
+        "title": "Cara Informasi Digunakan",
+        "body": [
+          "Data di perangkat hanya digunakan untuk menjalankan pemutar: memuat playlist, menampilkan perpustakaan, mengingat preferensi, dan memutar streaming yang Anda minta.",
+          "Kami tidak menggunakan data playlist atau tontonan di perangkat untuk iklan."
+        ]
+      },
+      "sharing": {
+        "title": "Berbagi",
+        "body": [
+          "Kami tidak membagikan playlist, kredensial, atau riwayat tontonan Anda kepada pihak ketiga untuk pemasaran mereka.",
+          "Perangkat Anda dapat berkomunikasi dengan penyedia playlist yang Anda pilih dan layanan platform Apple standar yang diperlukan untuk menjalankan aplikasi di iOS dan iPadOS—termasuk iCloud / CloudKit saat sinkronisasi perpustakaan aktif.",
+          "Jika diwajibkan oleh hukum, kami dapat mengungkapkan informasi sejauh diperlukan untuk mematuhi."
+        ]
+      },
+      "retention": {
+        "title": "Penyimpanan",
+        "body": [
+          "Data playlist dan pengaturan terkait tetap di perangkat Anda (dan, jika diaktifkan, di akun iCloud melalui CloudKit) hingga Anda menghapusnya di aplikasi, menghapus dari iCloud, atau menghapus aplikasi.",
+          "Jika Anda menghubungi kami melalui email, kami menyimpan korespondensi hanya selama diperlukan untuk merespons dan menyelesaikan permintaan Anda."
+        ]
+      },
+      "security": {
+        "title": "Keamanan",
+        "body": [
+          "Kami merancang aplikasi agar detail sensitif tetap di perangkat Anda sejauh mungkin.",
+          "Tidak ada metode penyimpanan atau transmisi yang sepenuhnya aman. Lindungi kode sandi perangkat Anda dan jangan bagikan kredensial playlist."
+        ]
+      },
+      "choices": {
+        "title": "Pilihan Anda",
+        "body": [
+          "Anda dapat mengedit atau menghapus playlist, profil, dan data terkait di dalam aplikasi.",
+          "Anda dapat menghapus data aplikasi atau menghapus Vevora IPTV untuk menghapus informasi di perangkat.",
+          "Untuk pertanyaan privasi: vevoraplayer@gmail.com."
+        ]
+      },
+      "children": {
+        "title": "Anak-anak",
+        "body": [
+          "Vevora IPTV cocok untuk pengguna berusia 13 tahun ke atas. Aplikasi ini tidak ditujukan untuk anak di bawah 13 tahun.",
+          "Jangan gunakan aplikasi untuk mengumpulkan informasi dari anak-anak. Jika Anda yakin anak telah memberikan informasi pribadi melalui aplikasi, hubungi kami dan kami akan membantu menanganinya."
+        ]
+      },
+      "purchases": {
+        "title": "Pembelian In-App dan Langganan",
+        "body": [
+          "Vevora IPTV dapat menawarkan fitur premium opsional melalui pembelian in-app dan langganan otomatis di App Store.",
+          "Pembayaran diproses oleh Apple. Kami tidak menerima atau menyimpan detail kartu pembayaran atau perbankan Anda.",
+          "Apple dapat membagikan konfirmasi pembelian dan status langganan kepada kami agar kami dapat membuka fitur premium di aplikasi.",
+          "Anda dapat melihat riwayat tagihan, mengelola langganan, dan meminta pengembalian dana melalui akun Apple ID. Untuk membatalkan perpanjangan otomatis, matikan setidaknya 24 jam sebelum akhir periode tagihan saat ini di Pengaturan > Apple ID > Langganan di perangkat Anda."
+        ]
+      },
+      "thirdparty": {
+        "title": "Layanan Pihak Ketiga",
+        "body": [
+          "Playlist dan streaming berasal dari sumber yang Anda konfigurasi. Penyedia tersebut memiliki praktik privasi sendiri.",
+          "Untuk menampilkan metadata dan artwork film dan serial (seperti judul, deskripsi, dan gambar poster), aplikasi dapat meminta informasi dari The Movie Database (TMDB). Permintaan ini melalui proxy Cloudflare Worker yang dioperasikan Okur Studio. Kami hanya mengirim kueri pencarian metadata yang diperlukan untuk tampilan—bukan playlist, kredensial, atau riwayat tontonan Anda.",
+          "Gambar poster dapat dimuat dari CDN gambar TMDB. TMDB memiliki kebijakan privasi sendiri di themoviedb.org. Okur Studio tidak bertanggung jawab atas privasi atau konten sumber playlist pihak ketiga atau TMDB."
+        ]
+      },
+      "updates": {
+        "title": "Pembaruan Kebijakan",
+        "body": [
+          "Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Tanggal „Terakhir diperbarui” di bagian atas halaman ini akan berubah saat kami melakukannya.",
+          "Penggunaan aplikasi yang berkelanjutan setelah pembaruan berarti Anda mengakui kebijakan yang direvisi."
+        ]
+      },
+      "contact": {
+        "title": "Kontak",
+        "body": [
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "Email: vevoraplayer@gmail.com"
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Ketentuan Penggunaan",
+    "sections": {
+      "agreement": {
+        "title": "Perjanjian",
+        "body": [
+          "Ketentuan Penggunaan ini mengatur penggunaan Vevora IPTV di iOS dan iPadOS, yang dioperasikan oleh Okur Studio.",
+          "Dengan mengunduh atau menggunakan aplikasi, Anda setuju dengan ketentuan ini. Jika tidak setuju, jangan gunakan aplikasi."
+        ]
+      },
+      "player": {
+        "title": "Hanya Pemutar Shell",
+        "body": [
+          "Vevora IPTV adalah pemutar media shell. Aplikasi memutar playlist dan streaming yang Anda tambahkan sendiri, seperti sumber M3U atau Xtream.",
+          "Okur Studio tidak menyediakan, menghosting, atau mendistribusikan saluran IPTV, film, serial, atau konten media lainnya.",
+          "Anda sepenuhnya bertanggung jawab untuk memperoleh akses legal ke playlist atau streaming yang Anda gunakan dengan aplikasi."
+        ]
+      },
+      "age": {
+        "title": "Persyaratan Usia",
+        "body": [
+          "Vevora IPTV ditujukan untuk pengguna berusia 13 tahun ke atas. Aplikasi ini tidak ditujukan untuk anak di bawah 13 tahun.",
+          "Anda harus cukup umur untuk menggunakan App Store dan menyetujui ketentuan ini di wilayah Anda. Jika Anda menggunakan aplikasi atas nama orang lain, Anda mengonfirmasi bahwa Anda berwenang menerima ketentuan ini untuk mereka."
+        ]
+      },
+      "license": {
+        "title": "Lisensi",
+        "body": [
+          "Tunduk pada Ketentuan ini, Okur Studio memberi Anda lisensi pribadi, terbatas, non-eksklusif, dan tidak dapat dialihkan untuk menggunakan Vevora IPTV di perangkat Apple yang Anda miliki atau kendalikan.",
+          "Ketentuan App Store Apple juga berlaku sejauh relevan dengan unduhan dan penggunaan aplikasi Anda."
+        ]
+      },
+      "profiles": {
+        "title": "Profil dan Pengaturan",
+        "body": [
+          "Anda dapat membuat profil dan pengaturan yang disimpan di perangkat. Jaga kredensial tetap aman dan jangan bagikan.",
+          "Anda bertanggung jawab atas aktivitas yang terjadi dengan playlist dan profil yang Anda konfigurasi di perangkat."
+        ]
+      },
+      "content": {
+        "title": "Konten dan Playlist Anda",
+        "body": [
+          "URL playlist, kredensial, atau media yang Anda tambahkan berasal dari Anda atau penyedia pilihan Anda — bukan dari Okur Studio.",
+          "Anda hanya boleh menggunakan konten yang Anda berhak akses. Aplikasi tidak memberi Anda hak apa pun atas media pihak ketiga."
+        ]
+      },
+      "subscriptions": {
+        "title": "Langganan Premium",
+        "body": [
+          "Fitur premium opsional mungkin tersedia melalui langganan otomatis yang dibeli melalui Apple App Store.",
+          "Pembayaran ditagih ke akun Apple ID Anda saat Anda mengonfirmasi pembelian. Langganan diperpanjang otomatis kecuali Anda mematikan perpanjangan otomatis setidaknya 24 jam sebelum akhir periode saat ini.",
+          "Akun Anda akan ditagih untuk perpanjangan dalam 24 jam sebelum akhir periode saat ini. Kelola atau batalkan langganan kapan saja di Pengaturan > Apple ID > Langganan di perangkat Anda.",
+          "Pembelian App Store tunduk pada ketentuan dan kebijakan Apple. Okur Studio tidak memproses pembayaran secara langsung."
+        ]
+      },
+      "rules": {
+        "title": "Penggunaan yang Dapat Diterima",
+        "body": [
+          "Gunakan Vevora IPTV hanya dengan cara yang mematuhi hukum yang berlaku dan ketentuan ini.",
+          "Jangan menyalahgunakan aplikasi untuk mengakses atau mendistribusikan konten ilegal, mengganggu sistem orang lain, atau mencoba melakukan reverse engineering aplikasi kecuali diizinkan oleh hukum."
+        ]
+      },
+      "ownership": {
+        "title": "Kepemilikan Aplikasi",
+        "body": [
+          "Okur Studio memiliki perangkat lunak, desain, dan merek Vevora IPTV.",
+          "Ketentuan ini tidak mentransfer kepemilikan aplikasi kepada Anda."
+        ]
+      },
+      "nowarranty": {
+        "title": "Tanpa Jaminan",
+        "body": [
+          "Aplikasi disediakan „apa adanya” dan „sebagaimana tersedia.” Pemutaran bergantung pada perangkat, jaringan, dan sumber playlist yang Anda pilih.",
+          "Okur Studio tidak menjamin pemutaran tanpa gangguan, kompatibilitas dengan setiap format playlist, atau ketersediaan streaming pihak ketiga."
+        ]
+      },
+      "responsibility": {
+        "title": "Tanggung Jawab Anda",
+        "body": [
+          "Anda bertanggung jawab atas cara Anda menggunakan aplikasi dan playlist serta streaming yang Anda hubungkan.",
+          "Okur Studio tidak bertanggung jawab atas konten pihak ketiga, penyedia playlist, atau kerugian yang disebabkan media atau tautan yang Anda buka."
+        ]
+      },
+      "stop": {
+        "title": "Menghentikan Penggunaan",
+        "body": [
+          "Anda dapat berhenti menggunakan Vevora IPTV kapan saja dengan menghapus aplikasi dan data terkait dari perangkat.",
+          "Kami dapat berhenti menawarkan aplikasi atau memperbarui ketentuan ini. Penggunaan berkelanjutan setelah perubahan berarti Anda menerima ketentuan yang diperbarui."
+        ]
+      },
+      "contact": {
+        "title": "Kontak",
+        "body": [
+          "Pertanyaan tentang Ketentuan Penggunaan ini: vevoraplayer@gmail.com",
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+        ]
+      }
+    }
+  }
+}

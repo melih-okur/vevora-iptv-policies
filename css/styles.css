@@ -29,6 +29,14 @@ html[data-theme="dark"] {
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-ar: "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans Arabic", sans-serif;
+  --font-he: "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans Hebrew", sans-serif;
+  --font-fa: "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans Arabic", sans-serif;
+  --font-zh: "PingFang SC", "SF Pro SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-ja: "Hiragino Sans", "SF Pro JP", "Yu Gothic", "Meiryo", sans-serif;
+  --font-ko: "Apple SD Gothic Neo", "SF Pro KR", "Malgun Gothic", sans-serif;
+  --font-hi: "Kohinoor Devanagari", "SF Pro Devanagari", "Noto Sans Devanagari", sans-serif;
+  --font-bn: "Kohinoor Bangla", "Noto Sans Bengali", sans-serif;
+  --font-th: "Thonburi", "SF Pro Thai", "Noto Sans Thai", sans-serif;
 }
 
 html[data-theme="light"] {
@@ -76,6 +84,14 @@ body {
 }
 
 body[dir="rtl"] { font-family: var(--font-ar); }
+html[lang="he"] body { font-family: var(--font-he); }
+html[lang="fa"] body { font-family: var(--font-fa); direction: rtl; }
+html[lang="zh"] body { font-family: var(--font-zh); }
+html[lang="ja"] body { font-family: var(--font-ja); }
+html[lang="ko"] body { font-family: var(--font-ko); }
+html[lang="hi"] body { font-family: var(--font-hi); }
+html[lang="bn"] body { font-family: var(--font-bn); }
+html[lang="th"] body { font-family: var(--font-th); }
 
 a {
   color: var(--link);
@@ -178,31 +194,49 @@ main {
 }
 
 .lang-switcher {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
   margin-bottom: 2rem;
 }
-.lang-switcher button,
-.lang-chip {
+.lang-select-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  max-width: 100%;
+}
+.lang-select-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.lang-select {
   appearance: none;
-  border: none;
-  background: var(--chip);
+  -webkit-appearance: none;
+  width: 100%;
+  max-width: 22rem;
+  padding: 0.65rem 2.25rem 0.65rem 0.85rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%2386868b' d='M1.4.6 6 5.2 10.6.6 12 2l-6 6-6-6z'/%3E%3C/svg%3E") no-repeat right 0.85rem center;
   color: var(--text);
   font: inherit;
-  font-size: 0.75rem;
+  font-size: 0.9375rem;
   font-weight: 500;
-  padding: 0.4rem 0.7rem;
-  border-radius: 980px;
   cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
 }
-.lang-switcher button:hover,
-.lang-chip:hover { background: var(--chip-hover); }
-.lang-switcher button[aria-pressed="true"],
-.lang-chip.active {
-  background: var(--chip-active);
-  color: var(--chip-active-text);
+.lang-select:hover { border-color: var(--accent); }
+.lang-select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(10, 132, 255, 0.25);
+}
+html[data-theme="light"] .lang-select:focus {
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.2);
+}
+body[dir="rtl"] .lang-select {
+  padding: 0.65rem 0.85rem 0.65rem 2.25rem;
+  background-position: left 0.85rem center;
 }
 
 .hero { margin-bottom: 2.25rem; }

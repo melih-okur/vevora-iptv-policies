@@ -1,0 +1,273 @@
+{
+  "common": {
+    "appName": "Vevora IPTV",
+    "operator": "Okur Studio",
+    "platform": "iOS / iPadOS",
+    "bundleId": "com.vevora.iptv",
+    "email": "vevoraplayer@gmail.com",
+    "lastUpdatedLabel": "Ultima actualizare",
+    "lastUpdatedDate": "5 septembrie 2026",
+    "navHome": "Acasă",
+    "navPrivacy": "Politica de confidențialitate",
+    "navTerms": "Termeni de utilizare",
+    "navSupport": "Asistență",
+    "footer": "© 2026 Okur Studio. Toate drepturile rezervate.",
+    "footerNote": "Vevora IPTV este o aplicație media player. Okur Studio nu furnizează, nu găzduiește și nu distribuie canale sau fluxuri IPTV.",
+    "selectLanguage": "Limbă"
+  },
+  "index": {
+    "title": "Legal și asistență",
+    "heading": "Vevora IPTV",
+    "subtitle": "Confidențialitate, termeni și asistență pentru aplicația iOS și iPadOS de la Okur Studio.",
+    "privacyTitle": "Politica de confidențialitate",
+    "privacyDesc": "Cum gestionează aplicația informațiile de pe dispozitivul dvs. și prin Apple iCloud / CloudKit.",
+    "termsTitle": "Termeni de utilizare",
+    "termsDesc": "Reguli pentru utilizarea aplicației player Vevora IPTV.",
+    "supportTitle": "Asistență",
+    "supportDesc": "Configurare și ajutor tehnic prin e-mail."
+  },
+  "support": {
+    "title": "Asistență",
+    "heading": "Contactați asistența",
+    "intro": "Aveți nevoie de ajutor cu Vevora IPTV? Contactați-ne despre configurarea aplicației, listele de redare pe care le adăugați sau probleme tehnice. Nu furnizăm canale sau fluxuri.",
+    "emailLabel": "Trimiteți e-mail la",
+    "emailHint": "Includeți modelul dispozitivului și versiunea iOS pentru ajutor mai rapid.",
+    "topicsTitle": "Întrebări frecvente",
+    "topics": [
+      {
+        "title": "Adăugarea listelor de redare",
+        "body": "Vevora IPTV este un player shell. Adăugați propria adresă M3U sau autentificare Xtream în aplicație. Okur Studio nu furnizează liste de redare sau canale."
+      },
+      {
+        "title": "Probleme de redare",
+        "body": "Calitatea fluxului depinde de rețeaua dvs. și de furnizorul listei. Încercați alt canal, verificați conexiunea sau contactați furnizorul listei dacă fluxurile eșuează."
+      },
+      {
+        "title": "Premium și abonamente",
+        "body": "Funcțiile premium sunt facturate prin App Store pe Apple ID-ul dvs. Gestionați sau anulați în Setări > Apple ID > Abonamente cu cel puțin 24 de ore înainte de reînnoire."
+      },
+      {
+        "title": "Contactarea asistenței",
+        "body": "Trimiteți e-mail la vevoraplayer@gmail.com cu o descriere clară a problemei. Evitați să partajați parolele listelor decât dacă vă cerem pentru depanare."
+      }
+    ],
+    "helpTitle": "Întrebări frecvente",
+    "helpItems": [
+      "Vevora IPTV este un player shell — adăugați propriile liste M3U sau Xtream. Okur Studio nu furnizează, nu găzduiește și nu distribuie canale sau fluxuri.",
+      "Includeți versiunea iOS sau iPadOS, modelul dispozitivului și o scurtă descriere a problemei.",
+      "Nu partajați parolele listelor prin e-mail decât dacă este necesar pentru depanare."
+    ],
+    "responseNote": "Ne propunem să răspundem în câteva zile lucrătoare."
+  },
+  "privacy": {
+    "title": "Politica de confidențialitate",
+    "sections": {
+      "about": {
+        "title": "Despre această politică",
+        "body": [
+          "Această Politică de confidențialitate explică modul în care Okur Studio gestionează informațiile când utilizați Vevora IPTV pe iPhone și iPad (iOS / iPadOS).",
+          "Vevora IPTV este un media player shell. Adăugați propriile liste M3U sau Xtream. Okur Studio nu furnizează, nu găzduiește și nu distribuie canale, filme, seriale sau alte fluxuri."
+        ]
+      },
+      "data": {
+        "title": "Informații pe dispozitivul dvs.",
+        "body": [
+          "Okur Studio nu operează proprii servere pentru stocarea listelor de redare sau a istoricului de vizionare. Datele bibliotecii se află pe dispozitivul dvs. și pot fi sincronizate prin Apple iCloud / CloudKit când sunteți conectat la iCloud.",
+          "Datele de pe dispozitiv pot include linkuri și credențiale de liste, profiluri, favorite, istoric de vizionare, metadate de descărcări și setări ale aplicației.",
+          "Când redați conținut, dispozitivul se conectează direct la sursa listei pe care ați configurat-o. Nu primim și nu stocăm acel conținut media."
+        ]
+      },
+      "icloud": {
+        "title": "Sincronizare iCloud și CloudKit",
+        "body": [
+          "Dacă sunteți conectat la iCloud pe dispozitiv, Vevora IPTV poate sincroniza biblioteca dvs.—profiluri, metadate de liste, favorite și istoric de vizionare—între dispozitivele Apple prin Apple CloudKit / iCloud.",
+          "Această sincronizare folosește Apple ID-ul dvs. și infrastructura iCloud a Apple. Okur Studio nu operează proprii servere de sincronizare și nu poate citi conținutul contului dvs. iCloud.",
+          "Parolele listelor și PIN-urile profilurilor sunt stocate în iOS Keychain și pot fi sincronizate cu iCloud Keychain când această funcție este activată pentru Apple ID-ul dvs.",
+          "Puteți limita sau elimina datele sincronizate deconectându-vă de la iCloud, gestionând spațiul iCloud pentru această aplicație unde este disponibil, ștergând datele în aplicație sau dezinstalând Vevora IPTV."
+        ]
+      },
+      "tracking": {
+        "title": "Urmărire și publicitate",
+        "body": [
+          "Nu practicăm urmărire inter-aplicații pentru publicitate.",
+          "Nu vindem date personale.",
+          "Nu folosim SDK-uri publicitare terțe pentru urmărire."
+        ]
+      },
+      "use": {
+        "title": "Cum sunt utilizate informațiile",
+        "body": [
+          "Datele de pe dispozitiv sunt folosite doar pentru funcționarea playerului: încărcarea listelor, afișarea bibliotecii, memorarea preferințelor și redarea fluxurilor solicitate.",
+          "Nu folosim datele de liste sau de vizionare de pe dispozitiv pentru publicitate."
+        ]
+      },
+      "sharing": {
+        "title": "Partajare",
+        "body": [
+          "Nu partajăm listele, credențialele sau istoricul de vizionare cu terți pentru marketingul acestora.",
+          "Dispozitivul dvs. poate comunica cu furnizorul listei pe care îl alegeți și cu serviciile standard Apple necesare pentru funcționarea aplicației pe iOS și iPadOS—inclusiv iCloud / CloudKit când sincronizarea bibliotecii este activă.",
+          "Dacă legea o impune, putem divulga informații în măsura necesară pentru conformitate."
+        ]
+      },
+      "retention": {
+        "title": "Păstrare",
+        "body": [
+          "Datele listelor și setările aferente rămân pe dispozitiv (și, când este activ, în contul iCloud prin CloudKit) până le ștergeți în aplicație, le eliminați din iCloud sau dezinstalați aplicația.",
+          "Dacă ne contactați prin e-mail, păstrăm corespondența doar cât este necesar pentru a răspunde și rezolva solicitarea dvs."
+        ]
+      },
+      "security": {
+        "title": "Securitate",
+        "body": [
+          "Proiectăm aplicația astfel încât detaliile sensibile să rămână pe dispozitiv, acolo unde este posibil.",
+          "Nicio metodă de stocare sau transmitere nu este perfect sigură. Protejați codul dispozitivului și nu partajați credențialele listelor."
+        ]
+      },
+      "choices": {
+        "title": "Opțiunile dvs.",
+        "body": [
+          "Puteți edita sau șterge liste, profiluri și date aferente în aplicație.",
+          "Puteți șterge datele aplicației sau dezinstala Vevora IPTV pentru a elimina informațiile de pe dispozitiv.",
+          "Pentru întrebări despre confidențialitate, contactați-ne la vevoraplayer@gmail.com."
+        ]
+      },
+      "children": {
+        "title": "Copii",
+        "body": [
+          "Vevora IPTV este potrivit pentru utilizatori de 13 ani și peste. Nu se adresează copiilor sub 13 ani.",
+          "Nu utilizați aplicația pentru a colecta informații de la copii. Dacă credeți că un copil a furnizat informații personale prin aplicație, contactați-ne și vă vom ajuta."
+        ]
+      },
+      "purchases": {
+        "title": "Achiziții în aplicație și abonamente",
+        "body": [
+          "Vevora IPTV poate oferi funcții premium opționale prin achiziții în aplicație și abonamente cu reînnoire automată în App Store.",
+          "Plata este procesată de Apple. Nu primim și nu stocăm datele cardului sau bancare.",
+          "Apple poate partaja cu noi confirmarea achiziției și starea abonamentului pentru a debloca funcțiile premium în aplicație.",
+          "Puteți vedea istoricul facturării, gestiona abonamentele și solicita rambursări prin contul Apple ID. Pentru a anula reînnoirea automată, dezactivați-o cu cel puțin 24 de ore înainte de sfârșitul perioadei curente în Setări > Apple ID > Abonamente."
+        ]
+      },
+      "thirdparty": {
+        "title": "Servicii terțe",
+        "body": [
+          "Listele și fluxurile provin din sursele pe care le configurați. Acești furnizori au propriile practici de confidențialitate.",
+          "Pentru a afișa metadate și materiale grafice despre filme și seriale (titluri, descrieri, imagini poster etc.), aplicația poate solicita informații de la The Movie Database (TMDB). Aceste solicitări trec printr-un proxy Cloudflare Worker operat de Okur Studio. Trimitem doar interogările de metadate necesare pentru afișare—nu listele, credențialele sau istoricul de vizionare.",
+          "Imaginile poster pot fi încărcate de pe CDN-ul de imagini TMDB. TMDB are propria politică de confidențialitate la themoviedb.org. Okur Studio nu este responsabilă pentru confidențialitatea sau conținutul surselor de liste terțe sau al TMDB."
+        ]
+      },
+      "updates": {
+        "title": "Actualizări ale politicii",
+        "body": [
+          "Putem actualiza această Politică de confidențialitate periodic. Data „Ultima actualizare” din partea de sus a paginii se va modifica când o facem.",
+          "Utilizarea continuă a aplicației după o actualizare înseamnă că recunoașteți politica revizuită."
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "body": [
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "E-mail: vevoraplayer@gmail.com"
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Termeni de utilizare",
+    "sections": {
+      "agreement": {
+        "title": "Acord",
+        "body": [
+          "Acești Termeni de utilizare guvernează utilizarea Vevora IPTV pe iOS și iPadOS, operat de Okur Studio.",
+          "Prin descărcarea sau utilizarea aplicației, sunteți de acord cu acești termeni. Dacă nu sunteți de acord, nu utilizați aplicația."
+        ]
+      },
+      "player": {
+        "title": "Doar player shell",
+        "body": [
+          "Vevora IPTV este un media player shell. Redă liste și fluxuri pe care le adăugați dvs., cum ar fi surse M3U sau Xtream.",
+          "Okur Studio nu furnizează, nu găzduiește și nu distribuie canale IPTV, filme, seriale sau alt conținut media.",
+          "Sunteți singurul responsabil pentru obținerea accesului legal la orice listă sau flux pe care îl utilizați cu aplicația."
+        ]
+      },
+      "age": {
+        "title": "Cerință de vârstă",
+        "body": [
+          "Vevora IPTV este destinat utilizatorilor de 13 ani și peste. Nu se adresează copiilor sub 13 ani.",
+          "Trebuie să aveți vârsta necesară pentru a utiliza App Store și a accepta acești termeni în regiunea dvs. Dacă utilizați aplicația în numele altcuiva, confirmați că aveți autoritatea de a accepta acești termeni pentru acea persoană."
+        ]
+      },
+      "license": {
+        "title": "Licență",
+        "body": [
+          "Sub rezerva acestor Termeni, Okur Studio vă acordă o licență personală, limitată, neexclusivă și netransferabilă de utilizare a Vevora IPTV pe dispozitive Apple pe care le dețineți sau le controlați.",
+          "Termenii App Store ai Apple se aplică de asemenea acolo unde sunt relevanți pentru descărcarea și utilizarea aplicației."
+        ]
+      },
+      "profiles": {
+        "title": "Profiluri și setări",
+        "body": [
+          "Puteți crea profiluri și setări stocate pe dispozitiv. Păstrați credențialele în siguranță și nu le partajați.",
+          "Sunteți responsabil pentru activitatea care are loc cu listele și profilurile configurate pe dispozitiv."
+        ]
+      },
+      "content": {
+        "title": "Conținutul și listele dvs.",
+        "body": [
+          "Orice URL de listă, credențiale sau conținut media pe care le adăugați provin de la dvs. sau de la furnizorul ales — nu de la Okur Studio.",
+          "Trebuie să utilizați doar conținut la care aveți dreptul de acces. Aplicația nu vă acordă drepturi asupra conținutului terților."
+        ]
+      },
+      "subscriptions": {
+        "title": "Abonamente premium",
+        "body": [
+          "Funcțiile premium opționale pot fi disponibile prin abonamente cu reînnoire automată achiziționate din Apple App Store.",
+          "Plata este debitată pe Apple ID-ul dvs. când confirmați achiziția. Abonamentele se reînnoiesc automat dacă nu dezactivați reînnoirea automată cu cel puțin 24 de ore înainte de sfârșitul perioadei curente.",
+          "Contul dvs. va fi debitat pentru reînnoire în termen de 24 de ore înainte de sfârșitul perioadei curente. Gestionați sau anulați abonamentele oricând în Setări > Apple ID > Abonamente.",
+          "Achizițiile App Store sunt supuse termenilor și politicilor Apple. Okur Studio nu procesează plățile direct."
+        ]
+      },
+      "rules": {
+        "title": "Utilizare acceptabilă",
+        "body": [
+          "Utilizați Vevora IPTV doar în moduri conforme cu legea aplicabilă și acești termeni.",
+          "Nu utilizați abuziv aplicația pentru a accesa sau distribui conținut ilegal, a interfera cu sistemele altora sau a încerca reverse engineering, exceptând acolo unde legea permite."
+        ]
+      },
+      "ownership": {
+        "title": "Proprietatea aplicației",
+        "body": [
+          "Okur Studio deține software-ul, designul și brandingul Vevora IPTV.",
+          "Acești termeni nu vă transferă proprietatea aplicației."
+        ]
+      },
+      "nowarranty": {
+        "title": "Fără garanție",
+        "body": [
+          "Aplicația este furnizată „ca atare” și „după disponibilitate”. Redarea depinde de dispozitiv, rețea și sursele de liste pe care le alegeți.",
+          "Okur Studio nu garantează redare neîntreruptă, compatibilitate cu fiecare format de listă sau disponibilitatea oricărui flux terț."
+        ]
+      },
+      "responsibility": {
+        "title": "Responsabilitatea dvs.",
+        "body": [
+          "Sunteți responsabil pentru modul în care utilizați aplicația și pentru listele și fluxurile pe care le conectați.",
+          "Okur Studio nu este responsabilă pentru conținut terț, furnizori de liste sau prejudicii cauzate de conținut sau linkuri pe care alegeți să le deschideți."
+        ]
+      },
+      "stop": {
+        "title": "Oprirea utilizării",
+        "body": [
+          "Puteți înceta utilizarea Vevora IPTV oricând ștergând aplicația și datele aferente de pe dispozitiv.",
+          "Putem înceta oferirea aplicației sau actualiza acești termeni. Utilizarea continuă după modificări înseamnă acceptarea termenilor actualizați."
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "body": [
+          "Întrebări despre acești Termeni de utilizare: vevoraplayer@gmail.com",
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+        ]
+      }
+    }
+  }
+}

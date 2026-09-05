@@ -1,0 +1,273 @@
+{
+  "common": {
+    "appName": "Vevora IPTV",
+    "operator": "Okur Studio",
+    "platform": "iOS / iPadOS",
+    "bundleId": "com.vevora.iptv",
+    "email": "vevoraplayer@gmail.com",
+    "lastUpdatedLabel": "Laatst bijgewerkt",
+    "lastUpdatedDate": "5 september 2026",
+    "navHome": "Home",
+    "navPrivacy": "Privacybeleid",
+    "navTerms": "Gebruiksvoorwaarden",
+    "navSupport": "Support",
+    "footer": "© 2026 Okur Studio. Alle rechten voorbehouden.",
+    "footerNote": "Vevora IPTV is een mediaspeler-app. Okur Studio levert, host of verspreidt geen IPTV-kanalen of streams.",
+    "selectLanguage": "Taal"
+  },
+  "index": {
+    "title": "Juridisch & Support",
+    "heading": "Vevora IPTV",
+    "subtitle": "Privacy, voorwaarden en support voor de iOS- en iPadOS-app van Okur Studio.",
+    "privacyTitle": "Privacybeleid",
+    "privacyDesc": "Hoe de app omgaat met informatie op je apparaat en via Apple iCloud / CloudKit.",
+    "termsTitle": "Gebruiksvoorwaarden",
+    "termsDesc": "Regels voor het gebruik van de Vevora IPTV-speler-app.",
+    "supportTitle": "Support",
+    "supportDesc": "Installatie en technische hulp per e-mail."
+  },
+  "support": {
+    "title": "Support",
+    "heading": "Contact opnemen",
+    "intro": "Hulp nodig met Vevora IPTV? Neem contact met ons op over app-installatie, afspeellijsten die je toevoegt of technische problemen. Wij leveren geen kanalen of streams.",
+    "emailLabel": "E-mail ons op",
+    "emailHint": "Vermeld je apparaatmodel en iOS-versie voor snellere hulp.",
+    "topicsTitle": "Veelgestelde vragen",
+    "topics": [
+      {
+        "title": "Afspeellijsten toevoegen",
+        "body": "Vevora IPTV is een shell-speler. Voeg in de app je eigen M3U-URL of Xtream-inloggegevens toe. Okur Studio levert geen afspeellijsten of kanalen."
+      },
+      {
+        "title": "Afspeelproblemen",
+        "body": "Streamkwaliteit hangt af van je netwerk en afspeellijstaanbieder. Probeer een ander kanaal, controleer je verbinding of neem contact op met je aanbieder als streams falen."
+      },
+      {
+        "title": "Premium en abonnementen",
+        "body": "Premiumfuncties worden via de App Store op je Apple ID gefactureerd. Beheer of annuleer in Instellingen > Apple ID > Abonnementen minstens 24 uur vóór verlenging."
+      },
+      {
+        "title": "Support contacteren",
+        "body": "Stuur een e-mail naar vevoraplayer@gmail.com met een duidelijke beschrijving van het probleem. Deel afspeellijstwachtwoorden alleen als we dat voor probleemoplossing vragen."
+      }
+    ],
+    "helpTitle": "Veelgestelde vragen",
+    "helpItems": [
+      "Vevora IPTV is een shell-speler — je voegt je eigen M3U- of Xtream-afspeellijsten toe. Okur Studio levert, host of verspreidt geen kanalen of streams.",
+      "Vermeld je iOS- of iPadOS-versie, apparaatmodel en een korte beschrijving van het probleem.",
+      "Deel geen afspeellijstwachtwoorden per e-mail, tenzij dat nodig is voor probleemoplossing."
+    ],
+    "responseNote": "We streven ernaar binnen enkele werkdagen te reageren."
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "sections": {
+      "about": {
+        "title": "Over dit beleid",
+        "body": [
+          "Dit privacybeleid legt uit hoe Okur Studio omgaat met informatie wanneer je Vevora IPTV gebruikt op iPhone en iPad (iOS / iPadOS).",
+          "Vevora IPTV is een shell-mediaspeler. Je voegt je eigen M3U- of Xtream-afspeellijsten toe. Okur Studio levert, host of verspreidt geen kanalen, films, series of andere streams."
+        ]
+      },
+      "data": {
+        "title": "Informatie op je apparaat",
+        "body": [
+          "Okur Studio beheert geen eigen servers om je afspeellijsten of kijkgeschiedenis op te slaan. Bibliotheekgegevens staan op je apparaat en kunnen via Apple iCloud / CloudKit worden gesynchroniseerd wanneer je bent ingelogd bij iCloud.",
+          "Gegevens op het apparaat kunnen afspeellijstlinks en inloggegevens die je invoert, profielen, favorieten, kijkgeschiedenis, downloadmetadata en app-instellingen omvatten.",
+          "Wanneer je media afspeelt, maakt je apparaat rechtstreeks verbinding met de door jou geconfigureerde afspeellijstbron. Wij ontvangen of slaan die media niet op."
+        ]
+      },
+      "icloud": {
+        "title": "iCloud- en CloudKit-synchronisatie",
+        "body": [
+          "Als je op je apparaat bent ingelogd bij iCloud, kan Vevora IPTV je bibliotheek—zoals profielen, afspeellijstmetadata, favorieten en kijkgeschiedenis—synchroniseren tussen je Apple-apparaten via Apple CloudKit / iCloud.",
+          "Die synchronisatie gebruikt je Apple ID en de iCloud-infrastructuur van Apple. Okur Studio beheert geen eigen synchronisatieservers en kan de inhoud van je iCloud-account niet lezen.",
+          "Afspeellijstwachtwoorden en profiel-PIN's worden opgeslagen in de iOS-sleutelhanger en kunnen worden gesynchroniseerd met iCloud-sleutelhanger wanneer die functie is ingeschakeld voor je Apple ID.",
+          "Je kunt gesynchroniseerde gegevens beperken of verwijderen door uit te loggen bij iCloud, iCloud-opslag voor deze app te beheren waar beschikbaar, gegevens in de app te verwijderen of Vevora IPTV te verwijderen."
+        ]
+      },
+      "tracking": {
+        "title": "Tracking en advertenties",
+        "body": [
+          "We doen niet aan cross-app-tracking voor advertenties.",
+          "We verkopen geen persoonsgegevens.",
+          "We gebruiken geen advertentie-SDK's van derden voor tracking."
+        ]
+      },
+      "use": {
+        "title": "Hoe informatie wordt gebruikt",
+        "body": [
+          "Gegevens op het apparaat worden alleen gebruikt om de speler te laten werken: afspeellijsten laden, je bibliotheek tonen, voorkeuren onthouden en streams afspelen die je aanvraagt.",
+          "We gebruiken afspeellijst- of kijkgegevens op het apparaat niet voor advertenties."
+        ]
+      },
+      "sharing": {
+        "title": "Delen",
+        "body": [
+          "We delen je afspeellijsten, inloggegevens of kijkgeschiedenis niet met derden voor hun marketing.",
+          "Je apparaat kan communiceren met de door jou gekozen afspeellijstaanbieder en met standaard Apple-platformdiensten die nodig zijn om de app op iOS en iPadOS te laten werken—inclusief iCloud / CloudKit wanneer bibliotheeksynchronisatie actief is.",
+          "Indien wettelijk vereist, kunnen we informatie openbaar maken voor zover nodig om te voldoen aan de wet."
+        ]
+      },
+      "retention": {
+        "title": "Bewaring",
+        "body": [
+          "Afspeellijstgegevens en gerelateerde instellingen blijven op je apparaat (en, wanneer ingeschakeld, in je iCloud-account via CloudKit) totdat je ze in de app verwijdert, uit iCloud verwijdert of de app deïnstalleert.",
+          "Als je per e-mail contact met ons opneemt, bewaren we de correspondentie alleen zolang als nodig is om te reageren en je verzoek af te handelen."
+        ]
+      },
+      "security": {
+        "title": "Beveiliging",
+        "body": [
+          "We ontwerpen de app zodat gevoelige gegevens waar mogelijk op je apparaat blijven.",
+          "Geen enkele opslag- of transmissiemethode is volledig veilig. Bescherm je apparaatcode en deel geen afspeellijstinloggegevens."
+        ]
+      },
+      "choices": {
+        "title": "Je keuzes",
+        "body": [
+          "Je kunt afspeellijsten, profielen en gerelateerde gegevens in de app bewerken of verwijderen.",
+          "Je kunt app-gegevens wissen of Vevora IPTV verwijderen om informatie van het apparaat te verwijderen.",
+          "Voor privacyvragen: vevoraplayer@gmail.com."
+        ]
+      },
+      "children": {
+        "title": "Kinderen",
+        "body": [
+          "Vevora IPTV is geschikt voor gebruikers van 13 jaar en ouder. De app is niet gericht op kinderen jonger dan 13 jaar.",
+          "Gebruik de app niet om informatie van kinderen te verzamelen. Als je denkt dat een kind persoonsgegevens via de app heeft verstrekt, neem dan contact met ons op en we helpen het af te handelen."
+        ]
+      },
+      "purchases": {
+        "title": "In-app aankopen en abonnementen",
+        "body": [
+          "Vevora IPTV kan optionele premiumfuncties aanbieden via in-app aankopen en automatisch verlengende abonnementen in de App Store.",
+          "Betaling wordt verwerkt door Apple. Wij ontvangen of slaan je betaal- of bankgegevens niet op.",
+          "Apple kan aankoopbevestiging en abonnementsstatus met ons delen zodat we premiumfuncties in de app kunnen ontgrendelen.",
+          "Je kunt je factuurgeschiedenis bekijken, abonnementen beheren en restituties aanvragen via je Apple ID-account. Om automatische verlenging te annuleren, schakel deze minstens 24 uur vóór het einde van de huidige factureringsperiode uit in Instellingen > Apple ID > Abonnementen op je apparaat."
+        ]
+      },
+      "thirdparty": {
+        "title": "Diensten van derden",
+        "body": [
+          "Afspeellijsten en streams komen van bronnen die je configureert. Die aanbieders hebben hun eigen privacypraktijken.",
+          "Om metadata en artwork van films en series (zoals titels, beschrijvingen en posterafbeeldingen) te tonen, kan de app informatie opvragen bij The Movie Database (TMDB). Deze verzoeken lopen via een Cloudflare Worker-proxy beheerd door Okur Studio. We sturen alleen de metadata-opzoekquery's die nodig zijn voor weergave—niet je afspeellijsten, inloggegevens of kijkgeschiedenis.",
+          "Posterafbeeldingen kunnen worden geladen vanaf het beeld-CDN van TMDB. TMDB heeft een eigen privacybeleid op themoviedb.org. Okur Studio is niet verantwoordelijk voor het privacybeleid of de inhoud van afspeellijstbronnen van derden of TMDB."
+        ]
+      },
+      "updates": {
+        "title": "Beleidsupdates",
+        "body": [
+          "We kunnen dit privacybeleid van tijd tot tijd bijwerken. De datum „Laatst bijgewerkt” bovenaan deze pagina verandert wanneer we dat doen.",
+          "Voortgezet gebruik van de app na een update betekent dat je het herziene beleid erkent."
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "body": [
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "E-mail: vevoraplayer@gmail.com"
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Gebruiksvoorwaarden",
+    "sections": {
+      "agreement": {
+        "title": "Overeenkomst",
+        "body": [
+          "Deze gebruiksvoorwaarden regelen je gebruik van Vevora IPTV op iOS en iPadOS, beheerd door Okur Studio.",
+          "Door de app te downloaden of te gebruiken, ga je akkoord met deze voorwaarden. Als je niet akkoord gaat, gebruik de app dan niet."
+        ]
+      },
+      "player": {
+        "title": "Alleen shell-speler",
+        "body": [
+          "Vevora IPTV is een shell-mediaspeler. De app speelt afspeellijsten en streams af die je zelf toevoegt, zoals M3U- of Xtream-bronnen.",
+          "Okur Studio levert, host of verspreidt geen IPTV-kanalen, films, series of andere mediacontent.",
+          "Je bent zelf verantwoordelijk voor het verkrijgen van rechtmatige toegang tot elke afspeellijst of stream die je met de app gebruikt."
+        ]
+      },
+      "age": {
+        "title": "Leeftijdsvereiste",
+        "body": [
+          "Vevora IPTV is bedoeld voor gebruikers van 13 jaar en ouder. De app is niet gericht op kinderen jonger dan 13 jaar.",
+          "Je moet oud genoeg zijn om de App Store te gebruiken en deze voorwaarden in je regio te accepteren. Als je de app namens iemand anders gebruikt, bevestig je dat je bevoegd bent om deze voorwaarden voor hen te accepteren."
+        ]
+      },
+      "license": {
+        "title": "Licentie",
+        "body": [
+          "Onder voorbehoud van deze voorwaarden verleent Okur Studio je een persoonlijke, beperkte, niet-exclusieve, niet-overdraagbare licentie om Vevora IPTV te gebruiken op Apple-apparaten die je bezit of beheert.",
+          "De App Store-voorwaarden van Apple zijn ook van toepassing waar relevant voor je download en gebruik van de app."
+        ]
+      },
+      "profiles": {
+        "title": "Profielen en instellingen",
+        "body": [
+          "Je kunt profielen en instellingen op je apparaat aanmaken. Houd inloggegevens veilig en deel ze niet.",
+          "Je bent verantwoordelijk voor activiteit die plaatsvindt met afspeellijsten en profielen die je op je apparaat configureert."
+        ]
+      },
+      "content": {
+        "title": "Je content en afspeellijsten",
+        "body": [
+          "Elke afspeellijst-URL, inloggegevens of media die je toevoegt, komt van jou of je gekozen aanbieder — niet van Okur Studio.",
+          "Je mag alleen content gebruiken waartoe je recht hebt. De app verleent je geen rechten op media van derden."
+        ]
+      },
+      "subscriptions": {
+        "title": "Premium-abonnementen",
+        "body": [
+          "Optionele premiumfuncties kunnen beschikbaar zijn via automatisch verlengende abonnementen in de Apple App Store.",
+          "Betaling wordt in rekening gebracht op je Apple ID-account wanneer je een aankoop bevestigt. Abonnementen worden automatisch verlengd tenzij je automatische verlenging minstens 24 uur vóór het einde van de huidige periode uitschakelt.",
+          "Je account wordt binnen 24 uur vóór het einde van de huidige periode belast voor verlenging. Beheer of annuleer abonnementen op elk moment in Instellingen > Apple ID > Abonnementen op je apparaat.",
+          "App Store-aankopen vallen onder de voorwaarden en het beleid van Apple. Okur Studio verwerkt betalingen niet rechtstreeks."
+        ]
+      },
+      "rules": {
+        "title": "Acceptabel gebruik",
+        "body": [
+          "Gebruik Vevora IPTV alleen op manieren die voldoen aan toepasselijk recht en deze voorwaarden.",
+          "Misbruik de app niet om onrechtmatige content te openen of te verspreiden, systemen van anderen te verstoren of te proberen de app te reverse-engineeren, behalve waar de wet dit toestaat."
+        ]
+      },
+      "ownership": {
+        "title": "Eigendom van de app",
+        "body": [
+          "Okur Studio bezit de Vevora IPTV-appsoftware, het ontwerp en de merkidentiteit.",
+          "Deze voorwaarden dragen het eigendom van de app niet aan jou over."
+        ]
+      },
+      "nowarranty": {
+        "title": "Geen garantie",
+        "body": [
+          "De app wordt geleverd „as is” en „as available”. Afspelen hangt af van je apparaat, netwerk en de afspeellijstbronnen die je kiest.",
+          "Okur Studio garandeert geen ononderbroken afspelen, compatibiliteit met elk afspeellijstformaat of beschikbaarheid van streams van derden."
+        ]
+      },
+      "responsibility": {
+        "title": "Jouw verantwoordelijkheid",
+        "body": [
+          "Je bent verantwoordelijk voor hoe je de app gebruikt en voor de afspeellijsten en streams die je verbindt.",
+          "Okur Studio is niet verantwoordelijk voor content van derden, afspeellijstaanbieders of schade veroorzaakt door media of links die je opent."
+        ]
+      },
+      "stop": {
+        "title": "Gebruik stoppen",
+        "body": [
+          "Je kunt het gebruik van Vevora IPTV op elk moment stoppen door de app en gerelateerde gegevens van je apparaat te verwijderen.",
+          "We kunnen stoppen met het aanbieden van de app of deze voorwaarden bijwerken. Voortgezet gebruik na wijzigingen betekent dat je de bijgewerkte voorwaarden accepteert."
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "body": [
+          "Vragen over deze gebruiksvoorwaarden: vevoraplayer@gmail.com",
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+        ]
+      }
+    }
+  }
+}

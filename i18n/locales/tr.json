@@ -1,0 +1,273 @@
+{
+  "common": {
+    "appName": "Vevora IPTV",
+    "operator": "Okur Studio",
+    "platform": "iOS / iPadOS",
+    "bundleId": "com.vevora.iptv",
+    "email": "vevoraplayer@gmail.com",
+    "lastUpdatedLabel": "Son güncelleme",
+    "lastUpdatedDate": "5 Eylül 2026",
+    "navHome": "Ana Sayfa",
+    "navPrivacy": "Gizlilik Politikası",
+    "navTerms": "Kullanım Koşulları",
+    "navSupport": "Destek",
+    "footer": "© 2026 Okur Studio. Tüm hakları saklıdır.",
+    "footerNote": "Vevora IPTV bir medya oynatıcı uygulamasıdır. Okur Studio IPTV kanalları veya yayınları sağlamaz, barındırmaz veya dağıtmaz.",
+    "selectLanguage": "Dil"
+  },
+  "index": {
+    "title": "Yasal ve Destek",
+    "heading": "Vevora IPTV",
+    "subtitle": "Okur Studio’nun iOS ve iPadOS uygulaması için gizlilik, koşullar ve destek.",
+    "privacyTitle": "Gizlilik Politikası",
+    "privacyDesc": "Uygulamanın cihazınızdaki ve Apple iCloud / CloudKit üzerinden bilgileri nasıl işlediği.",
+    "termsTitle": "Kullanım Koşulları",
+    "termsDesc": "Vevora IPTV oynatıcı uygulamasını kullanma kuralları.",
+    "supportTitle": "Destek",
+    "supportDesc": "Kurulum ve teknik yardım için e-posta."
+  },
+  "support": {
+    "title": "Destek",
+    "heading": "Destek İletişimi",
+    "intro": "Vevora IPTV konusunda yardıma mı ihtiyacınız var? Kurulum, eklediğiniz oynatma listeleri veya teknik sorunlar için bize yazın. Kanal veya yayın sağlamayız.",
+    "emailLabel": "E-posta adresimiz",
+    "emailHint": "Daha hızlı yardım için cihaz modelinizi ve iOS sürümünüzü belirtin.",
+    "topicsTitle": "Sık sorulan konular",
+    "topics": [
+      {
+        "title": "Liste ekleme",
+        "body": "Vevora IPTV bir kabuk oynatıcıdır. Uygulamada kendi M3U adresinizi veya Xtream giriş bilgilerinizi ekleyin. Okur Studio liste veya kanal sağlamaz."
+      },
+      {
+        "title": "Oynatma sorunları",
+        "body": "Yayın kalitesi ağınıza ve liste sağlayıcınıza bağlıdır. Başka bir kanal deneyin, bağlantınızı kontrol edin veya yayınlar çalışmıyorsa liste sağlayıcınıza başvurun."
+      },
+      {
+        "title": "Premium ve abonelikler",
+        "body": "Premium özellikler Apple ID’niz üzerinden App Store’da faturalandırılır. Yenilemeden en az 24 saat önce Ayarlar > Apple ID > Abonelikler bölümünden yönetin veya iptal edin."
+      },
+      {
+        "title": "Destekle iletişim",
+        "body": "Sorunu kısaca anlatarak vevoraplayer@gmail.com adresine yazın. Sorun giderme için istemedikçe liste şifrelerini paylaşmayın."
+      }
+    ],
+    "helpTitle": "Yazmadan önce",
+    "helpItems": [
+      "Vevora IPTV bir kabuk oynatıcıdır — kendi M3U veya Xtream listelerinizi eklersiniz. Okur Studio kanal veya yayın sağlamaz, barındırmaz veya dağıtmaz.",
+      "iOS veya iPadOS sürümünüzü, cihaz modelinizi ve sorunun kısa bir açıklamasını ekleyin.",
+      "Sorun giderme için gerekli olmadıkça e-postada liste şifrelerini paylaşmayın."
+    ],
+    "responseNote": "Birkaç iş günü içinde yanıtlamayı hedefliyoruz."
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "sections": {
+      "about": {
+        "title": "Bu Politika Hakkında",
+        "body": [
+          "Bu Gizlilik Politikası, iPhone ve iPad’de (iOS / iPadOS) Vevora IPTV kullanırken Okur Studio’nun bilgileri nasıl işlediğini açıklar.",
+          "Vevora IPTV bir kabuk medya oynatıcıdır. Kendi M3U veya Xtream listelerinizi eklersiniz. Okur Studio kanal, film, dizi veya başka yayın sağlamaz, barındırmaz veya dağıtmaz."
+        ]
+      },
+      "data": {
+        "title": "Cihazınızdaki Bilgiler",
+        "body": [
+          "Okur Studio, oynatma listelerinizi veya izleme geçmişinizi saklamak için kendi sunucularını işletmez. Kitaplık verileri cihazınızda tutulur ve iCloud oturumu açıksa Apple iCloud / CloudKit ile senkronize edilebilir.",
+          "Cihaz üzerindeki veriler; girdiğiniz liste bağlantıları ve kimlik bilgileri, profiller, favoriler, izleme geçmişi, indirme meta verileri ve uygulama ayarlarını içerebilir.",
+          "Medya oynatırken cihazınız doğrudan sizin yapılandırdığınız liste kaynağına bağlanır. Bu medyayı almaz veya saklamayız."
+        ]
+      },
+      "icloud": {
+        "title": "iCloud ve CloudKit Senkronizasyonu",
+        "body": [
+          "Cihazınızda iCloud oturumu açıksa Vevora IPTV; profiller, liste meta verileri, favoriler ve izleme geçmişi gibi kitaplık verilerinizi Apple CloudKit / iCloud ile Apple cihazlarınız arasında senkronize edebilir.",
+          "Bu senkronizasyon Apple Kimliğiniz ve Apple’ın iCloud altyapısını kullanır. Okur Studio kendi senkronizasyon sunucularını işletmez ve iCloud hesabınızın içeriğini okuyamaz.",
+          "Liste şifreleri ve profil PIN’leri iOS Anahtar Zinciri’nde saklanır; Apple Kimliğinizde etkinse iCloud Anahtar Zinciri ile senkronize edilebilir.",
+          "Senkronize veriyi sınırlamak veya kaldırmak için iCloud’dan çıkabilir, uygulamada verileri silebilir veya Vevora IPTV’yi kaldırabilirsiniz."
+        ]
+      },
+      "tracking": {
+        "title": "Takip ve Reklam",
+        "body": [
+          "Reklam amacıyla uygulamalar arası takip yapmayız.",
+          "Kişisel verileri satmayız.",
+          "Takip için üçüncü taraf reklam SDK’ları kullanmayız."
+        ]
+      },
+      "use": {
+        "title": "Bilgilerin Kullanımı",
+        "body": [
+          "Cihaz üzerindeki veriler yalnızca oynatıcıyı çalıştırmak için kullanılır: listeleri yüklemek, kitaplığınızı göstermek, tercihleri hatırlamak ve istediğiniz yayınları oynatmak.",
+          "Cihaz üzerindeki liste veya izleme verilerini reklam için kullanmayız."
+        ]
+      },
+      "sharing": {
+        "title": "Paylaşım",
+        "body": [
+          "Oynatma listelerinizi, kimlik bilgilerinizi veya izleme geçmişinizi üçüncü tarafların pazarlaması için paylaşmayız.",
+          "Cihazınız, seçtiğiniz liste sağlayıcısıyla ve uygulamayı iOS ile iPadOS’ta çalıştırmak için gereken standart Apple platform hizmetleriyle—kitaplık senkronizasyonu açıksa iCloud / CloudKit dahil—iletişim kurabilir.",
+          "Yasal zorunluluk halinde, gerekli ölçüde bilgi açıklayabiliriz."
+        ]
+      },
+      "retention": {
+        "title": "Saklama",
+        "body": [
+          "Liste verileri ve ilgili ayarlar, uygulamada sildiğinizde, iCloud’dan kaldırdığınızda veya uygulamayı kaldırdığınızda cihazınızda (ve etkinse CloudKit üzerinden iCloud hesabınızda) kalır.",
+          "E-posta ile bize ulaşırsanız, yazışmayı yalnızca yanıtlamak ve talebinizi çözmek için gereken süre boyunca tutarız."
+        ]
+      },
+      "security": {
+        "title": "Güvenlik",
+        "body": [
+          "Uygulamayı, hassas ayrıntıların mümkün olduğunca cihazınızda kalması için tasarlarız.",
+          "Hiçbir depolama veya iletim yöntemi mükemmel güvenli değildir. Cihaz parolanızı koruyun ve liste kimlik bilgilerini paylaşmayın."
+        ]
+      },
+      "choices": {
+        "title": "Seçenekleriniz",
+        "body": [
+          "Uygulama içinde listeleri, profilleri ve ilgili verileri düzenleyebilir veya silebilirsiniz.",
+          "Cihaz üzerindeki bilgileri kaldırmak için uygulama verilerini temizleyebilir veya Vevora IPTV’yi kaldırabilirsiniz.",
+          "Gizlilik sorularınız için vevoraplayer@gmail.com adresine yazın."
+        ]
+      },
+      "children": {
+        "title": "Çocuklar",
+        "body": [
+          "Vevora IPTV 13 yaş ve üzeri kullanıcılar için uygundur. 13 yaşından küçük çocuklara yönelik değildir.",
+          "Uygulamayı çocuklardan bilgi toplamak için kullanmayın. Bir çocuğun uygulama üzerinden kişisel bilgi verdiğini düşünüyorsanız bize ulaşın; yardımcı oluruz."
+        ]
+      },
+      "purchases": {
+        "title": "Uygulama İçi Satın Almalar ve Abonelikler",
+        "body": [
+          "Vevora IPTV, App Store üzerinden uygulama içi satın almalar ve otomatik yenilenen aboneliklerle isteğe bağlı premium özellikler sunabilir.",
+          "Ödeme Apple tarafından işlenir. Ödeme kartı veya banka bilgilerinizi almaz veya saklamayız.",
+          "Apple, uygulamada premium özelliklerin kilidini açabilmemiz için satın alma onayı ve abonelik durumunu bizimle paylaşabilir.",
+          "Fatura geçmişinizi görüntüleyebilir, abonelikleri yönetebilir ve Apple ID hesabınız üzerinden geri ödeme talep edebilirsiniz. Otomatik yenilemeyi iptal etmek için, mevcut fatura döneminin bitiminden en az 24 saat önce cihazınızda Ayarlar > Apple ID > Abonelikler bölümünden kapatın."
+        ]
+      },
+      "thirdparty": {
+        "title": "Üçüncü Taraf Hizmetler",
+        "body": [
+          "Oynatma listeleri ve yayınlar, sizin yapılandırdığınız kaynaklardan gelir. Bu sağlayıcıların kendi gizlilik uygulamaları vardır.",
+          "Film ve dizi meta verileri ile görselleri (başlıklar, açıklamalar ve poster görselleri gibi) göstermek için uygulama The Movie Database (TMDB) üzerinden bilgi talep edebilir. Bu istekler Okur Studio tarafından işletilen bir Cloudflare Worker vekil sunucusu üzerinden iletilir. Yalnızca görüntüleme için gerekli meta veri sorguları gönderilir—oynatma listeleriniz, kimlik bilgileriniz veya izleme geçmişiniz değil.",
+          "Poster görselleri TMDB’nin görsel CDN’inden yüklenebilir. TMDB’nin themoviedb.org adresinde kendi gizlilik politikası vardır. Okur Studio, üçüncü taraf oynatma listesi kaynaklarının veya TMDB’nin gizliliği veya içeriğinden sorumlu değildir."
+        ]
+      },
+      "updates": {
+        "title": "Politika Güncellemeleri",
+        "body": [
+          "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Yaptığımızda sayfanın üstündeki “Son güncelleme” tarihi değişir.",
+          "Güncellemeden sonra uygulamayı kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir."
+        ]
+      },
+      "contact": {
+        "title": "İletişim",
+        "body": [
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "E-posta: vevoraplayer@gmail.com"
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Kullanım Koşulları",
+    "sections": {
+      "agreement": {
+        "title": "Sözleşme",
+        "body": [
+          "Bu Kullanım Koşulları, Okur Studio tarafından sunulan Vevora IPTV’nin iOS ve iPadOS üzerindeki kullanımını düzenler.",
+          "Uygulamayı indirerek veya kullanarak bu koşulları kabul edersiniz. Kabul etmiyorsanız uygulamayı kullanmayın."
+        ]
+      },
+      "player": {
+        "title": "Yalnızca Kabuk Oynatıcı",
+        "body": [
+          "Vevora IPTV bir kabuk medya oynatıcıdır. M3U veya Xtream gibi kendinizin eklediği listeleri ve yayınları oynatır.",
+          "Okur Studio IPTV kanalları, filmler, diziler veya başka medya içeriği sağlamaz, barındırmaz veya dağıtmaz.",
+          "Uygulamayla kullandığınız herhangi bir listeye veya yayına yasal erişim sağlamak yalnızca sizin sorumluluğunuzdadır."
+        ]
+      },
+      "age": {
+        "title": "Yaş Koşulu",
+        "body": [
+          "Vevora IPTV 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşından küçük çocuklara yönelik değildir.",
+          "App Store’u kullanabilecek ve bulunduğunuz bölgede bu koşulları kabul edebilecek yaşta olmalısınız. Uygulamayı başkası adına kullanıyorsanız, bu koşulları onlar adına kabul etme yetkiniz olduğunu doğrularsınız."
+        ]
+      },
+      "license": {
+        "title": "Lisans",
+        "body": [
+          "Bu Koşullara tabi olarak Okur Studio, sahip olduğunuz veya kontrol ettiğiniz Apple cihazlarında Vevora IPTV’yi kullanmanız için size kişisel, sınırlı, münhasır olmayan ve devredilemez bir lisans verir.",
+          "Uygulamayı indirmeniz ve kullanmanızla ilgili olduğu ölçüde Apple’ın App Store koşulları da geçerlidir."
+        ]
+      },
+      "profiles": {
+        "title": "Profiller ve Ayarlar",
+        "body": [
+          "Cihazınızda saklanan profiller ve ayarlar oluşturabilirsiniz. Kimlik bilgilerini güvende tutun ve paylaşmayın.",
+          "Cihazınızda yapılandırdığınız listeler ve profillerle gerçekleşen etkinliklerden siz sorumlusunuz."
+        ]
+      },
+      "content": {
+        "title": "İçeriğiniz ve Listeleriniz",
+        "body": [
+          "Eklediğiniz herhangi bir liste URL’si, kimlik bilgisi veya medya sizden veya seçtiğiniz sağlayıcıdan gelir — Okur Studio’dan değil.",
+          "Yalnızca erişim hakkınız olan içeriği kullanmalısınız. Uygulama, üçüncü taraf medya için size herhangi bir hak vermez."
+        ]
+      },
+      "subscriptions": {
+        "title": "Premium Abonelikler",
+        "body": [
+          "İsteğe bağlı premium özellikler, Apple App Store üzerinden satın alınan otomatik yenilenen aboneliklerle sunulabilir.",
+          "Satın almayı onayladığınızda ödeme Apple ID hesabınıza yansır. Mevcut dönemin bitiminden en az 24 saat önce otomatik yenilemeyi kapatmadığınız sürece abonelikler otomatik olarak yenilenir.",
+          "Yenileme ücreti, mevcut dönemin bitiminden önceki 24 saat içinde hesabınıza yansıtılır. Abonelikleri cihazınızda Ayarlar > Apple ID > Abonelikler bölümünden istediğiniz zaman yönetebilir veya iptal edebilirsiniz.",
+          "App Store satın almaları Apple’ın koşullarına tabidir. Okur Studio ödemeleri doğrudan işlemez."
+        ]
+      },
+      "rules": {
+        "title": "Kabul Edilebilir Kullanım",
+        "body": [
+          "Vevora IPTV’yi yalnızca geçerli yasalara ve bu koşullara uygun şekilde kullanın.",
+          "Uygulamayı yasadışı içeriğe erişmek veya dağıtmak, başkalarının sistemlerine müdahale etmek veya yasaların izin verdiği durumlar dışında tersine mühendislik yapmak için kötüye kullanmayın."
+        ]
+      },
+      "ownership": {
+        "title": "Uygulama Sahipliği",
+        "body": [
+          "Okur Studio, Vevora IPTV yazılımı, tasarımı ve markasının sahibidir.",
+          "Bu koşullar uygulamanın mülkiyetini size devretmez."
+        ]
+      },
+      "nowarranty": {
+        "title": "Garanti Yok",
+        "body": [
+          "Uygulama “olduğu gibi” ve “mevcut olduğu şekilde” sunulur. Oynatma; cihazınıza, ağa ve seçtiğiniz liste kaynaklarına bağlıdır.",
+          "Okur Studio kesintisiz oynatma, her liste biçimiyle uyumluluk veya herhangi bir üçüncü taraf yayınının kullanılabilirliğini garanti etmez."
+        ]
+      },
+      "responsibility": {
+        "title": "Sorumluluğunuz",
+        "body": [
+          "Uygulamayı nasıl kullandığınızdan ve bağlandığınız listeler ile yayınlardan siz sorumlusunuz.",
+          "Okur Studio, üçüncü taraf içerikten, liste sağlayıcılarından veya açmayı seçtiğiniz medya ya da bağlantılardan kaynaklanan zararlardan sorumlu değildir."
+        ]
+      },
+      "stop": {
+        "title": "Kullanımı Durdurma",
+        "body": [
+          "Uygulamayı ve ilgili verileri cihazınızdan silerek istediğiniz zaman Vevora IPTV kullanımını bırakabilirsiniz.",
+          "Uygulamayı sunmayı bırakabilir veya bu koşulları güncelleyebiliriz. Değişikliklerden sonra kullanıma devam etmek, güncellenmiş koşulları kabul ettiğiniz anlamına gelir."
+        ]
+      },
+      "contact": {
+        "title": "İletişim",
+        "body": [
+          "Bu Kullanım Koşulları hakkında sorular: vevoraplayer@gmail.com",
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+        ]
+      }
+    }
+  }
+}

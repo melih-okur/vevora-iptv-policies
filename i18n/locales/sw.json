@@ -1,0 +1,273 @@
+{
+  "common": {
+    "appName": "Vevora IPTV",
+    "operator": "Okur Studio",
+    "platform": "iOS / iPadOS",
+    "bundleId": "com.vevora.iptv",
+    "email": "vevoraplayer@gmail.com",
+    "lastUpdatedLabel": "Ilisasishwa mwisho",
+    "lastUpdatedDate": "5 Septemba 2026",
+    "navHome": "Nyumbani",
+    "navPrivacy": "Sera ya Faragha",
+    "navTerms": "Masharti ya Matumizi",
+    "navSupport": "Msaada",
+    "footer": "© 2026 Okur Studio. Haki zote zimehifadhiwa.",
+    "footerNote": "Vevora IPTV ni programu ya kicheza vyombo vya habari. Okur Studio haitoi, kuhosti, au kusambaza vituo vya IPTV au mitiririko.",
+    "selectLanguage": "Lugha"
+  },
+  "index": {
+    "title": "Kisheria na Msaada",
+    "heading": "Vevora IPTV",
+    "subtitle": "Faragha, masharti, na msaada wa programu ya iOS na iPadOS kutoka Okur Studio.",
+    "privacyTitle": "Sera ya Faragha",
+    "privacyDesc": "Jinsi programu inavyoshughulikia taarifa kwenye kifaa chako na kupitia Apple iCloud / CloudKit.",
+    "termsTitle": "Masharti ya Matumizi",
+    "termsDesc": "Kanuni za kutumia programu ya kicheza Vevora IPTV.",
+    "supportTitle": "Msaada",
+    "supportDesc": "Usanidi na msaada wa kiufundi kupitia barua pepe."
+  },
+  "support": {
+    "title": "Msaada",
+    "heading": "Wasiliana na Msaada",
+    "intro": "Unahitaji msaada na Vevora IPTV? Wasiliana nasi kuhusu usanidi wa programu, orodha za kucheza unazoziongeza, au matatizo ya kiufundi. Hatutoi vituo au mitiririko.",
+    "emailLabel": "Tutumie barua pepe",
+    "emailHint": "Jumuisha muundo wa kifaa chako na toleo la iOS ili kupata msaada haraka zaidi.",
+    "topicsTitle": "Maswali ya kawaida",
+    "topics": [
+      {
+        "title": "Kuongeza orodha za kucheza",
+        "body": "Vevora IPTV ni kicheza cha shell. Ongeza URL yako ya M3U au kuingia kwa Xtream ndani ya programu. Okur Studio haitoi orodha za kucheza au vituo."
+      },
+      {
+        "title": "Matatizo ya uchezaji",
+        "body": "Ubora wa mkondo unategemea mtandao wako na mtoa huduma wa orodha. Jaribu kituo kingine, angalia muunganisho wako, au wasiliana na mtoa huduma wako ikiwa mitiririko inashindwa."
+      },
+      {
+        "title": "Premium na usajili",
+        "body": "Vipengele vya premium hulipiwa kupitia App Store kwenye Apple ID yako. Simamia au ghairi katika Mipangilio > Apple ID > Usajili angalau saa 24 kabla ya upyaishaji."
+      },
+      {
+        "title": "Kuwasiliana na msaada",
+        "body": "Tuma barua pepe kwa vevoraplayer@gmail.com na maelezo wazi ya tatizo. Epuka kushiriki nywila za orodha isipokuwa tukuombe kwa ajili ya utatuzi."
+      }
+    ],
+    "helpTitle": "Maswali ya kawaida",
+    "helpItems": [
+      "Vevora IPTV ni kicheza cha shell — unaongeza orodha zako za M3U au Xtream. Okur Studio haitoi, kuhosti, au kusambaza vituo au mitiririko.",
+      "Jumuisha toleo lako la iOS au iPadOS, muundo wa kifaa, na maelezo mafupi ya tatizo.",
+      "Usishiriki nywila za orodha kwa barua pepe isipokuwa inahitajika kwa utatuzi."
+    ],
+    "responseNote": "Tunalenga kujibu ndani ya siku chache za kazi."
+  },
+  "privacy": {
+    "title": "Sera ya Faragha",
+    "sections": {
+      "about": {
+        "title": "Kuhusu Sera Hii",
+        "body": [
+          "Sera hii ya Faragha inaeleza jinsi Okur Studio inavyoshughulikia taarifa unapotumia Vevora IPTV kwenye iPhone na iPad (iOS / iPadOS).",
+          "Vevora IPTV ni kicheza cha vyombo vya habari cha shell. Unaongeza orodha zako za M3U au Xtream. Okur Studio haitoi, kuhosti, au kusambaza vituo, filamu, mfululizo, au mitiririko mingine."
+        ]
+      },
+      "data": {
+        "title": "Taarifa Kwenye Kifaa Chako",
+        "body": [
+          "Okur Studio haiendeshi seva zake za kuhifadhi orodha zako au historia ya kutazama. Data ya maktaba iko kwenye kifaa chako na inaweza kusawazishwa kupitia Apple iCloud / CloudKit unapokuwa umeingia kwenye iCloud.",
+          "Data kwenye kifaa inaweza kujumuisha viungo vya orodha na hati tambulishi unazoweka, wasifu, vipendwa, historia ya kutazama, metadata ya upakuaji, na mipangilio ya programu.",
+          "Unapocheza vyombo vya habari, kifaa chako huunganishwa moja kwa moja na chanzo cha orodha ulichoweka. Hatupokei wala kuhifadhi vyombo hivyo vya habari."
+        ]
+      },
+      "icloud": {
+        "title": "Usawazishaji wa iCloud na CloudKit",
+        "body": [
+          "Ukiwa umeingia kwenye iCloud kwenye kifaa chako, Vevora IPTV inaweza kusawazisha maktaba yako—kama vile wasifu, metadata ya orodha, vipendwa, na historia ya kutazama—kwenye vifaa vyako vya Apple kwa kutumia Apple CloudKit / iCloud.",
+          "Usawazishaji huo unatumia Apple ID yako na miundombinu ya iCloud ya Apple. Okur Studio haiendeshi seva zake za usawazishaji na haiwezi kusoma maudhui ya akaunti yako ya iCloud.",
+          "Nywila za orodha na PIN za wasifu zinahifadhiwa kwenye iOS Keychain na zinaweza kusawazishwa na iCloud Keychain wakati kipengele hicho kimewezeshwa kwa Apple ID yako.",
+          "Unaweza kupunguza au kuondoa data iliyosawazishwa kwa kutoka kwenye iCloud, kusimamia hifadhi ya iCloud kwa programu hii inapopatikana, kufuta data ndani ya programu, au kuondoa Vevora IPTV."
+        ]
+      },
+      "tracking": {
+        "title": "Ufuatiliaji na Matangazo",
+        "body": [
+          "Hatushiriki katika ufuatiliaji wa programu nyingi kwa ajili ya matangazo.",
+          "Hatuuza data ya kibinafsi.",
+          "Hatutumii SDK za matangazo za wahusika wengine kwa ufuatiliaji."
+        ]
+      },
+      "use": {
+        "title": "Jinsi Taarifa Inavyotumika",
+        "body": [
+          "Data kwenye kifaa hutumika tu kuendesha kicheza: kupakia orodha, kuonyesha maktaba yako, kukumbuka mapendeleo, na kucheza mitiririko unayoomba.",
+          "Hatutumii data ya orodha au kutazama kwenye kifaa kwa matangazo."
+        ]
+      },
+      "sharing": {
+        "title": "Kushiriki",
+        "body": [
+          "Hatushiriki orodha zako, hati tambulishi, au historia ya kutazama na wahusika wengine kwa uuzaji wao.",
+          "Kifaa chako kinaweza kuwasiliana na mtoa huduma wa orodha unayechagua na huduma za kawaida za jukwaa la Apple zinazohitajika kuendesha programu kwenye iOS na iPadOS—ikiwa ni pamoja na iCloud / CloudKit wakati usawazishaji wa maktaba unafanya kazi.",
+          "Ikiwa inahitajika na sheria, tunaweza kufichua taarifa kwa kiwango kinachohitajika ili kutii."
+        ]
+      },
+      "retention": {
+        "title": "Uhifadhi",
+        "body": [
+          "Data ya orodha na mipangilio inayohusiana hubaki kwenye kifaa chako (na, inapowezeshwa, kwenye akaunti yako ya iCloud kupitia CloudKit) hadi uifute ndani ya programu, uiondoe kutoka iCloud, au uondoe programu.",
+          "Ukituwasiliana kwa barua pepe, tunahifadhi mawasiliano hayo tu kwa muda unaohitajika kujibu na kutatua ombi lako."
+        ]
+      },
+      "security": {
+        "title": "Usalama",
+        "body": [
+          "Tunabuni programu ili maelezo nyeti yabaki kwenye kifaa chako inapowezekana.",
+          "Hakuna njia ya uhifadhi au usambazaji iliyo salama kabisa. Linda nenosiri la kifaa chako na usishiriki hati tambulishi za orodha."
+        ]
+      },
+      "choices": {
+        "title": "Chaguo Zako",
+        "body": [
+          "Unaweza kuhariri au kufuta orodha, wasifu, na data inayohusiana ndani ya programu.",
+          "Unaweza kufuta data ya programu au kuondoa Vevora IPTV ili kuondoa taarifa kwenye kifaa.",
+          "Kwa maswali ya faragha: vevoraplayer@gmail.com."
+        ]
+      },
+      "children": {
+        "title": "Watoto",
+        "body": [
+          "Vevora IPTV inafaa kwa watumiaji wenye umri wa miaka 13 na zaidi. Haiwalengi watoto chini ya miaka 13.",
+          "Usitumie programu kukusanya taarifa kutoka kwa watoto. Ukiamini mtoto ametoa taarifa za kibinafsi kupitia programu, wasiliana nasi na tutasaidia kushughulikia."
+        ]
+      },
+      "purchases": {
+        "title": "Manunuzi Ndani ya Programu na Usajili",
+        "body": [
+          "Vevora IPTV inaweza kutoa vipengele vya premium hiari kupitia manunuzi ndani ya programu na usajili unaojirudia kiotomatiki kwenye App Store.",
+          "Malipo yanashughulikiwa na Apple. Hatupokei wala kuhifadhi maelezo yako ya kadi ya malipo au benki.",
+          "Apple inaweza kushiriki uthibitisho wa ununuzi na hali ya usajili nasi ili tuweze kufungua vipengele vya premium ndani ya programu.",
+          "Unaweza kuona historia ya malipo, kusimamia usajili, na kuomba marejesho kupitia akaunti yako ya Apple ID. Ili kughairi upyaishaji kiotomatiki, uzime angalau saa 24 kabla ya mwisho wa kipindi cha sasa cha malipo katika Mipangilio > Apple ID > Usajili kwenye kifaa chako."
+        ]
+      },
+      "thirdparty": {
+        "title": "Huduma za Wahusika Wengine",
+        "body": [
+          "Orodha na mitiririko hutoka vyanzo unavyoweka. Watoa huduma hao wana taratibu zao za faragha.",
+          "Ili kuonyesha metadata na sanaa ya filamu na mfululizo (kama vile majina, maelezo, na picha za bango), programu inaweza kuomba taarifa kutoka The Movie Database (TMDB). Maombi haya hupitia proksi ya Cloudflare Worker inayoendeshwa na Okur Studio. Tunatuma tu maswali ya utafutaji wa metadata yanayohitajika kwa kuonyesha—si orodha zako, hati tambulishi, au historia ya kutazama.",
+          "Picha za bango zinaweza kupakiwa kutoka CDN ya picha ya TMDB. TMDB ina sera yake ya faragha kwenye themoviedb.org. Okur Studio haiwajibiki kwa faragha au maudhui ya vyanzo vya orodha vya wahusika wengine au TMDB."
+        ]
+      },
+      "updates": {
+        "title": "Masasisho ya Sera",
+        "body": [
+          "Tunaweza kusasisha Sera hii ya Faragha mara kwa mara. Tarehe ya „Ilisasishwa mwisho” juu ya ukurasa huu itabadilika tunapofanya hivyo.",
+          "Kuendelea kutumia programu baada ya sasisho kunamaanisha unakubali sera iliyorekebishwa."
+        ]
+      },
+      "contact": {
+        "title": "Wasiliana",
+        "body": [
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "Barua pepe: vevoraplayer@gmail.com"
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Masharti ya Matumizi",
+    "sections": {
+      "agreement": {
+        "title": "Makubaliano",
+        "body": [
+          "Masharti haya ya Matumizi yanasimamia matumizi yako ya Vevora IPTV kwenye iOS na iPadOS, yanayoendeshwa na Okur Studio.",
+          "Kwa kupakua au kutumia programu, unakubali masharti haya. Ukikataa, usitumie programu."
+        ]
+      },
+      "player": {
+        "title": "Kicheza cha Shell Tu",
+        "body": [
+          "Vevora IPTV ni kicheza cha vyombo vya habari cha shell. Kinacheza orodha na mitiririko unayoziongeza mwenyewe, kama vile vyanzo vya M3U au Xtream.",
+          "Okur Studio haitoi, kuhosti, au kusambaza vituo vya IPTV, filamu, mfululizo, au maudhui mengine ya vyombo vya habari.",
+          "Wewe pekee unawajibika kupata ufikiaji wa kisheria wa orodha au mkondo wowote unayotumia na programu."
+        ]
+      },
+      "age": {
+        "title": "Mahitaji ya Umri",
+        "body": [
+          "Vevora IPTV imekusudiwa kwa watumiaji wenye umri wa miaka 13 na zaidi. Haiwalengi watoto chini ya miaka 13.",
+          "Lazima uwe na umri wa kutosha kutumia App Store na kukubali masharti haya katika eneo lako. Ukikitumia programu kwa niaba ya mtu mwingine, unathibitisha una mamlaka ya kukubali masharti haya kwa ajili yao."
+        ]
+      },
+      "license": {
+        "title": "Leseni",
+        "body": [
+          "Kulingana na Masharti haya, Okur Studio inakupa leseni ya kibinafsi, finyu, isiyo ya kipekee, isiyohamishika kutumia Vevora IPTV kwenye vifaa vya Apple unavyomiliki au kudhibiti.",
+          "Masharti ya App Store ya Apple pia yanatumika pale yanapohusiana na upakuaji na matumizi yako ya programu."
+        ]
+      },
+      "profiles": {
+        "title": "Wasifu na Mipangilio",
+        "body": [
+          "Unaweza kuunda wasifu na mipangilio iliyohifadhiwa kwenye kifaa chako. Weka hati tambulishi salama na usizishiriki.",
+          "Unawajibika kwa shughuli zinazotokea na orodha na wasifu unayoweka kwenye kifaa chako."
+        ]
+      },
+      "content": {
+        "title": "Maudhui na Orodha Zako",
+        "body": [
+          "URL yoyote ya orodha, hati tambulishi, au vyombo vya habari unavyoongeza vinatoka kwako au mtoa huduma unayemchagua — si kutoka Okur Studio.",
+          "Lazima utumie tu maudhui unayo haki ya kuyafikia. Programu haikupi haki yoyote ya vyombo vya habari kutoka kwa wahusika wengine."
+        ]
+      },
+      "subscriptions": {
+        "title": "Usajili wa Premium",
+        "body": [
+          "Vipengele vya premium hiari vinaweza kupatikana kupitia usajili unaojirudia kiotomatiki unaonunuliwa kupitia Apple App Store.",
+          "Malipo yanatozwa kwenye akaunti yako ya Apple ID unapothibitisha ununuzi. Usajili hujirudia kiotomatiki isipokuwa uzime upyaishaji kiotomatiki angalau saa 24 kabla ya mwisho wa kipindi cha sasa.",
+          "Akaunti yako itatozwa kwa upyaishaji ndani ya saa 24 kabla ya mwisho wa kipindi cha sasa. Simamia au ghairi usajili wakati wowote katika Mipangilio > Apple ID > Usajili kwenye kifaa chako.",
+          "Manunuzi ya App Store yanategemea masharti na sera za Apple. Okur Studio haishughulikii malipo moja kwa moja."
+        ]
+      },
+      "rules": {
+        "title": "Matumizi Yanayokubalika",
+        "body": [
+          "Tumia Vevora IPTV tu kwa njia zinazotii sheria inayotumika na masharti haya.",
+          "Usitumie vibaya programu kufikia au kusambaza maudhui haramu, kuingilia mifumo ya wengine, au kujaribu kufanya reverse engineering ya programu isipokuwa inaruhusiwa na sheria."
+        ]
+      },
+      "ownership": {
+        "title": "Umiliki wa Programu",
+        "body": [
+          "Okur Studio inamiliki programu ya Vevora IPTV, muundo, na chapa.",
+          "Masharti haya hayahamishii umiliki wa programu kwako."
+        ]
+      },
+      "nowarranty": {
+        "title": "Hakuna Dhamana",
+        "body": [
+          "Programu inatolewa „kama ilivyo” na „inavyopatikana.” Uchezaji unategemea kifaa chako, mtandao, na vyanzo vya orodha unavyochagua.",
+          "Okur Studio haihakikishi uchezaji usio na usumbufu, utangamano na kila muundo wa orodha, au upatikanaji wa mkondo wowote wa wahusika wengine."
+        ]
+      },
+      "responsibility": {
+        "title": "Wajibu Wako",
+        "body": [
+          "Unawajibika kwa jinsi unavyotumia programu na kwa orodha na mitiririko unayounganisha.",
+          "Okur Studio haiwajibiki kwa maudhui ya wahusika wengine, watoa huduma wa orodha, au madhara yanayosababishwa na vyombo vya habari au viungo unavyovifungua."
+        ]
+      },
+      "stop": {
+        "title": "Kuacha Matumizi",
+        "body": [
+          "Unaweza kuacha kutumia Vevora IPTV wakati wowote kwa kufuta programu na data inayohusiana kutoka kifaa chako.",
+          "Tunaweza kuacha kutoa programu au kusasisha masharti haya. Kuendelea kutumia baada ya mabadiliko kunamaanisha unakubali masharti yaliyosasishwa."
+        ]
+      },
+      "contact": {
+        "title": "Wasiliana",
+        "body": [
+          "Maswali kuhusu Masharti haya ya Matumizi: vevoraplayer@gmail.com",
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+        ]
+      }
+    }
+  }
+}

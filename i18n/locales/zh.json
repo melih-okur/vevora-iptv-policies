@@ -1,0 +1,273 @@
+{
+  "common": {
+    "appName": "Vevora IPTV",
+    "operator": "Okur Studio",
+    "platform": "iOS / iPadOS",
+    "bundleId": "com.vevora.iptv",
+    "email": "vevoraplayer@gmail.com",
+    "lastUpdatedLabel": "最后更新",
+    "lastUpdatedDate": "2026年9月5日",
+    "navHome": "首页",
+    "navPrivacy": "隐私政策",
+    "navTerms": "使用条款",
+    "navSupport": "支持",
+    "footer": "© 2026 Okur Studio. 保留所有权利。",
+    "footerNote": "Vevora IPTV 是一款媒体播放器 App。Okur Studio 不提供、托管或分发任何 IPTV 频道或流媒体。",
+    "selectLanguage": "语言"
+  },
+  "index": {
+    "title": "法律与支持",
+    "heading": "Vevora IPTV",
+    "subtitle": "Okur Studio 为 iOS 与 iPadOS App 提供的隐私政策、使用条款与支持信息。",
+    "privacyTitle": "隐私政策",
+    "privacyDesc": "了解 App 如何在您的设备上以及通过 Apple iCloud / CloudKit 处理信息。",
+    "termsTitle": "使用条款",
+    "termsDesc": "使用 Vevora IPTV 播放器 App 的相关规则。",
+    "supportTitle": "支持",
+    "supportDesc": "通过电子邮件获取设置与技术支持。"
+  },
+  "support": {
+    "title": "支持",
+    "heading": "联系支持",
+    "intro": "需要 Vevora IPTV 方面的帮助？欢迎就 App 设置、您添加的播放列表或技术问题与我们联系。我们不提供频道或流媒体。",
+    "emailLabel": "发送邮件至",
+    "emailHint": "为加快处理，请提供您的设备型号和 iOS 版本。",
+    "topicsTitle": "常见问题",
+    "topics": [
+      {
+        "title": "添加播放列表",
+        "body": "Vevora IPTV 是一款外壳播放器。请在 App 中添加您自己的 M3U 地址或 Xtream 登录信息。Okur Studio 不提供播放列表或频道。"
+      },
+      {
+        "title": "播放问题",
+        "body": "流媒体质量取决于您的网络及播放列表提供商。请尝试其他频道、检查网络连接，或在流媒体无法播放时联系您的播放列表提供商。"
+      },
+      {
+        "title": "Premium 与订阅",
+        "body": "Premium 功能通过 App Store 在您的 Apple ID 下计费。请在续订前至少 24 小时前往“设置”>“Apple ID”>“订阅”进行管理或取消。"
+      },
+      {
+        "title": "联系支持",
+        "body": "请发送邮件至 vevoraplayer@gmail.com，并清晰描述您的问题。除非我们要求用于故障排查，否则请勿分享播放列表密码。"
+      }
+    ],
+    "helpTitle": "常见问题",
+    "helpItems": [
+      "Vevora IPTV 是一款外壳播放器——您需自行添加 M3U 或 Xtream 播放列表。Okur Studio 不提供、托管或分发任何频道或流媒体。",
+      "请提供您的 iOS 或 iPadOS 版本、设备型号以及问题的简要说明。",
+      "除非故障排查需要，请勿在邮件中分享播放列表密码。"
+    ],
+    "responseNote": "我们力争在几个工作日内回复。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "sections": {
+      "about": {
+        "title": "关于本政策",
+        "body": [
+          "本隐私政策说明 Okur Studio 在您于 iPhone 和 iPad（iOS / iPadOS）上使用 Vevora IPTV 时如何处理相关信息。",
+          "Vevora IPTV 是一款外壳媒体播放器。您需自行添加 M3U 或 Xtream 播放列表。Okur Studio 不提供、托管或分发任何频道、电影、剧集或其他流媒体。"
+        ]
+      },
+      "data": {
+        "title": "您设备上的信息",
+        "body": [
+          "Okur Studio 不运营自有服务器来存储您的播放列表或观看历史。资料库数据保存在您的设备上，并在您登录 iCloud 时可通过 Apple iCloud / CloudKit 同步。",
+          "设备上的数据可能包括您输入的播放列表链接和凭据、个人资料、收藏、观看历史、下载元数据以及 App 设置。",
+          "播放媒体时，您的设备会直接连接至您配置的播放列表来源。我们不会接收或存储该媒体内容。"
+        ]
+      },
+      "icloud": {
+        "title": "iCloud 与 CloudKit 同步",
+        "body": [
+          "若您已在设备上登录 iCloud，Vevora IPTV 可通过 Apple CloudKit / iCloud 在您的 Apple 设备间同步资料库数据，例如个人资料、播放列表元数据、收藏和观看历史。",
+          "该同步使用您的 Apple ID 及 Apple 的 iCloud 基础设施。Okur Studio 不运营自有同步服务器，也无法读取您 iCloud 账户的内容。",
+          "播放列表密码和个人资料 PIN 存储在 iOS 钥匙串中，并在您的 Apple ID 启用该功能时可通过 iCloud 钥匙串同步。",
+          "您可通过退出 iCloud、在可用时管理此 App 的 iCloud 存储空间、在 App 内删除数据或卸载 Vevora IPTV 来限制或移除已同步的数据。"
+        ]
+      },
+      "tracking": {
+        "title": "跟踪与广告",
+        "body": [
+          "我们不会为广告目的进行跨 App 跟踪。",
+          "我们不出售个人数据。",
+          "我们不使用第三方广告 SDK 进行跟踪。"
+        ]
+      },
+      "use": {
+        "title": "信息的使用方式",
+        "body": [
+          "设备上的数据仅用于运行播放器：加载播放列表、显示您的资料库、记住偏好设置以及播放您请求的流媒体。",
+          "我们不会将设备上的播放列表或观看数据用于广告。"
+        ]
+      },
+      "sharing": {
+        "title": "共享",
+        "body": [
+          "我们不会为第三方营销目的共享您的播放列表、凭据或观看历史。",
+          "您的设备可能会与您选择的播放列表提供商以及运行 App 所需的 iOS 和 iPadOS 标准 Apple 平台服务（包括资料库同步启用时的 iCloud / CloudKit）进行通信。",
+          "如法律要求，我们可能在必要范围内披露相关信息。"
+        ]
+      },
+      "retention": {
+        "title": "保留",
+        "body": [
+          "播放列表数据及相关设置将保留在您的设备上（启用时亦会通过 CloudKit 保留在您的 iCloud 账户中），直至您在 App 内删除、从 iCloud 移除或卸载 App。",
+          "若您通过电子邮件联系我们，我们仅会在回复和解决您的请求所需期间内保留相关通信记录。"
+        ]
+      },
+      "security": {
+        "title": "安全",
+        "body": [
+          "我们设计 App，使敏感信息尽可能保留在您的设备上。",
+          "任何存储或传输方式都无法做到绝对安全。请保护您的设备密码，并勿分享播放列表凭据。"
+        ]
+      },
+      "choices": {
+        "title": "您的选择",
+        "body": [
+          "您可在 App 内编辑或删除播放列表、个人资料及相关数据。",
+          "您可清除 App 数据或卸载 Vevora IPTV 以移除设备上的信息。",
+          "如有隐私相关问题，请发送邮件至 vevoraplayer@gmail.com。"
+        ]
+      },
+      "children": {
+        "title": "儿童",
+        "body": [
+          "Vevora IPTV 适用于 13 岁及以上用户，并非面向 13 岁以下儿童。",
+          "请勿使用本 App 收集儿童信息。如您认为儿童通过本 App 提供了个人信息，请联系我们，我们将协助处理。"
+        ]
+      },
+      "purchases": {
+        "title": "App 内购买与订阅",
+        "body": [
+          "Vevora IPTV 可通过 App Store 上的 App 内购买和自动续期订阅提供可选 Premium 功能。",
+          "付款由 Apple 处理。我们不会接收或存储您的支付卡或银行信息。",
+          "Apple 可能会与我们共享购买确认和订阅状态，以便我们在 App 中解锁 Premium 功能。",
+          "您可通过 Apple ID 账户查看账单历史、管理订阅并申请退款。如需取消自动续期，请在当前计费周期结束前至少 24 小时，在设备上前往“设置”>“Apple ID”>“订阅”关闭。"
+        ]
+      },
+      "thirdparty": {
+        "title": "第三方服务",
+        "body": [
+          "播放列表和流媒体来自您配置的来源。这些提供商有各自的隐私实践。",
+          "为显示电影和剧集的元数据及视觉素材（如标题、描述和海报图片），App 可能会向 The Movie Database (TMDB) 请求信息。这些请求通过 Okur Studio 运营的 Cloudflare Worker 代理转发。我们仅发送显示所需的元数据查询——不包括您的播放列表、凭据或观看历史。",
+          "海报图片可能从 TMDB 的图片 CDN 加载。TMDB 在 themoviedb.org 上设有独立的隐私政策。Okur Studio 不对第三方播放列表来源或 TMDB 的隐私或内容负责。"
+        ]
+      },
+      "updates": {
+        "title": "政策更新",
+        "body": [
+          "我们可能会不时更新本隐私政策。更新时，本页顶部的“最后更新”日期将相应变更。",
+          "更新后继续使用 App 即表示您知悉修订后的政策。"
+        ]
+      },
+      "contact": {
+        "title": "联系",
+        "body": [
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "电子邮件：vevoraplayer@gmail.com"
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "使用条款",
+    "sections": {
+      "agreement": {
+        "title": "协议",
+        "body": [
+          "本使用条款适用于 Okur Studio 在 iOS 和 iPadOS 上运营的 Vevora IPTV。",
+          "下载或使用 App 即表示您同意本条款。如不同意，请勿使用 App。"
+        ]
+      },
+      "player": {
+        "title": "仅为外壳播放器",
+        "body": [
+          "Vevora IPTV 是一款外壳媒体播放器，可播放您自行添加的播放列表和流媒体，例如 M3U 或 Xtream 来源。",
+          "Okur Studio 不提供、托管或分发任何 IPTV 频道、电影、剧集或其他媒体内容。",
+          "您须自行负责取得通过 App 使用的任何播放列表或流媒体的合法访问权限。"
+        ]
+      },
+      "age": {
+        "title": "年龄要求",
+        "body": [
+          "Vevora IPTV 面向 13 岁及以上用户，并非面向 13 岁以下儿童。",
+          "您须达到在您所在地区使用 App Store 及同意本条款的法定年龄。若您代表他人使用 App，即表示您确认有权代表其接受本条款。"
+        ]
+      },
+      "license": {
+        "title": "许可",
+        "body": [
+          "在遵守本条款的前提下，Okur Studio 授予您一项个人、有限、非独占、不可转让的许可，允许您在您拥有或控制的 Apple 设备上使用 Vevora IPTV。",
+          "Apple App Store 条款在相关范围内亦适用于您下载和使用 App。"
+        ]
+      },
+      "profiles": {
+        "title": "个人资料与设置",
+        "body": [
+          "您可创建存储在设备上的个人资料和设置。请妥善保管凭据，勿与他人分享。",
+          "您对在设备上配置的播放列表和个人资料下发生的活动负责。"
+        ]
+      },
+      "content": {
+        "title": "您的内容与播放列表",
+        "body": [
+          "您添加的任何播放列表 URL、凭据或媒体均来自您或您选择的提供商——而非 Okur Studio。",
+          "您仅可使用有权访问的内容。App 不授予您对第三方媒体的任何权利。"
+        ]
+      },
+      "subscriptions": {
+        "title": "Premium 订阅",
+        "body": [
+          "可选 Premium 功能可通过 Apple App Store 购买的自动续期订阅提供。",
+          "确认购买时，费用将从您的 Apple ID 账户扣取。除非在当前周期结束前至少 24 小时关闭自动续期，否则订阅将自动续订。",
+          "续订费用将在当前周期结束前 24 小时内从您的账户扣取。您可随时在设备上前往“设置”>“Apple ID”>“订阅”管理或取消订阅。",
+          "App Store 购买受 Apple 条款与政策约束。Okur Studio 不直接处理付款。"
+        ]
+      },
+      "rules": {
+        "title": "可接受的使用",
+        "body": [
+          "请仅以符合适用法律及本条款的方式使用 Vevora IPTV。",
+          "请勿滥用 App 以访问或分发非法内容、干扰他人系统，或在法律允许范围外尝试对 App 进行逆向工程。"
+        ]
+      },
+      "ownership": {
+        "title": "App 所有权",
+        "body": [
+          "Okur Studio 拥有 Vevora IPTV App 的软件、设计和品牌。",
+          "本条款不将 App 的所有权转让给您。"
+        ]
+      },
+      "nowarranty": {
+        "title": "无担保",
+        "body": [
+          "App 按“现状”和“可用性”提供。播放效果取决于您的设备、网络及您选择的播放列表来源。",
+          "Okur Studio 不保证播放不间断、与每种播放列表格式兼容，或任何第三方流媒体的可用性。"
+        ]
+      },
+      "responsibility": {
+        "title": "您的责任",
+        "body": [
+          "您对 App 的使用方式以及您连接的播放列表和流媒体负责。",
+          "Okur Studio 不对第三方内容、播放列表提供商，或您选择打开的媒体或链接所造成的损害负责。"
+        ]
+      },
+      "stop": {
+        "title": "停止使用",
+        "body": [
+          "您可随时通过从设备删除 App 及相关数据来停止使用 Vevora IPTV。",
+          "我们可能会停止提供 App 或更新本条款。变更后继续使用即表示您接受更新后的条款。"
+        ]
+      },
+      "contact": {
+        "title": "联系",
+        "body": [
+          "有关本使用条款的问题：vevoraplayer@gmail.com",
+          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+        ]
+      }
+    }
+  }
+}
