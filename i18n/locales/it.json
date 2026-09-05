@@ -3,7 +3,6 @@
     "appName": "Vevora IPTV",
     "operator": "Okur Studio",
     "platform": "iOS / iPadOS",
-    "bundleId": "com.vevora.iptv",
     "email": "vevoraplayer@gmail.com",
     "lastUpdatedLabel": "Ultimo aggiornamento",
     "lastUpdatedDate": "5 settembre 2026",
@@ -131,13 +130,6 @@
           "Per domande sulla privacy: vevoraplayer@gmail.com."
         ]
       },
-      "children": {
-        "title": "Minori",
-        "body": [
-          "Vevora IPTV è adatta a utenti di età pari o superiore a 13 anni. Non è diretta a minori di 13 anni.",
-          "Non usare l’app per raccogliere informazioni da minori. Se ritieni che un minore abbia fornito dati personali tramite l’app, contattaci."
-        ]
-      },
       "purchases": {
         "title": "Acquisti in-app e abbonamenti",
         "body": [
@@ -165,7 +157,7 @@
       "contact": {
         "title": "Contatti",
         "body": [
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "Okur Studio — Vevora IPTV",
           "E-mail: vevoraplayer@gmail.com"
         ]
       }
@@ -187,13 +179,6 @@
           "Vevora IPTV è un lettore multimediale shell. Riproduce playlist e stream che aggiungi tu, ad esempio fonti M3U o Xtream.",
           "Okur Studio non fornisce, ospita né distribuisce canali IPTV, film, serie o altri contenuti multimediali.",
           "Sei l’unico responsabile di ottenere un accesso lecito a qualsiasi playlist o stream che usi con l’app."
-        ]
-      },
-      "age": {
-        "title": "Requisito di età",
-        "body": [
-          "Vevora IPTV è destinata a utenti di età pari o superiore a 13 anni. Non è diretta a minori di 13 anni.",
-          "Devi avere età sufficiente per usare l’App Store e accettare questi termini nella tua area. Se usi l’app per conto di altri, confermi di avere l’autorità di accettare questi termini per loro."
         ]
       },
       "license": {
@@ -265,7 +250,7 @@
         "title": "Contatti",
         "body": [
           "Domande su questi Termini di utilizzo: vevoraplayer@gmail.com",
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+          "Okur Studio — Vevora IPTV"
         ]
       }
     }

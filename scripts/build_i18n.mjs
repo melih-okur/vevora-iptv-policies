@@ -27,7 +27,6 @@ const runtime = `/* Vevora IPTV Legal Site — i18n (generated) */
 
   var LANGS = ${JSON.stringify(meta.langs)};
   var RTL_LANGS = ${JSON.stringify(meta.rtlLangs)};
-  var STORAGE_KEY = 'vevora-lang';
   var THEME_KEY = 'vevora-theme';
   var BASE_PATH = '/vevora-iptv-policies';
 
@@ -37,22 +36,32 @@ const runtime = `/* Vevora IPTV Legal Site — i18n (generated) */
 
   var T = ${JSON.stringify(T, null, 2)};
 
+  function resolveBrowserLang() {
+    var candidates = [];
+    if (navigator.languages) {
+      for (var i = 0; i < navigator.languages.length; i++) candidates.push(navigator.languages[i]);
+    }
+    if (navigator.language) candidates.push(navigator.language);
+    else if (navigator.userLanguage) candidates.push(navigator.userLanguage);
+    for (var j = 0; j < candidates.length; j++) {
+      var tag = String(candidates[j]).toLowerCase().replace(/_/g, '-');
+      var base = tag.split('-')[0];
+      if (LANGS.indexOf(base) !== -1) return base;
+    }
+    return null;
+  }
+
   function resolveLang() {
     var params = new URLSearchParams(window.location.search);
     var q = params.get('lang');
     if (q && LANGS.indexOf(q) !== -1) return q;
-    try {
-      var stored = localStorage.getItem(STORAGE_KEY);
-      if (stored && LANGS.indexOf(stored) !== -1) return stored;
-    } catch (e) {}
-    var nav = (navigator.language || navigator.userLanguage || 'en').slice(0, 2).toLowerCase();
-    if (LANGS.indexOf(nav) !== -1) return nav;
+    var browser = resolveBrowserLang();
+    if (browser) return browser;
     return 'en';
   }
 
   function setLang(lang) {
     if (LANGS.indexOf(lang) === -1) lang = 'en';
-    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
     var url = new URL(window.location.href);
     url.searchParams.set('lang', lang);
     window.location.href = url.toString();
@@ -168,8 +177,8 @@ const runtime = `/* Vevora IPTV Legal Site — i18n (generated) */
     if (!container) return;
     var page = T[lang][pageKey] || T.en[pageKey];
     var order = pageKey === 'privacy'
-      ? ["about", "data", "icloud", "tracking", "use", "sharing", "retention", "security", "choices", "children", "purchases", "thirdparty", "updates", "contact"]
-      : ["agreement", "player", "age", "license", "profiles", "content", "subscriptions", "rules", "ownership", "nowarranty", "responsibility", "stop", "contact"];
+      ? ["about", "data", "icloud", "tracking", "use", "sharing", "retention", "security", "choices", "purchases", "thirdparty", "updates", "contact"]
+      : ["agreement", "player", "license", "profiles", "content", "subscriptions", "rules", "ownership", "nowarranty", "responsibility", "stop", "contact"];
     container.innerHTML = '';
     order.forEach(function (key) {
       var sec = page.sections[key];
@@ -196,6 +205,21 @@ const runtime = `/* Vevora IPTV Legal Site — i18n (generated) */
       if (href.charAt(0) === '/') {
         a.setAttribute('href', BASE_PATH + href);
       }
+    });
+  }
+
+  function preserveLangInLinks(lang) {
+    var params = new URLSearchParams(window.location.search);
+    if (!params.has('lang')) return;
+    document.querySelectorAll('a[href]').forEach(function (a) {
+      var href = a.getAttribute('href');
+      if (!href || /^(https?:|mailto:|#|javascript:)/i.test(href)) return;
+      try {
+        var url = new URL(href, window.location.href);
+        if (url.origin !== window.location.origin) return;
+        url.searchParams.set('lang', lang);
+        a.setAttribute('href', url.pathname + url.search + url.hash);
+      } catch (e) {}
     });
   }
 
@@ -267,6 +291,7 @@ const runtime = `/* Vevora IPTV Legal Site — i18n (generated) */
       renderSupportTopics(lang);
     }
     fixNavHrefs();
+    preserveLangInLinks(lang);
   }
 
   window.VevoraI18n = { init: init, setLang: setLang, resolveLang: resolveLang, t: t, LANGS: LANGS };

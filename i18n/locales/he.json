@@ -3,7 +3,6 @@
     "appName": "Vevora IPTV",
     "operator": "Okur Studio",
     "platform": "iOS / iPadOS",
-    "bundleId": "com.vevora.iptv",
     "email": "vevoraplayer@gmail.com",
     "lastUpdatedLabel": "עודכן לאחרונה",
     "lastUpdatedDate": "5 בספטמבר 2026",
@@ -131,13 +130,6 @@
           "לשאלות פרטיות, פנו אלינו ב-vevoraplayer@gmail.com."
         ]
       },
-      "children": {
-        "title": "ילדים",
-        "body": [
-          "Vevora IPTV מתאימה למשתמשים בגיל 13 ומעלה. היא אינה מיועדת לילדים מתחת לגיל 13.",
-          "אל תשתמשו באפליקציה לאיסוף מידע מילדים. אם לדעתכם ילד מסר מידע אישי דרך האפליקציה, פנו אלינו ונעזור לטפל בכך."
-        ]
-      },
       "purchases": {
         "title": "רכישות בתוך האפליקציה ומנויים",
         "body": [
@@ -165,7 +157,7 @@
       "contact": {
         "title": "יצירת קשר",
         "body": [
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "Okur Studio — Vevora IPTV",
           "דוא״ל: vevoraplayer@gmail.com"
         ]
       }
@@ -187,13 +179,6 @@
           "Vevora IPTV הוא נגן מדיה shell. הוא משמיע רשימות ושידורים שאתם מוסיפים בעצמכם, כגון מקורות M3U או Xtream.",
           "Okur Studio אינה מספקת, מאחסנת או מפיצה ערוצי IPTV, סרטים, סדרות או תוכן מדיה אחר.",
           "אתם בלבד אחראים להשגת גישה חוקית לכל רשימה או שידור שבו אתם משתמשים עם האפליקציה."
-        ]
-      },
-      "age": {
-        "title": "דרישת גיל",
-        "body": [
-          "Vevora IPTV מיועדת למשתמשים בגיל 13 ומעלה. היא אינה מיועדת לילדים מתחת לגיל 13.",
-          "עליכם להיות בגיל המספיק לשימוש ב-App Store ולהסכים לתנאים אלה באזורכם. אם אתם משתמשים באפליקציה בשם מישהו אחר, אתם מאשרים שיש לכם סמכות לקבל תנאים אלה עבורו."
         ]
       },
       "license": {
@@ -265,7 +250,7 @@
         "title": "יצירת קשר",
         "body": [
           "שאלות לגבי תנאי שימוש אלה: vevoraplayer@gmail.com",
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+          "Okur Studio — Vevora IPTV"
         ]
       }
     }

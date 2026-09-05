@@ -3,7 +3,6 @@
     "appName": "Vevora IPTV",
     "operator": "Okur Studio",
     "platform": "iOS / iPadOS",
-    "bundleId": "com.vevora.iptv",
     "email": "vevoraplayer@gmail.com",
     "lastUpdatedLabel": "Laatst bijgewerkt",
     "lastUpdatedDate": "5 september 2026",
@@ -131,13 +130,6 @@
           "Voor privacyvragen: vevoraplayer@gmail.com."
         ]
       },
-      "children": {
-        "title": "Kinderen",
-        "body": [
-          "Vevora IPTV is geschikt voor gebruikers van 13 jaar en ouder. De app is niet gericht op kinderen jonger dan 13 jaar.",
-          "Gebruik de app niet om informatie van kinderen te verzamelen. Als je denkt dat een kind persoonsgegevens via de app heeft verstrekt, neem dan contact met ons op en we helpen het af te handelen."
-        ]
-      },
       "purchases": {
         "title": "In-app aankopen en abonnementen",
         "body": [
@@ -165,7 +157,7 @@
       "contact": {
         "title": "Contact",
         "body": [
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "Okur Studio — Vevora IPTV",
           "E-mail: vevoraplayer@gmail.com"
         ]
       }
@@ -187,13 +179,6 @@
           "Vevora IPTV is een shell-mediaspeler. De app speelt afspeellijsten en streams af die je zelf toevoegt, zoals M3U- of Xtream-bronnen.",
           "Okur Studio levert, host of verspreidt geen IPTV-kanalen, films, series of andere mediacontent.",
           "Je bent zelf verantwoordelijk voor het verkrijgen van rechtmatige toegang tot elke afspeellijst of stream die je met de app gebruikt."
-        ]
-      },
-      "age": {
-        "title": "Leeftijdsvereiste",
-        "body": [
-          "Vevora IPTV is bedoeld voor gebruikers van 13 jaar en ouder. De app is niet gericht op kinderen jonger dan 13 jaar.",
-          "Je moet oud genoeg zijn om de App Store te gebruiken en deze voorwaarden in je regio te accepteren. Als je de app namens iemand anders gebruikt, bevestig je dat je bevoegd bent om deze voorwaarden voor hen te accepteren."
         ]
       },
       "license": {
@@ -265,7 +250,7 @@
         "title": "Contact",
         "body": [
           "Vragen over deze gebruiksvoorwaarden: vevoraplayer@gmail.com",
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+          "Okur Studio — Vevora IPTV"
         ]
       }
     }

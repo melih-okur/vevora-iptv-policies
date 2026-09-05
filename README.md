@@ -33,7 +33,7 @@ Use the Privacy Policy URL:
 
 ## Contact
 
-vevoraplayer@gmail.com · Bundle ID `com.vevora.iptv`
+vevoraplayer@gmail.com
 
 ## App Store review demo playlist
 

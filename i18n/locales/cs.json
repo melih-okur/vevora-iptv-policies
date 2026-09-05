@@ -3,7 +3,6 @@
     "appName": "Vevora IPTV",
     "operator": "Okur Studio",
     "platform": "iOS / iPadOS",
-    "bundleId": "com.vevora.iptv",
     "email": "vevoraplayer@gmail.com",
     "lastUpdatedLabel": "Poslední aktualizace",
     "lastUpdatedDate": "5. září 2026",
@@ -131,13 +130,6 @@
           "V otázkách ochrany soukromí nás kontaktujte na vevoraplayer@gmail.com."
         ]
       },
-      "children": {
-        "title": "Děti",
-        "body": [
-          "Vevora IPTV je vhodná pro uživatele ve věku 13 let a starší. Není určena dětem mladším 13 let.",
-          "Nepoužívejte aplikaci ke shromažďování informací od dětí. Pokud se domníváte, že dítě poskytlo osobní údaje prostřednictvím aplikace, kontaktujte nás a pomůžeme vám."
-        ]
-      },
       "purchases": {
         "title": "Nákupy v aplikaci a předplatné",
         "body": [
@@ -165,7 +157,7 @@
       "contact": {
         "title": "Kontakt",
         "body": [
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "Okur Studio — Vevora IPTV",
           "E-mail: vevoraplayer@gmail.com"
         ]
       }
@@ -187,13 +179,6 @@
           "Vevora IPTV je shell media přehrávač. Přehrává playlisty a streamy, které si sami přidáte, například zdroje M3U nebo Xtream.",
           "Okur Studio neposkytuje, nehostuje ani nedistribuuje IPTV kanály, filmy, seriály ani jiný mediální obsah.",
           "Za získání zákonného přístupu ke každému playlistu nebo streamu, který s aplikací používáte, nesete výhradně vy odpovědnost."
-        ]
-      },
-      "age": {
-        "title": "Věková podmínka",
-        "body": [
-          "Vevora IPTV je určena pro uživatele ve věku 13 let a starší. Není určena dětem mladším 13 let.",
-          "Musíte být dostatečně starší, abyste mohli používat App Store a souhlasit s těmito podmínkami ve vaší oblasti. Pokud aplikaci používáte jménem někoho jiného, potvrzujete, že máte oprávnění tyto podmínky za něj přijmout."
         ]
       },
       "license": {
@@ -265,7 +250,7 @@
         "title": "Kontakt",
         "body": [
           "Dotazy k těmto Podmínkám použití: vevoraplayer@gmail.com",
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+          "Okur Studio — Vevora IPTV"
         ]
       }
     }

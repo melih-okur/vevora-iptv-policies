@@ -3,7 +3,6 @@
     "appName": "Vevora IPTV",
     "operator": "Okur Studio",
     "platform": "iOS / iPadOS",
-    "bundleId": "com.vevora.iptv",
     "email": "vevoraplayer@gmail.com",
     "lastUpdatedLabel": "Ilisasishwa mwisho",
     "lastUpdatedDate": "5 Septemba 2026",
@@ -131,13 +130,6 @@
           "Kwa maswali ya faragha: vevoraplayer@gmail.com."
         ]
       },
-      "children": {
-        "title": "Watoto",
-        "body": [
-          "Vevora IPTV inafaa kwa watumiaji wenye umri wa miaka 13 na zaidi. Haiwalengi watoto chini ya miaka 13.",
-          "Usitumie programu kukusanya taarifa kutoka kwa watoto. Ukiamini mtoto ametoa taarifa za kibinafsi kupitia programu, wasiliana nasi na tutasaidia kushughulikia."
-        ]
-      },
       "purchases": {
         "title": "Manunuzi Ndani ya Programu na Usajili",
         "body": [
@@ -165,7 +157,7 @@
       "contact": {
         "title": "Wasiliana",
         "body": [
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "Okur Studio — Vevora IPTV",
           "Barua pepe: vevoraplayer@gmail.com"
         ]
       }
@@ -187,13 +179,6 @@
           "Vevora IPTV ni kicheza cha vyombo vya habari cha shell. Kinacheza orodha na mitiririko unayoziongeza mwenyewe, kama vile vyanzo vya M3U au Xtream.",
           "Okur Studio haitoi, kuhosti, au kusambaza vituo vya IPTV, filamu, mfululizo, au maudhui mengine ya vyombo vya habari.",
           "Wewe pekee unawajibika kupata ufikiaji wa kisheria wa orodha au mkondo wowote unayotumia na programu."
-        ]
-      },
-      "age": {
-        "title": "Mahitaji ya Umri",
-        "body": [
-          "Vevora IPTV imekusudiwa kwa watumiaji wenye umri wa miaka 13 na zaidi. Haiwalengi watoto chini ya miaka 13.",
-          "Lazima uwe na umri wa kutosha kutumia App Store na kukubali masharti haya katika eneo lako. Ukikitumia programu kwa niaba ya mtu mwingine, unathibitisha una mamlaka ya kukubali masharti haya kwa ajili yao."
         ]
       },
       "license": {
@@ -265,7 +250,7 @@
         "title": "Wasiliana",
         "body": [
           "Maswali kuhusu Masharti haya ya Matumizi: vevoraplayer@gmail.com",
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+          "Okur Studio — Vevora IPTV"
         ]
       }
     }

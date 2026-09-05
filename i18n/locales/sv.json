@@ -3,7 +3,6 @@
     "appName": "Vevora IPTV",
     "operator": "Okur Studio",
     "platform": "iOS / iPadOS",
-    "bundleId": "com.vevora.iptv",
     "email": "vevoraplayer@gmail.com",
     "lastUpdatedLabel": "Senast uppdaterad",
     "lastUpdatedDate": "5 september 2026",
@@ -131,13 +130,6 @@
           "För integritetsfrågor, kontakta oss på vevoraplayer@gmail.com."
         ]
       },
-      "children": {
-        "title": "Barn",
-        "body": [
-          "Vevora IPTV är lämplig för användare från 13 år och uppåt. Den riktar sig inte till barn under 13 år.",
-          "Använd inte appen för att samla in information från barn. Om du tror att ett barn har lämnat personuppgifter via appen, kontakta oss så hjälper vi till."
-        ]
-      },
       "purchases": {
         "title": "Köp i appen och prenumerationer",
         "body": [
@@ -165,7 +157,7 @@
       "contact": {
         "title": "Kontakt",
         "body": [
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "Okur Studio — Vevora IPTV",
           "E-post: vevoraplayer@gmail.com"
         ]
       }
@@ -187,13 +179,6 @@
           "Vevora IPTV är en shell-mediaspelare. Den spelar upp spellistor och strömmar som du själv lägger till, till exempel M3U- eller Xtream-källor.",
           "Okur Studio tillhandahåller, hostar eller distribuerar inte IPTV-kanaler, filmer, serier eller annat medieinnehåll.",
           "Du är ensam ansvarig för att skaffa laglig åtkomst till alla spellistor eller strömmar du använder med appen."
-        ]
-      },
-      "age": {
-        "title": "Ålderskrav",
-        "body": [
-          "Vevora IPTV är avsedd för användare från 13 år och uppåt. Den riktar sig inte till barn under 13 år.",
-          "Du måste vara tillräckligt gammal för att använda App Store och godkänna dessa villkor i din region. Om du använder appen för någon annans räkning bekräftar du att du har behörighet att acceptera dessa villkor för den personen."
         ]
       },
       "license": {
@@ -265,7 +250,7 @@
         "title": "Kontakt",
         "body": [
           "Frågor om dessa användarvillkor: vevoraplayer@gmail.com",
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+          "Okur Studio — Vevora IPTV"
         ]
       }
     }

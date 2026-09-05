@@ -3,7 +3,6 @@
     "appName": "Vevora IPTV",
     "operator": "Okur Studio",
     "platform": "iOS / iPadOS",
-    "bundleId": "com.vevora.iptv",
     "email": "vevoraplayer@gmail.com",
     "lastUpdatedLabel": "Utolsó frissítés",
     "lastUpdatedDate": "2026. szeptember 5.",
@@ -131,13 +130,6 @@
           "Adatvédelmi kérdésekben lépjen kapcsolatba velünk: vevoraplayer@gmail.com."
         ]
       },
-      "children": {
-        "title": "Gyermekek",
-        "body": [
-          "A Vevora IPTV 13 éves és idősebb felhasználók számára alkalmas. Nem 13 év alatti gyermekek számára készült.",
-          "Ne használja az alkalmazást gyermekektől származó információk gyűjtésére. Ha úgy gondolja, hogy egy gyermek személyes adatokat adott meg az alkalmazáson keresztül, lépjen kapcsolatba velünk, és segítünk."
-        ]
-      },
       "purchases": {
         "title": "Alkalmazáson belüli vásárlások és előfizetések",
         "body": [
@@ -165,7 +157,7 @@
       "contact": {
         "title": "Kapcsolat",
         "body": [
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)",
+          "Okur Studio — Vevora IPTV",
           "E-mail: vevoraplayer@gmail.com"
         ]
       }
@@ -187,13 +179,6 @@
           "A Vevora IPTV egy shell médialejátszó. Az Ön által hozzáadott lejátszási listákat és streameket játssza le, például M3U vagy Xtream forrásokat.",
           "Az Okur Studio nem biztosít, nem tárol és nem terjeszt IPTV csatornákat, filmeket, sorozatokat vagy más média tartalmat.",
           "Kizárólag Ön felelős azért, hogy törvényes hozzáférést szerezzen minden olyan lejátszási listához vagy streamhez, amelyet az alkalmazással használ."
-        ]
-      },
-      "age": {
-        "title": "Korhatár",
-        "body": [
-          "A Vevora IPTV 13 éves és idősebb felhasználók számára készült. Nem 13 év alatti gyermekek számára készült.",
-          "Elég idősnek kell lennie az App Store használatához és ezen feltételek elfogadásához az Ön régiójában. Ha más nevében használja az alkalmazást, megerősíti, hogy jogosult ezen feltételek elfogadására az illető nevében."
         ]
       },
       "license": {
@@ -265,7 +250,7 @@
         "title": "Kapcsolat",
         "body": [
           "Kérdések ezekkel a Felhasználási feltételekkel kapcsolatban: vevoraplayer@gmail.com",
-          "Okur Studio — Vevora IPTV (com.vevora.iptv)"
+          "Okur Studio — Vevora IPTV"
         ]
       }
     }
