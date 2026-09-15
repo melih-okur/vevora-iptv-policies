@@ -1,9 +1,12 @@
 #EXTM3U
 # Vevora IPTV — App Store Review demo (English)
-# Movies: Big Buck Bunny, Sintel (full), Elephant's Dream, Tears of Steel
+# Movies (CC): Big Buck Bunny, Sintel, Elephant's Dream, Tears of Steel
+# Movies (US public domain, TMDB-matchable titles): Night of the Living Dead, His Girl Friday,
+#   House on Haunted Hill, Carnival of Souls, Sherlock Jr., Steamboat Bill Jr., Nosferatu,
+#   Detour, The Little Shop of Horrors — streams verified via archive.org/download
 # Series: BBB (2), Sintel (3), Caminandes (3) — Blender Foundation CC BY
 # Live: Mux, Tears of Steel HLS, Apple BipBop, Akamai test HLS
-# All streams are open / Creative Commons / public demo samples (no proprietary IPTV).
+# No proprietary IPTV / no commercial FTA rebroadcast.
 
 # ========== LIVE ==========
 #EXTINF:-1 tvg-id="vevora.live.mux" tvg-chno="1" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/bbb-hero-landscape.jpg" group-title="Live · Demo" genre="Animation, Technology" rating="8.2" year="2024" plot="Public Mux HLS demo featuring Big Buck Bunny. Review Live TV zap, fullscreen, and volume.",Mux HLS Demo
@@ -30,6 +33,34 @@ https://archive.org/download/ElephantsDream/ed_hd.mp4
 
 #EXTINF:734 tvg-id="vevora.movie.tos" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/tos-poster.jpg" group-title="Movies · Open Cinema" genre="Sci-Fi, Action" rating="7.1" year="2012" plot="Tears of Steel — warriors and scientists fight robots in a ruined Amsterdam. Mango Open Movie Project by the Blender Foundation (Creative Commons Attribution)." cast="Celeste [https://melih-okur.github.io/vevora-iptv-policies/demo/art/tos-movie-hero.jpg]",Tears of Steel
 https://archive.org/download/Tears-of-Steel/tears_of_steel_720p.mp4
+
+# ========== MOVIES — US Public Domain (TMDB titles; Internet Archive HTTPS) ==========
+#EXTINF:-1 tvg-id="vevora.movie.notld" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/pd-night-living-dead.jpg" group-title="Movies · Public Domain" genre="Horror, Thriller" rating="7.8" year="1968" plot="A ragtag group of strangers barricades themselves in a rural farmhouse as the dead rise. Landmark independent horror; US public domain. Titles match TMDB for poster/cast enrichment." cast="Duane Jones, Judith O'Dea, Karl Hardman, Marilyn Eastman",Night of the Living Dead
+https://archive.org/download/night-of-the-living-dead_1968/Night%20of%20the%20Living%20Dead%20-%20%281968%29.mp4
+
+#EXTINF:-1 tvg-id="vevora.movie.hisgirlfriday" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/pd-his-girl-friday.jpg" group-title="Movies · Public Domain" genre="Comedy, Romance" rating="7.8" year="1940" plot="A newspaper editor schemes to win back his ex-wife, a crack reporter, before she remarries. Screwball classic; US public domain." cast="Cary Grant, Rosalind Russell, Ralph Bellamy, Gene Lockhart",His Girl Friday
+https://archive.org/download/his_girl_friday/his_girl_friday_512kb.mp4
+
+#EXTINF:-1 tvg-id="vevora.movie.hauntedhill" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/pd-house-haunted-hill.jpg" group-title="Movies · Public Domain" genre="Horror, Mystery" rating="6.7" year="1959" plot="An eccentric millionaire offers guests a fortune to spend the night in a haunted mansion. William Castle classic; US public domain." cast="Vincent Price, Carol Ohmart, Richard Long, Alan Marshal",House on Haunted Hill
+https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4
+
+#EXTINF:-1 tvg-id="vevora.movie.carnival" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/pd-carnival-souls.jpg" group-title="Movies · Public Domain" genre="Horror, Mystery" rating="7.0" year="1962" plot="After a car accident, a church organist is drawn to an abandoned carnival pavilion. Cult horror; US public domain." cast="Candace Hilligoss, Frances Feist, Sidney Berger",Carnival of Souls
+https://archive.org/download/CarnivalOfSouls1962/Carnival_of_Souls.mp4
+
+#EXTINF:-1 tvg-id="vevora.movie.sherlockjr" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/pd-sherlock-jr.jpg" group-title="Movies · Public Domain" genre="Comedy, Action" rating="8.2" year="1924" plot="A projectionist dreams himself into the movies as a master detective. Buster Keaton silent classic; US public domain." cast="Buster Keaton, Kathryn McGuire, Joe Keaton",Sherlock Jr.
+https://archive.org/download/buster-keaton-sherlock-jr.-1924/Buster%20Keaton%20-%20Sherlock%20Jr.%20%281924%29.mp4
+
+#EXTINF:-1 tvg-id="vevora.movie.steamboat" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/pd-steamboat-bill.jpg" group-title="Movies · Public Domain" genre="Comedy, Action" rating="7.8" year="1928" plot="A mild-mannered college boy returns home to help his steamboat-captain father. Famous cyclone finale; US public domain." cast="Buster Keaton, Ernest Torrence, Marion Byron",Steamboat Bill, Jr.
+https://archive.org/download/SteamboatBillJr/Steamboat_Bill.Jr_512kb.mp4
+
+#EXTINF:-1 tvg-id="vevora.movie.nosferatu" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/pd-nosferatu.jpg" group-title="Movies · Public Domain" genre="Horror, Fantasy" rating="7.9" year="1922" plot="Count Orlok brings plague and terror to a quiet town in this unauthorized Dracula adaptation. German Expressionist landmark; US public domain." cast="Max Schreck, Gustav von Wangenheim, Greta Schröder",Nosferatu
+https://archive.org/download/nosferatu-1922_202507/Nosferatu%20%281922%29.mp4
+
+#EXTINF:-1 tvg-id="vevora.movie.detour" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/pd-detour.jpg" group-title="Movies · Public Domain" genre="Crime, Drama" rating="7.3" year="1945" plot="A hitchhiker's cross-country trip turns into a nightmare of bad luck and worse choices. Ultra-low-budget film noir; US public domain." cast="Tom Neal, Ann Savage, Claudia Drake",Detour
+https://archive.org/download/detour-1945_202608/Detour_1945.mp4
+
+#EXTINF:-1 tvg-id="vevora.movie.littleshop" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/pd-little-shop.jpg" group-title="Movies · Public Domain" genre="Comedy, Horror" rating="6.2" year="1960" plot="A meek florist's assistant nurtures a man-eating plant. Roger Corman cult comedy; US public domain (no copyright notice)." cast="Jonathan Haze, Jackie Joseph, Mel Welles, Dick Miller",The Little Shop of Horrors
+https://archive.org/download/the-little-shop-of-horrors-1960/The%20Little%20Shop%20of%20Horrors%20%281960%29.mp4
 
 # ========== SERIES — Big Buck Bunny (2 episodes) ==========
 #EXTINF:596 tvg-id="vevora.series.bbb.e1" series-id="vevora.series.bbb" tvg-logo="https://melih-okur.github.io/vevora-iptv-policies/demo/art/bbb-ep1.jpg" group-title="Series · Open Shows" genre="Animation, Comedy" rating="7.5" year="2008" plot="Season 1, Episode 1 — Meadow Morning. Full Big Buck Bunny short. Peach Open Movie / Blender Foundation (CC BY)." cast="Big Buck Bunny [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-bbb.jpg], Frank [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-frank.jpg], Rinky [https://melih-okur.github.io/vevora-iptv-policies/demo/art/cast-rinky.jpg]",Big Buck Bunny S01E01
